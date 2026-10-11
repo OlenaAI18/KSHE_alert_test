@@ -40,7 +40,8 @@ npm run dev
 
 [Інструкції dashboard і GitHub Pages](dashboard/README.md) ·
 [Остання перевірка готовності](reports/release_readiness/release_readiness.md).
-Для публікації сайту потрібне окреме погодження керівника дослідження, вибір
+Публікацію погоджено 2026-10-11. Спроба deployment заблокована вимкненим
+Pages та обмеженням доступу інтеграції (403). Потрібен вибір
 **Settings → Pages → GitHub Actions** та ручний запуск workflow
 **Publish approved research dashboard** на `main`. Перевірки push/PR не мають
 повноважень публікувати сайт.

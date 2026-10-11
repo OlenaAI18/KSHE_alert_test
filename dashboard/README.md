@@ -30,7 +30,7 @@ Browser checks of the actual production build (preview running on port4173): `no
 
 ## Deployment after research-lead approval
 
-**Hosting has not been activated and repository settings were not modified.** Existing authorization permits pushing source/docs; Task007 requires separate research-lead approval for public hosting.
+**Public hosting was approved by the user on 2026-10-11, but is not active.** The first workflow passed audit, tests and build; deployment failed because Pages is not enabled. The integration cannot enable Pages (HTTP403). The repository owner must select GitHub Actions in Pages settings, then rerun deployment. See [deployment attempt](../reports/release_readiness/deployment_attempt.md).
 
 1. Review `reports/release_readiness/release_readiness.md`, current screenshots and Myth Lab limitations; approve the concrete dashboard for public viewing.
 2. Repository owner: Settings → Pages → Build and deployment → Source → GitHub Actions.

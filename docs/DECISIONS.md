@@ -578,3 +578,15 @@ Fix public report link to tracked v1.6 handoff. Upgrade vulnerable Vitest toolch
 within tested Node24/Vite compatibility; record actual audit/test results. Verify
 fresh-checkout build without private datasets, full retained-workspace tests,
 package build, data/artifact inventory and source preservation before push.
+
+
+## ADR 033 — approved public hosting; activation blocked
+
+On 2026-10-11 the user explicitly requested publication. This authorizes
+GitHub Pages activation and manual deployment of the reviewed static dashboard.
+The integration could dispatch workflow38165831348; audit, frontend tests, build
+and artifact upload passed. Enabling Pages returned HTTP403 (resource not
+accessible by integration); deployment returned HTTP404 because Pages is not
+enabled. Hosting remains inactive. Owner activation, followed by workflow rerun
+and public-site validation, is required before claiming publication. Scientific
+results and original source data are unchanged.
