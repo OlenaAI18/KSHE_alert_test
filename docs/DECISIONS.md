@@ -539,3 +539,26 @@ reports and derived review bundle. Stop after006.1; no dashboard or deployment.
 ## ADR 030 — Task007 static research presentation
 
 User Task007 explicitly authorizes a web presentation superseding the charter's initial no-web-application scope. No research objective, target, classification, timestamp or saved analytical output changes. Publish allowlisted aggregates only, with provenance hashes; unknown/null values retained. Official start counts use all2594 records; duration denominator is2593. Category counts overlap and do not certify weapons. Global cards are not recomputed by partial filters. No chat or operational predictions. Six Ukrainian sections, React/Vite/TypeScript/Plotly, repository base and hash navigation. Existing persistent user authorization covers committing/pushing code and documents. Hosting is separately subject to research-lead approval per Task007; workflow is manual-only and no repository settings changed.
+
+## ADR 031 — Task007.1 scoped Myth Lab descriptive checks
+
+User explicitly authorizes seven historical hypothesis cards and separate new
+aggregates, without modifying previous results. `config/myth_lab_v1.json` freezes
+calendars/definitions before computing contrasts. Kyiv warning counts are proxies,
+not Ukraine-wide strikes or targeting motives. Six stable fixed Ukrainian holidays
+are the selected subset, not the complete changing holiday calendar. Conservative
+control exclusions include moving Orthodox Easter/Trinity (manually versioned)
+and both old/new fixed holiday dates; wartime days-off status is not inferred.
+Symbolic controls match same-month weekdays at ±7/14/21/28 days and omit selected
+event windows. Event day and ±1day windows both shown, without outcome selection.
+Negotiations: three source-confirmed Istanbul meetings, before/after3days primary
+and7days sensitivity; no event selection based on alert outcomes or causal test.
+Night22:00–06:00 Europe/Kyiv uses actual interval overlap in UTC elapsed minutes,
+separate starts/intersections/clock-exposure share and annual/version sensitivity.
+Calm: preceding3calendar days have at most1start; zero-start sensitivity. Daily
+contrasts omit source endpoint days, unresolved-end day and the no-record week
+already flagged in Task006. Matched differences are descriptive; no new calibrated
+p-values or operational forecast claims. Small-sample calendar/motive claims remain
+inconclusive. Task005 lag1 metrics are reused verbatim, not recomputed differently.
+No hosting activation or workflow change. Persistent user authorization covers
+Git source/docs push; public hosting still requires separate approval.

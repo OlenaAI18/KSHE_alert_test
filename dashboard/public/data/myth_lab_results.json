@@ -1,0 +1,1919 @@
+[
+  {
+    "myth_id": "myth_1",
+    "title_uk": "Чи справді Росія приурочує обстріли до сакральних дат Путіна?",
+    "short_question_uk": "Чи справді Росія приурочує обстріли до сакральних дат Путіна?",
+    "what_is_tested_uk": "Початки офіційних київських тривог на вибрані календарні дати та у вікні ±1 день.",
+    "metric_summary": {
+      "primary": {
+        "events": [
+          {
+            "date": "2022-05-09",
+            "label_uk": "9 травня",
+            "event_starts_per_day": 3,
+            "control_starts_per_day": 1.5,
+            "difference": 1.5,
+            "control_window_count": 4,
+            "control_centers": [
+              "2022-05-02",
+              "2022-05-16",
+              "2022-05-23",
+              "2022-05-30"
+            ]
+          },
+          {
+            "date": "2022-10-07",
+            "label_uk": "7 жовтня · день народження Путіна",
+            "event_starts_per_day": 0,
+            "control_starts_per_day": 1.3333333333333333,
+            "difference": -1.3333333333333333,
+            "control_window_count": 3,
+            "control_centers": [
+              "2022-10-14",
+              "2022-10-21",
+              "2022-10-28"
+            ]
+          },
+          {
+            "date": "2023-02-23",
+            "label_uk": "23 лютого",
+            "event_starts_per_day": 1,
+            "control_starts_per_day": 0.6666666666666666,
+            "difference": 0.33333333333333337,
+            "control_window_count": 3,
+            "control_centers": [
+              "2023-02-02",
+              "2023-02-09",
+              "2023-02-16"
+            ]
+          },
+          {
+            "date": "2023-05-09",
+            "label_uk": "9 травня",
+            "event_starts_per_day": 1,
+            "control_starts_per_day": 1,
+            "difference": 0,
+            "control_window_count": 4,
+            "control_centers": [
+              "2023-05-02",
+              "2023-05-16",
+              "2023-05-23",
+              "2023-05-30"
+            ]
+          },
+          {
+            "date": "2023-10-07",
+            "label_uk": "7 жовтня · день народження Путіна",
+            "event_starts_per_day": 0,
+            "control_starts_per_day": 0.5,
+            "difference": -0.5,
+            "control_window_count": 2,
+            "control_centers": [
+              "2023-10-21",
+              "2023-10-28"
+            ]
+          },
+          {
+            "date": "2024-02-23",
+            "label_uk": "23 лютого",
+            "event_starts_per_day": 1,
+            "control_starts_per_day": 0.6666666666666666,
+            "difference": 0.33333333333333337,
+            "control_window_count": 3,
+            "control_centers": [
+              "2024-02-02",
+              "2024-02-09",
+              "2024-02-16"
+            ]
+          },
+          {
+            "date": "2024-05-09",
+            "label_uk": "9 травня",
+            "event_starts_per_day": 1,
+            "control_starts_per_day": 0.75,
+            "difference": 0.25,
+            "control_window_count": 4,
+            "control_centers": [
+              "2024-05-02",
+              "2024-05-16",
+              "2024-05-23",
+              "2024-05-30"
+            ]
+          },
+          {
+            "date": "2024-10-07",
+            "label_uk": "7 жовтня · день народження Путіна",
+            "event_starts_per_day": 3,
+            "control_starts_per_day": 0.6666666666666666,
+            "difference": 2.3333333333333335,
+            "control_window_count": 3,
+            "control_centers": [
+              "2024-10-14",
+              "2024-10-21",
+              "2024-10-28"
+            ]
+          },
+          {
+            "date": "2025-02-23",
+            "label_uk": "23 лютого",
+            "event_starts_per_day": 3,
+            "control_starts_per_day": 1.6666666666666667,
+            "difference": 1.3333333333333333,
+            "control_window_count": 3,
+            "control_centers": [
+              "2025-02-02",
+              "2025-02-09",
+              "2025-02-16"
+            ]
+          },
+          {
+            "date": "2025-05-09",
+            "label_uk": "9 травня",
+            "event_starts_per_day": 0,
+            "control_starts_per_day": 1.75,
+            "difference": -1.75,
+            "control_window_count": 4,
+            "control_centers": [
+              "2025-05-02",
+              "2025-05-16",
+              "2025-05-23",
+              "2025-05-30"
+            ]
+          },
+          {
+            "date": "2025-10-07",
+            "label_uk": "7 жовтня · день народження Путіна",
+            "event_starts_per_day": 4,
+            "control_starts_per_day": 2,
+            "difference": 2,
+            "control_window_count": 3,
+            "control_centers": [
+              "2025-10-14",
+              "2025-10-21",
+              "2025-10-28"
+            ]
+          },
+          {
+            "date": "2026-02-23",
+            "label_uk": "23 лютого",
+            "event_starts_per_day": 1,
+            "control_starts_per_day": 0.6666666666666666,
+            "difference": 0.33333333333333337,
+            "control_window_count": 3,
+            "control_centers": [
+              "2026-02-02",
+              "2026-02-09",
+              "2026-02-16"
+            ]
+          },
+          {
+            "date": "2026-05-09",
+            "label_uk": "9 травня",
+            "event_starts_per_day": 0,
+            "control_starts_per_day": 3.25,
+            "difference": -3.25,
+            "control_window_count": 4,
+            "control_centers": [
+              "2026-05-02",
+              "2026-05-16",
+              "2026-05-23",
+              "2026-05-30"
+            ]
+          }
+        ],
+        "excluded_events": [
+          {
+            "date": "2022-02-23",
+            "reason": "event window unavailable"
+          },
+          {
+            "date": "2026-10-07",
+            "reason": "event window unavailable"
+          }
+        ],
+        "event_count": 13,
+        "event_mean": 1.3846153846153846,
+        "control_mean": 1.2628205128205128,
+        "paired_difference": 0.12179487179487182
+      },
+      "window_sensitivity": {
+        "events": [
+          {
+            "date": "2022-05-09",
+            "label_uk": "9 травня",
+            "event_starts_per_day": 3.6666666666666665,
+            "control_starts_per_day": 1.6666666666666667,
+            "difference": 1.9999999999999998,
+            "control_window_count": 4,
+            "control_centers": [
+              "2022-05-02",
+              "2022-05-16",
+              "2022-05-23",
+              "2022-05-30"
+            ]
+          },
+          {
+            "date": "2022-10-07",
+            "label_uk": "7 жовтня · день народження Путіна",
+            "event_starts_per_day": 0.6666666666666666,
+            "control_starts_per_day": 1.888888888888889,
+            "difference": -1.2222222222222223,
+            "control_window_count": 3,
+            "control_centers": [
+              "2022-10-14",
+              "2022-10-21",
+              "2022-10-28"
+            ]
+          },
+          {
+            "date": "2023-02-23",
+            "label_uk": "23 лютого",
+            "event_starts_per_day": 0.6666666666666666,
+            "control_starts_per_day": 1.4444444444444444,
+            "difference": -0.7777777777777778,
+            "control_window_count": 3,
+            "control_centers": [
+              "2023-02-02",
+              "2023-02-09",
+              "2023-02-16"
+            ]
+          },
+          {
+            "date": "2023-05-09",
+            "label_uk": "9 травня",
+            "event_starts_per_day": 0.6666666666666666,
+            "control_starts_per_day": 1.3333333333333333,
+            "difference": -0.6666666666666666,
+            "control_window_count": 4,
+            "control_centers": [
+              "2023-05-02",
+              "2023-05-16",
+              "2023-05-23",
+              "2023-05-30"
+            ]
+          },
+          {
+            "date": "2023-10-07",
+            "label_uk": "7 жовтня · день народження Путіна",
+            "event_starts_per_day": 0,
+            "control_starts_per_day": 0.3333333333333333,
+            "difference": -0.3333333333333333,
+            "control_window_count": 2,
+            "control_centers": [
+              "2023-10-21",
+              "2023-10-28"
+            ]
+          },
+          {
+            "date": "2024-02-23",
+            "label_uk": "23 лютого",
+            "event_starts_per_day": 0.3333333333333333,
+            "control_starts_per_day": 0.7777777777777777,
+            "difference": -0.44444444444444436,
+            "control_window_count": 3,
+            "control_centers": [
+              "2024-02-02",
+              "2024-02-09",
+              "2024-02-16"
+            ]
+          },
+          {
+            "date": "2024-05-09",
+            "label_uk": "9 травня",
+            "event_starts_per_day": 1.3333333333333333,
+            "control_starts_per_day": 1.4166666666666667,
+            "difference": -0.08333333333333348,
+            "control_window_count": 4,
+            "control_centers": [
+              "2024-05-02",
+              "2024-05-16",
+              "2024-05-23",
+              "2024-05-30"
+            ]
+          },
+          {
+            "date": "2024-10-07",
+            "label_uk": "7 жовтня · день народження Путіна",
+            "event_starts_per_day": 3,
+            "control_starts_per_day": 1.2222222222222223,
+            "difference": 1.7777777777777777,
+            "control_window_count": 3,
+            "control_centers": [
+              "2024-10-14",
+              "2024-10-21",
+              "2024-10-28"
+            ]
+          },
+          {
+            "date": "2025-02-23",
+            "label_uk": "23 лютого",
+            "event_starts_per_day": 2,
+            "control_starts_per_day": 1.222222222222222,
+            "difference": 0.7777777777777779,
+            "control_window_count": 3,
+            "control_centers": [
+              "2025-02-02",
+              "2025-02-09",
+              "2025-02-16"
+            ]
+          },
+          {
+            "date": "2025-05-09",
+            "label_uk": "9 травня",
+            "event_starts_per_day": 0,
+            "control_starts_per_day": 1.1666666666666667,
+            "difference": -1.1666666666666667,
+            "control_window_count": 4,
+            "control_centers": [
+              "2025-05-02",
+              "2025-05-16",
+              "2025-05-23",
+              "2025-05-30"
+            ]
+          },
+          {
+            "date": "2025-10-07",
+            "label_uk": "7 жовтня · день народження Путіна",
+            "event_starts_per_day": 1.6666666666666667,
+            "control_starts_per_day": 1.7777777777777777,
+            "difference": -0.11111111111111094,
+            "control_window_count": 3,
+            "control_centers": [
+              "2025-10-14",
+              "2025-10-21",
+              "2025-10-28"
+            ]
+          },
+          {
+            "date": "2026-02-23",
+            "label_uk": "23 лютого",
+            "event_starts_per_day": 0.6666666666666666,
+            "control_starts_per_day": 1.5555555555555556,
+            "difference": -0.888888888888889,
+            "control_window_count": 3,
+            "control_centers": [
+              "2026-02-02",
+              "2026-02-09",
+              "2026-02-16"
+            ]
+          },
+          {
+            "date": "2026-05-09",
+            "label_uk": "9 травня",
+            "event_starts_per_day": 0.3333333333333333,
+            "control_starts_per_day": 2.4166666666666665,
+            "difference": -2.083333333333333,
+            "control_window_count": 4,
+            "control_centers": [
+              "2026-05-02",
+              "2026-05-16",
+              "2026-05-23",
+              "2026-05-30"
+            ]
+          }
+        ],
+        "excluded_events": [
+          {
+            "date": "2022-02-23",
+            "reason": "event window unavailable"
+          },
+          {
+            "date": "2026-10-07",
+            "reason": "event window unavailable"
+          }
+        ],
+        "event_count": 13,
+        "event_mean": 1.1538461538461537,
+        "control_mean": 1.4017094017094016,
+        "paired_difference": -0.24786324786324787
+      }
+    },
+    "chart_data": {
+      "labels": [
+        "Дата події",
+        "Зіставні контрольні дні"
+      ],
+      "values": [
+        1.3846153846153846,
+        1.2628205128205128
+      ],
+      "ylabel_uk": "Початки / день"
+    },
+    "headline_result_uk": "На 13 датах: 1,38 тривоги/день проти 1,26 у контролі. Мотив вибору дат не встановлено.",
+    "verdict_label": "Висновок невизначений",
+    "verdict_state": "inconclusive",
+    "limitations_uk": [
+      "Київські попередження не є всіма обстрілами України. Намір або причинність не вимірюються.",
+      "Мала вибірка, залежні повторення та зміни інтенсивності; контрольні дні можуть повторюватися між подіями.",
+      "Три символічні дати — вибрана гіпотеза, не вичерпний перелік «сакральних» дат."
+    ],
+    "methodology_note_uk": "Контроль: той самий день тижня й місяць/рік за зсувами ±7/14/21/28 днів. Спочатку середнє контролів для кожної події, потім рівна вага подій. Окремо показано ±1 день. Немає тесту статистичної значущості."
+  },
+  {
+    "myth_id": "myth_2",
+    "title_uk": "Чи атакують Україну частіше на українські свята?",
+    "short_question_uk": "Чи атакують Україну частіше на українські свята?",
+    "what_is_tested_uk": "Початки офіційних київських тривог на вибрані календарні дати та у вікні ±1 день.",
+    "metric_summary": {
+      "primary": {
+        "events": [
+          {
+            "date": "2022-03-08",
+            "label_uk": "Міжнародний жіночий день",
+            "event_starts_per_day": 3,
+            "control_starts_per_day": 7.5,
+            "difference": -4.5,
+            "control_window_count": 4,
+            "control_centers": [
+              "2022-03-01",
+              "2022-03-15",
+              "2022-03-22",
+              "2022-03-29"
+            ]
+          },
+          {
+            "date": "2022-05-01",
+            "label_uk": "День праці",
+            "event_starts_per_day": 0,
+            "control_starts_per_day": 2.3333333333333335,
+            "difference": -2.3333333333333335,
+            "control_window_count": 3,
+            "control_centers": [
+              "2022-05-15",
+              "2022-05-22",
+              "2022-05-29"
+            ]
+          },
+          {
+            "date": "2022-06-28",
+            "label_uk": "День Конституції",
+            "event_starts_per_day": 3,
+            "control_starts_per_day": 2,
+            "difference": 1,
+            "control_window_count": 3,
+            "control_centers": [
+              "2022-06-07",
+              "2022-06-14",
+              "2022-06-21"
+            ]
+          },
+          {
+            "date": "2022-08-24",
+            "label_uk": "День Незалежності",
+            "event_starts_per_day": 7,
+            "control_starts_per_day": 0.5,
+            "difference": 6.5,
+            "control_window_count": 4,
+            "control_centers": [
+              "2022-08-03",
+              "2022-08-10",
+              "2022-08-17",
+              "2022-08-31"
+            ]
+          },
+          {
+            "date": "2022-12-25",
+            "label_uk": "Різдво · 25 грудня",
+            "event_starts_per_day": 2,
+            "control_starts_per_day": 0.3333333333333333,
+            "difference": 1.6666666666666667,
+            "control_window_count": 3,
+            "control_centers": [
+              "2022-12-04",
+              "2022-12-11",
+              "2022-12-18"
+            ]
+          },
+          {
+            "date": "2023-01-01",
+            "label_uk": "Новий рік",
+            "event_starts_per_day": 2,
+            "control_starts_per_day": 0,
+            "difference": 2,
+            "control_window_count": 4,
+            "control_centers": [
+              "2023-01-08",
+              "2023-01-15",
+              "2023-01-22",
+              "2023-01-29"
+            ]
+          },
+          {
+            "date": "2023-03-08",
+            "label_uk": "Міжнародний жіночий день",
+            "event_starts_per_day": 0,
+            "control_starts_per_day": 1.75,
+            "difference": -1.75,
+            "control_window_count": 4,
+            "control_centers": [
+              "2023-03-01",
+              "2023-03-15",
+              "2023-03-22",
+              "2023-03-29"
+            ]
+          },
+          {
+            "date": "2023-05-01",
+            "label_uk": "День праці",
+            "event_starts_per_day": 1,
+            "control_starts_per_day": 2,
+            "difference": -1,
+            "control_window_count": 3,
+            "control_centers": [
+              "2023-05-15",
+              "2023-05-22",
+              "2023-05-29"
+            ]
+          },
+          {
+            "date": "2023-06-28",
+            "label_uk": "День Конституції",
+            "event_starts_per_day": 0,
+            "control_starts_per_day": 1,
+            "difference": -1,
+            "control_window_count": 3,
+            "control_centers": [
+              "2023-06-07",
+              "2023-06-14",
+              "2023-06-21"
+            ]
+          },
+          {
+            "date": "2023-08-24",
+            "label_uk": "День Незалежності",
+            "event_starts_per_day": 1,
+            "control_starts_per_day": 1.75,
+            "difference": -0.75,
+            "control_window_count": 4,
+            "control_centers": [
+              "2023-08-03",
+              "2023-08-10",
+              "2023-08-17",
+              "2023-08-31"
+            ]
+          },
+          {
+            "date": "2023-12-25",
+            "label_uk": "Різдво · 25 грудня",
+            "event_starts_per_day": 1,
+            "control_starts_per_day": 0.3333333333333333,
+            "difference": 0.6666666666666667,
+            "control_window_count": 3,
+            "control_centers": [
+              "2023-12-04",
+              "2023-12-11",
+              "2023-12-18"
+            ]
+          },
+          {
+            "date": "2024-01-01",
+            "label_uk": "Новий рік",
+            "event_starts_per_day": 3,
+            "control_starts_per_day": 0.75,
+            "difference": 2.25,
+            "control_window_count": 4,
+            "control_centers": [
+              "2024-01-08",
+              "2024-01-15",
+              "2024-01-22",
+              "2024-01-29"
+            ]
+          },
+          {
+            "date": "2024-03-08",
+            "label_uk": "Міжнародний жіночий день",
+            "event_starts_per_day": 1,
+            "control_starts_per_day": 1.5,
+            "difference": -0.5,
+            "control_window_count": 4,
+            "control_centers": [
+              "2024-03-01",
+              "2024-03-15",
+              "2024-03-22",
+              "2024-03-29"
+            ]
+          },
+          {
+            "date": "2024-05-01",
+            "label_uk": "День праці",
+            "event_starts_per_day": 0,
+            "control_starts_per_day": 1,
+            "difference": -1,
+            "control_window_count": 3,
+            "control_centers": [
+              "2024-05-15",
+              "2024-05-22",
+              "2024-05-29"
+            ]
+          },
+          {
+            "date": "2024-06-28",
+            "label_uk": "День Конституції",
+            "event_starts_per_day": 0,
+            "control_starts_per_day": 3,
+            "difference": -3,
+            "control_window_count": 3,
+            "control_centers": [
+              "2024-06-07",
+              "2024-06-14",
+              "2024-06-21"
+            ]
+          },
+          {
+            "date": "2024-08-24",
+            "label_uk": "День Незалежності",
+            "event_starts_per_day": 2,
+            "control_starts_per_day": 2,
+            "difference": 0,
+            "control_window_count": 4,
+            "control_centers": [
+              "2024-08-03",
+              "2024-08-10",
+              "2024-08-17",
+              "2024-08-31"
+            ]
+          },
+          {
+            "date": "2024-12-25",
+            "label_uk": "Різдво · 25 грудня",
+            "event_starts_per_day": 2,
+            "control_starts_per_day": 0,
+            "difference": 2,
+            "control_window_count": 3,
+            "control_centers": [
+              "2024-12-04",
+              "2024-12-11",
+              "2024-12-18"
+            ]
+          },
+          {
+            "date": "2025-01-01",
+            "label_uk": "Новий рік",
+            "event_starts_per_day": 1,
+            "control_starts_per_day": 2.5,
+            "difference": -1.5,
+            "control_window_count": 4,
+            "control_centers": [
+              "2025-01-08",
+              "2025-01-15",
+              "2025-01-22",
+              "2025-01-29"
+            ]
+          },
+          {
+            "date": "2025-03-08",
+            "label_uk": "Міжнародний жіночий день",
+            "event_starts_per_day": 2,
+            "control_starts_per_day": 1,
+            "difference": 1,
+            "control_window_count": 4,
+            "control_centers": [
+              "2025-03-01",
+              "2025-03-15",
+              "2025-03-22",
+              "2025-03-29"
+            ]
+          },
+          {
+            "date": "2025-05-01",
+            "label_uk": "День праці",
+            "event_starts_per_day": 1,
+            "control_starts_per_day": 0.6666666666666666,
+            "difference": 0.33333333333333337,
+            "control_window_count": 3,
+            "control_centers": [
+              "2025-05-15",
+              "2025-05-22",
+              "2025-05-29"
+            ]
+          },
+          {
+            "date": "2025-06-28",
+            "label_uk": "День Конституції",
+            "event_starts_per_day": 1,
+            "control_starts_per_day": 1.6666666666666667,
+            "difference": -0.6666666666666667,
+            "control_window_count": 3,
+            "control_centers": [
+              "2025-06-07",
+              "2025-06-14",
+              "2025-06-21"
+            ]
+          },
+          {
+            "date": "2025-08-24",
+            "label_uk": "День Незалежності",
+            "event_starts_per_day": 0,
+            "control_starts_per_day": 0.5,
+            "difference": -0.5,
+            "control_window_count": 4,
+            "control_centers": [
+              "2025-08-03",
+              "2025-08-10",
+              "2025-08-17",
+              "2025-08-31"
+            ]
+          },
+          {
+            "date": "2025-12-25",
+            "label_uk": "Різдво · 25 грудня",
+            "event_starts_per_day": 3,
+            "control_starts_per_day": 0.3333333333333333,
+            "difference": 2.6666666666666665,
+            "control_window_count": 3,
+            "control_centers": [
+              "2025-12-04",
+              "2025-12-11",
+              "2025-12-18"
+            ]
+          },
+          {
+            "date": "2026-01-01",
+            "label_uk": "Новий рік",
+            "event_starts_per_day": 0,
+            "control_starts_per_day": 2.5,
+            "difference": -2.5,
+            "control_window_count": 4,
+            "control_centers": [
+              "2026-01-08",
+              "2026-01-15",
+              "2026-01-22",
+              "2026-01-29"
+            ]
+          },
+          {
+            "date": "2026-03-08",
+            "label_uk": "Міжнародний жіночий день",
+            "event_starts_per_day": 0,
+            "control_starts_per_day": 1.75,
+            "difference": -1.75,
+            "control_window_count": 4,
+            "control_centers": [
+              "2026-03-01",
+              "2026-03-15",
+              "2026-03-22",
+              "2026-03-29"
+            ]
+          },
+          {
+            "date": "2026-05-01",
+            "label_uk": "День праці",
+            "event_starts_per_day": 0,
+            "control_starts_per_day": 3,
+            "difference": -3,
+            "control_window_count": 3,
+            "control_centers": [
+              "2026-05-15",
+              "2026-05-22",
+              "2026-05-29"
+            ]
+          },
+          {
+            "date": "2026-06-28",
+            "label_uk": "День Конституції",
+            "event_starts_per_day": 2,
+            "control_starts_per_day": 2.3333333333333335,
+            "difference": -0.3333333333333335,
+            "control_window_count": 3,
+            "control_centers": [
+              "2026-06-07",
+              "2026-06-14",
+              "2026-06-21"
+            ]
+          },
+          {
+            "date": "2026-08-24",
+            "label_uk": "День Незалежності",
+            "event_starts_per_day": 2,
+            "control_starts_per_day": 4.5,
+            "difference": -2.5,
+            "control_window_count": 4,
+            "control_centers": [
+              "2026-08-03",
+              "2026-08-10",
+              "2026-08-17",
+              "2026-08-31"
+            ]
+          }
+        ],
+        "excluded_events": [
+          {
+            "date": "2022-01-01",
+            "reason": "event window unavailable"
+          },
+          {
+            "date": "2026-12-25",
+            "reason": "event window unavailable"
+          }
+        ],
+        "event_count": 28,
+        "event_mean": 1.4285714285714286,
+        "control_mean": 1.7321428571428572,
+        "paired_difference": -0.3035714285714286
+      },
+      "window_sensitivity": {
+        "events": [
+          {
+            "date": "2022-03-08",
+            "label_uk": "Міжнародний жіночий день",
+            "event_starts_per_day": 5.333333333333333,
+            "control_starts_per_day": 7.0,
+            "difference": -1.666666666666667,
+            "control_window_count": 3,
+            "control_centers": [
+              "2022-03-15",
+              "2022-03-22",
+              "2022-03-29"
+            ]
+          },
+          {
+            "date": "2022-05-01",
+            "label_uk": "День праці",
+            "event_starts_per_day": 0,
+            "control_starts_per_day": 2.333333333333333,
+            "difference": -2.333333333333333,
+            "control_window_count": 3,
+            "control_centers": [
+              "2022-05-15",
+              "2022-05-22",
+              "2022-05-29"
+            ]
+          },
+          {
+            "date": "2022-06-28",
+            "label_uk": "День Конституції",
+            "event_starts_per_day": 2,
+            "control_starts_per_day": 1.5555555555555556,
+            "difference": 0.4444444444444444,
+            "control_window_count": 3,
+            "control_centers": [
+              "2022-06-07",
+              "2022-06-14",
+              "2022-06-21"
+            ]
+          },
+          {
+            "date": "2022-08-24",
+            "label_uk": "День Незалежності",
+            "event_starts_per_day": 3,
+            "control_starts_per_day": 0.9166666666666666,
+            "difference": 2.0833333333333335,
+            "control_window_count": 4,
+            "control_centers": [
+              "2022-08-03",
+              "2022-08-10",
+              "2022-08-17",
+              "2022-08-31"
+            ]
+          },
+          {
+            "date": "2022-12-25",
+            "label_uk": "Різдво · 25 грудня",
+            "event_starts_per_day": 1,
+            "control_starts_per_day": 0.8888888888888888,
+            "difference": 0.11111111111111116,
+            "control_window_count": 3,
+            "control_centers": [
+              "2022-12-04",
+              "2022-12-11",
+              "2022-12-18"
+            ]
+          },
+          {
+            "date": "2023-01-01",
+            "label_uk": "Новий рік",
+            "event_starts_per_day": 1,
+            "control_starts_per_day": 0.2222222222222222,
+            "difference": 0.7777777777777778,
+            "control_window_count": 3,
+            "control_centers": [
+              "2023-01-15",
+              "2023-01-22",
+              "2023-01-29"
+            ]
+          },
+          {
+            "date": "2023-03-08",
+            "label_uk": "Міжнародний жіночий день",
+            "event_starts_per_day": 1.6666666666666667,
+            "control_starts_per_day": 1.6666666666666667,
+            "difference": 0.0,
+            "control_window_count": 4,
+            "control_centers": [
+              "2023-03-01",
+              "2023-03-15",
+              "2023-03-22",
+              "2023-03-29"
+            ]
+          },
+          {
+            "date": "2023-05-01",
+            "label_uk": "День праці",
+            "event_starts_per_day": 0.3333333333333333,
+            "control_starts_per_day": 1.3333333333333335,
+            "difference": -1.0000000000000002,
+            "control_window_count": 3,
+            "control_centers": [
+              "2023-05-15",
+              "2023-05-22",
+              "2023-05-29"
+            ]
+          },
+          {
+            "date": "2023-06-28",
+            "label_uk": "День Конституції",
+            "event_starts_per_day": 0,
+            "control_starts_per_day": 1.3333333333333335,
+            "difference": -1.3333333333333335,
+            "control_window_count": 3,
+            "control_centers": [
+              "2023-06-07",
+              "2023-06-14",
+              "2023-06-21"
+            ]
+          },
+          {
+            "date": "2023-08-24",
+            "label_uk": "День Незалежності",
+            "event_starts_per_day": 2.6666666666666665,
+            "control_starts_per_day": 1.6666666666666667,
+            "difference": 0.9999999999999998,
+            "control_window_count": 4,
+            "control_centers": [
+              "2023-08-03",
+              "2023-08-10",
+              "2023-08-17",
+              "2023-08-31"
+            ]
+          },
+          {
+            "date": "2023-12-25",
+            "label_uk": "Різдво · 25 грудня",
+            "event_starts_per_day": 1.3333333333333333,
+            "control_starts_per_day": 0.5555555555555556,
+            "difference": 0.7777777777777777,
+            "control_window_count": 3,
+            "control_centers": [
+              "2023-12-04",
+              "2023-12-11",
+              "2023-12-18"
+            ]
+          },
+          {
+            "date": "2024-01-01",
+            "label_uk": "Новий рік",
+            "event_starts_per_day": 3,
+            "control_starts_per_day": 1.1111111111111112,
+            "difference": 1.8888888888888888,
+            "control_window_count": 3,
+            "control_centers": [
+              "2024-01-15",
+              "2024-01-22",
+              "2024-01-29"
+            ]
+          },
+          {
+            "date": "2024-03-08",
+            "label_uk": "Міжнародний жіночий день",
+            "event_starts_per_day": 0.6666666666666666,
+            "control_starts_per_day": 1.3333333333333335,
+            "difference": -0.6666666666666669,
+            "control_window_count": 4,
+            "control_centers": [
+              "2024-03-01",
+              "2024-03-15",
+              "2024-03-22",
+              "2024-03-29"
+            ]
+          },
+          {
+            "date": "2024-05-01",
+            "label_uk": "День праці",
+            "event_starts_per_day": 0,
+            "control_starts_per_day": 0.7777777777777778,
+            "difference": -0.7777777777777778,
+            "control_window_count": 3,
+            "control_centers": [
+              "2024-05-15",
+              "2024-05-22",
+              "2024-05-29"
+            ]
+          },
+          {
+            "date": "2024-06-28",
+            "label_uk": "День Конституції",
+            "event_starts_per_day": 1,
+            "control_starts_per_day": 1.5555555555555556,
+            "difference": -0.5555555555555556,
+            "control_window_count": 3,
+            "control_centers": [
+              "2024-06-07",
+              "2024-06-14",
+              "2024-06-21"
+            ]
+          },
+          {
+            "date": "2024-08-24",
+            "label_uk": "День Незалежності",
+            "event_starts_per_day": 1,
+            "control_starts_per_day": 1.75,
+            "difference": -0.75,
+            "control_window_count": 4,
+            "control_centers": [
+              "2024-08-03",
+              "2024-08-10",
+              "2024-08-17",
+              "2024-08-31"
+            ]
+          },
+          {
+            "date": "2024-12-25",
+            "label_uk": "Різдво · 25 грудня",
+            "event_starts_per_day": 2,
+            "control_starts_per_day": 1.222222222222222,
+            "difference": 0.7777777777777779,
+            "control_window_count": 3,
+            "control_centers": [
+              "2024-12-04",
+              "2024-12-11",
+              "2024-12-18"
+            ]
+          },
+          {
+            "date": "2025-01-01",
+            "label_uk": "Новий рік",
+            "event_starts_per_day": 1.6666666666666667,
+            "control_starts_per_day": 1.6666666666666667,
+            "difference": 0.0,
+            "control_window_count": 3,
+            "control_centers": [
+              "2025-01-15",
+              "2025-01-22",
+              "2025-01-29"
+            ]
+          },
+          {
+            "date": "2025-03-08",
+            "label_uk": "Міжнародний жіночий день",
+            "event_starts_per_day": 2,
+            "control_starts_per_day": 1.0,
+            "difference": 1.0,
+            "control_window_count": 4,
+            "control_centers": [
+              "2025-03-01",
+              "2025-03-15",
+              "2025-03-22",
+              "2025-03-29"
+            ]
+          },
+          {
+            "date": "2025-05-01",
+            "label_uk": "День праці",
+            "event_starts_per_day": 1.3333333333333333,
+            "control_starts_per_day": 1.3333333333333333,
+            "difference": 0.0,
+            "control_window_count": 3,
+            "control_centers": [
+              "2025-05-15",
+              "2025-05-22",
+              "2025-05-29"
+            ]
+          },
+          {
+            "date": "2025-06-28",
+            "label_uk": "День Конституції",
+            "event_starts_per_day": 0.3333333333333333,
+            "control_starts_per_day": 1.0,
+            "difference": -0.6666666666666667,
+            "control_window_count": 2,
+            "control_centers": [
+              "2025-06-14",
+              "2025-06-21"
+            ]
+          },
+          {
+            "date": "2025-08-24",
+            "label_uk": "День Незалежності",
+            "event_starts_per_day": 1,
+            "control_starts_per_day": 1.4166666666666665,
+            "difference": -0.4166666666666665,
+            "control_window_count": 4,
+            "control_centers": [
+              "2025-08-03",
+              "2025-08-10",
+              "2025-08-17",
+              "2025-08-31"
+            ]
+          },
+          {
+            "date": "2025-12-25",
+            "label_uk": "Різдво · 25 грудня",
+            "event_starts_per_day": 1.3333333333333333,
+            "control_starts_per_day": 0.4444444444444444,
+            "difference": 0.8888888888888888,
+            "control_window_count": 3,
+            "control_centers": [
+              "2025-12-04",
+              "2025-12-11",
+              "2025-12-18"
+            ]
+          },
+          {
+            "date": "2026-01-01",
+            "label_uk": "Новий рік",
+            "event_starts_per_day": 1,
+            "control_starts_per_day": 1.8888888888888888,
+            "difference": -0.8888888888888888,
+            "control_window_count": 3,
+            "control_centers": [
+              "2026-01-15",
+              "2026-01-22",
+              "2026-01-29"
+            ]
+          },
+          {
+            "date": "2026-03-08",
+            "label_uk": "Міжнародний жіночий день",
+            "event_starts_per_day": 0.6666666666666666,
+            "control_starts_per_day": 2.1666666666666665,
+            "difference": -1.5,
+            "control_window_count": 4,
+            "control_centers": [
+              "2026-03-01",
+              "2026-03-15",
+              "2026-03-22",
+              "2026-03-29"
+            ]
+          },
+          {
+            "date": "2026-05-01",
+            "label_uk": "День праці",
+            "event_starts_per_day": 2.3333333333333335,
+            "control_starts_per_day": 2.3333333333333335,
+            "difference": 0.0,
+            "control_window_count": 3,
+            "control_centers": [
+              "2026-05-15",
+              "2026-05-22",
+              "2026-05-29"
+            ]
+          },
+          {
+            "date": "2026-06-28",
+            "label_uk": "День Конституції",
+            "event_starts_per_day": 1,
+            "control_starts_per_day": 1.5555555555555556,
+            "difference": -0.5555555555555556,
+            "control_window_count": 3,
+            "control_centers": [
+              "2026-06-07",
+              "2026-06-14",
+              "2026-06-21"
+            ]
+          },
+          {
+            "date": "2026-08-24",
+            "label_uk": "День Незалежності",
+            "event_starts_per_day": 1.3333333333333333,
+            "control_starts_per_day": 5.0,
+            "difference": -3.666666666666667,
+            "control_window_count": 4,
+            "control_centers": [
+              "2026-08-03",
+              "2026-08-10",
+              "2026-08-17",
+              "2026-08-31"
+            ]
+          }
+        ],
+        "excluded_events": [
+          {
+            "date": "2022-01-01",
+            "reason": "event window unavailable"
+          },
+          {
+            "date": "2026-12-25",
+            "reason": "event window unavailable"
+          }
+        ],
+        "event_count": 28,
+        "event_mean": 1.4285714285714286,
+        "control_mean": 1.679563492063492,
+        "paired_difference": -0.25099206349206354
+      }
+    },
+    "chart_data": {
+      "labels": [
+        "Дата події",
+        "Зіставні контрольні дні"
+      ],
+      "values": [
+        1.4285714285714286,
+        1.7321428571428572
+      ],
+      "ylabel_uk": "Початки / день"
+    },
+    "headline_result_uk": "На 28 датах: 1,43 тривоги/день проти 1,73 у контролі. Мотив вибору дат не встановлено.",
+    "verdict_label": "Висновок невизначений",
+    "verdict_state": "inconclusive",
+    "limitations_uk": [
+      "Київські попередження не є всіма обстрілами України. Намір або причинність не вимірюються.",
+      "Мала вибірка, залежні повторення та зміни інтенсивності; контрольні дні можуть повторюватися між подіями.",
+      "Шість стабільних свят — підмножина календаря. Рухомі свята й зміни законодавства не тестуються; виключаються з контролю консервативно."
+    ],
+    "methodology_note_uk": "Контроль: той самий день тижня й місяць/рік за зсувами ±7/14/21/28 днів. Спочатку середнє контролів для кожної події, потім рівна вага подій. Окремо показано ±1 день. Немає тесту статистичної значущості."
+  },
+  {
+    "myth_id": "myth_3",
+    "title_uk": "Чи правда, що дронові тривоги переважно нічні?",
+    "short_question_uk": "Чи правда, що дронові тривоги переважно нічні?",
+    "what_is_tested_uk": "Частка фактичних хвилин тривог із БПЛА-маркером, що припадає на 22:00–06:00 у Києві.",
+    "metric_summary": {
+      "unique_alerts": 691,
+      "night_start_count": 354,
+      "night_start_share": 0.5123010130246021,
+      "night_intersection_count": 403,
+      "night_intersection_share": 0.5832127351664255,
+      "total_alert_minutes": 81799.61666666667,
+      "night_alert_minutes": 51682.9,
+      "night_minute_share": 0.6318232542654539,
+      "calendar_exposure_share": 0.33329744159676705,
+      "yearly": [
+        {
+          "year": 2023,
+          "unique_alerts": 13,
+          "night_start_count": 10,
+          "night_start_share": 0.7692307692307693,
+          "night_intersection_count": 11,
+          "night_intersection_share": 0.8461538461538461,
+          "total_alert_minutes": 1736.9833333333333,
+          "night_alert_minutes": 1382.7,
+          "night_minute_share": 0.7960352718794078
+        },
+        {
+          "year": 2024,
+          "unique_alerts": 128,
+          "night_start_count": 89,
+          "night_start_share": 0.6953125,
+          "night_intersection_count": 100,
+          "night_intersection_share": 0.78125,
+          "total_alert_minutes": 15801.3,
+          "night_alert_minutes": 11697.25,
+          "night_minute_share": 0.7402713700771456
+        },
+        {
+          "year": 2025,
+          "unique_alerts": 209,
+          "night_start_count": 142,
+          "night_start_share": 0.6794258373205742,
+          "night_intersection_count": 162,
+          "night_intersection_share": 0.7751196172248804,
+          "total_alert_minutes": 34251.6,
+          "night_alert_minutes": 26629.916666666668,
+          "night_minute_share": 0.7774794948751786
+        },
+        {
+          "year": 2026,
+          "unique_alerts": 341,
+          "night_start_count": 113,
+          "night_start_share": 0.3313782991202346,
+          "night_intersection_count": 130,
+          "night_intersection_share": 0.3812316715542522,
+          "total_alert_minutes": 30009.733333333334,
+          "night_alert_minutes": 11973.033333333333,
+          "night_minute_share": 0.39897166697027187
+        }
+      ],
+      "v15_sensitivity": {
+        "unique_alerts": 665,
+        "night_start_count": 340,
+        "night_start_share": 0.5112781954887218,
+        "night_intersection_count": 388,
+        "night_intersection_share": 0.5834586466165413,
+        "total_alert_minutes": 79383.3,
+        "night_alert_minutes": 50241.13333333333,
+        "night_minute_share": 0.6328929804295529
+      }
+    },
+    "chart_data": {
+      "labels": [
+        "Ніч · хвилини тривог",
+        "День · хвилини тривог"
+      ],
+      "values": [
+        63.1823254265454,
+        36.8176745734546
+      ],
+      "ylabel_uk": "% хвилин"
+    },
+    "headline_result_uk": "За весь архів — 63,18% хвилин уночі, але у 2026 — 39,90%. Це не стале правило. Нічні початки за весь архів: 51,23%.",
+    "verdict_label": "Частково підтримано",
+    "verdict_state": "partially_supported",
+    "limitations_uk": [
+      "Це повідомлений контекст v1.6, не підтверджені дронові атаки; generic UAV не підтверджує Shahed.",
+      "Класифікація та обсяг повідомлень можуть залежати від часу доби й тривалості. Категорії можуть змішуватися.",
+      "Частка хвилин, початків і перетинів — різні показники; 22:00–06:00 не є астрономічною ніччю."
+    ],
+    "methodology_note_uk": "Об’єднання shahed_uav або jet_uav без подвійного рахунку. Інтервали перетинаються з нічними вікнами; хвилини рахуються за UTC, із сезонним Europe/Kyiv. Окремо річні показники, v1.5 та частка нічної календарної експозиції."
+  },
+  {
+    "myth_id": "myth_4",
+    "title_uk": "Чи частіше атакують на вихідних?",
+    "short_question_uk": "Чи частіше атакують на вихідних?",
+    "what_is_tested_uk": "Середня кількість початків офіційних київських тривог на суботу/неділю та будні.",
+    "metric_summary": {
+      "weekend_days": 477,
+      "weekday_days": 1194,
+      "weekend_starts": 688,
+      "weekday_starts": 1897,
+      "weekend_mean": 1.4423480083857443,
+      "weekday_mean": 1.5887772194304857,
+      "month_adjusted_difference": -0.1589817747676385,
+      "matched_month_count": 55,
+      "monthly": [
+        {
+          "month": "2022-03",
+          "weekend_mean": 5,
+          "weekday_mean": 6.521739130434782,
+          "difference": -1.5217391304347823
+        },
+        {
+          "month": "2022-04",
+          "weekend_mean": 2.111111111111111,
+          "weekday_mean": 2.4761904761904763,
+          "difference": -0.3650793650793651
+        },
+        {
+          "month": "2022-05",
+          "weekend_mean": 2.888888888888889,
+          "weekday_mean": 1.9545454545454546,
+          "difference": 0.9343434343434343
+        },
+        {
+          "month": "2022-06",
+          "weekend_mean": 2.125,
+          "weekday_mean": 1.7727272727272727,
+          "difference": 0.3522727272727273
+        },
+        {
+          "month": "2022-07",
+          "weekend_mean": 1,
+          "weekday_mean": 1.0952380952380953,
+          "difference": -0.09523809523809534
+        },
+        {
+          "month": "2022-08",
+          "weekend_mean": 1.125,
+          "weekday_mean": 1.4782608695652173,
+          "difference": -0.3532608695652173
+        },
+        {
+          "month": "2022-09",
+          "weekend_mean": 0.5,
+          "weekday_mean": 0.9545454545454546,
+          "difference": -0.4545454545454546
+        },
+        {
+          "month": "2022-10",
+          "weekend_mean": 1.4,
+          "weekday_mean": 1.9523809523809523,
+          "difference": -0.5523809523809524
+        },
+        {
+          "month": "2022-11",
+          "weekend_mean": 0.75,
+          "weekday_mean": 0.45454545454545453,
+          "difference": 0.29545454545454547
+        },
+        {
+          "month": "2022-12",
+          "weekend_mean": 0.7777777777777778,
+          "weekday_mean": 0.8636363636363636,
+          "difference": -0.08585858585858586
+        },
+        {
+          "month": "2023-01",
+          "weekend_mean": 0.4444444444444444,
+          "weekday_mean": 0.6363636363636364,
+          "difference": -0.19191919191919193
+        },
+        {
+          "month": "2023-02",
+          "weekend_mean": 0.875,
+          "weekday_mean": 1,
+          "difference": -0.125
+        },
+        {
+          "month": "2023-03",
+          "weekend_mean": 0.25,
+          "weekday_mean": 1.4782608695652173,
+          "difference": -1.2282608695652173
+        },
+        {
+          "month": "2023-04",
+          "weekend_mean": 0,
+          "weekday_mean": 0.45,
+          "difference": -0.45
+        },
+        {
+          "month": "2023-05",
+          "weekend_mean": 0.875,
+          "weekday_mean": 1.0869565217391304,
+          "difference": -0.21195652173913038
+        },
+        {
+          "month": "2023-06",
+          "weekend_mean": 0.75,
+          "weekday_mean": 1,
+          "difference": -0.25
+        },
+        {
+          "month": "2023-07",
+          "weekend_mean": 0.3,
+          "weekday_mean": 0.9523809523809523,
+          "difference": -0.6523809523809523
+        },
+        {
+          "month": "2023-08",
+          "weekend_mean": 0.75,
+          "weekday_mean": 1.6956521739130435,
+          "difference": -0.9456521739130435
+        },
+        {
+          "month": "2023-09",
+          "weekend_mean": 0.3333333333333333,
+          "weekday_mean": 0.6666666666666666,
+          "difference": -0.3333333333333333
+        },
+        {
+          "month": "2023-10",
+          "weekend_mean": 0.2857142857142857,
+          "weekday_mean": 0.23529411764705882,
+          "difference": 0.05042016806722688
+        },
+        {
+          "month": "2023-11",
+          "weekend_mean": 1.25,
+          "weekday_mean": 0.5909090909090909,
+          "difference": 0.6590909090909091
+        },
+        {
+          "month": "2023-12",
+          "weekend_mean": 0.9,
+          "weekday_mean": 1.3333333333333333,
+          "difference": -0.43333333333333324
+        },
+        {
+          "month": "2024-01",
+          "weekend_mean": 1.25,
+          "weekday_mean": 1.0869565217391304,
+          "difference": 0.16304347826086962
+        },
+        {
+          "month": "2024-02",
+          "weekend_mean": 0.5,
+          "weekday_mean": 0.5714285714285714,
+          "difference": -0.0714285714285714
+        },
+        {
+          "month": "2024-03",
+          "weekend_mean": 1.2,
+          "weekday_mean": 1.2857142857142858,
+          "difference": -0.08571428571428585
+        },
+        {
+          "month": "2024-04",
+          "weekend_mean": 0.625,
+          "weekday_mean": 0.9090909090909091,
+          "difference": -0.28409090909090906
+        },
+        {
+          "month": "2024-05",
+          "weekend_mean": 1.125,
+          "weekday_mean": 1.2173913043478262,
+          "difference": -0.09239130434782616
+        },
+        {
+          "month": "2024-06",
+          "weekend_mean": 1,
+          "weekday_mean": 1.3,
+          "difference": -0.30000000000000004
+        },
+        {
+          "month": "2024-07",
+          "weekend_mean": 0.5,
+          "weekday_mean": 1.7826086956521738,
+          "difference": -1.2826086956521738
+        },
+        {
+          "month": "2024-08",
+          "weekend_mean": 1.7777777777777777,
+          "weekday_mean": 2.1363636363636362,
+          "difference": -0.35858585858585856
+        },
+        {
+          "month": "2024-09",
+          "weekend_mean": 0.7777777777777778,
+          "weekday_mean": 1.5238095238095237,
+          "difference": -0.7460317460317459
+        },
+        {
+          "month": "2024-10",
+          "weekend_mean": 2.125,
+          "weekday_mean": 1.608695652173913,
+          "difference": 0.5163043478260869
+        },
+        {
+          "month": "2024-11",
+          "weekend_mean": 2.4444444444444446,
+          "weekday_mean": 1.9523809523809523,
+          "difference": 0.4920634920634923
+        },
+        {
+          "month": "2024-12",
+          "weekend_mean": 1.8888888888888888,
+          "weekday_mean": 1.4545454545454546,
+          "difference": 0.43434343434343425
+        },
+        {
+          "month": "2025-01",
+          "weekend_mean": 2.25,
+          "weekday_mean": 1.826086956521739,
+          "difference": 0.423913043478261
+        },
+        {
+          "month": "2025-02",
+          "weekend_mean": 1.625,
+          "weekday_mean": 1.55,
+          "difference": 0.07499999999999996
+        },
+        {
+          "month": "2025-03",
+          "weekend_mean": 0.9,
+          "weekday_mean": 1.2380952380952381,
+          "difference": -0.3380952380952381
+        },
+        {
+          "month": "2025-04",
+          "weekend_mean": 1.5,
+          "weekday_mean": 1.5454545454545454,
+          "difference": -0.045454545454545414
+        },
+        {
+          "month": "2025-05",
+          "weekend_mean": 1.2222222222222223,
+          "weekday_mean": 1.2272727272727273,
+          "difference": -0.005050505050504972
+        },
+        {
+          "month": "2025-06",
+          "weekend_mean": 1.3333333333333333,
+          "weekday_mean": 1.0952380952380953,
+          "difference": 0.23809523809523792
+        },
+        {
+          "month": "2025-07",
+          "weekend_mean": 1.5,
+          "weekday_mean": 1.608695652173913,
+          "difference": -0.10869565217391308
+        },
+        {
+          "month": "2025-08",
+          "weekend_mean": 1.2,
+          "weekday_mean": 1.6666666666666667,
+          "difference": -0.4666666666666668
+        },
+        {
+          "month": "2025-09",
+          "weekend_mean": 2,
+          "weekday_mean": 1.3636363636363635,
+          "difference": 0.6363636363636365
+        },
+        {
+          "month": "2025-10",
+          "weekend_mean": 0.8571428571428571,
+          "weekday_mean": 1.6956521739130435,
+          "difference": -0.8385093167701864
+        },
+        {
+          "month": "2025-11",
+          "weekend_mean": 1.2,
+          "weekday_mean": 1.45,
+          "difference": -0.25
+        },
+        {
+          "month": "2025-12",
+          "weekend_mean": 1.375,
+          "weekday_mean": 0.5652173913043478,
+          "difference": 0.8097826086956522
+        },
+        {
+          "month": "2026-01",
+          "weekend_mean": 1.6666666666666667,
+          "weekday_mean": 1.9545454545454546,
+          "difference": -0.28787878787878785
+        },
+        {
+          "month": "2026-02",
+          "weekend_mean": 1.5,
+          "weekday_mean": 1.45,
+          "difference": 0.050000000000000044
+        },
+        {
+          "month": "2026-03",
+          "weekend_mean": 1.4444444444444444,
+          "weekday_mean": 1.1818181818181819,
+          "difference": 0.26262626262626254
+        },
+        {
+          "month": "2026-04",
+          "weekend_mean": 0.625,
+          "weekday_mean": 1.3636363636363635,
+          "difference": -0.7386363636363635
+        },
+        {
+          "month": "2026-05",
+          "weekend_mean": 2,
+          "weekday_mean": 1.8095238095238095,
+          "difference": 0.19047619047619047
+        },
+        {
+          "month": "2026-06",
+          "weekend_mean": 1.625,
+          "weekday_mean": 1.5,
+          "difference": 0.125
+        },
+        {
+          "month": "2026-07",
+          "weekend_mean": 1.625,
+          "weekday_mean": 2,
+          "difference": -0.375
+        },
+        {
+          "month": "2026-08",
+          "weekend_mean": 4.2,
+          "weekday_mean": 3.761904761904762,
+          "difference": 0.4380952380952383
+        },
+        {
+          "month": "2026-09",
+          "weekend_mean": 5.625,
+          "weekday_mean": 6.590909090909091,
+          "difference": -0.9659090909090908
+        }
+      ]
+    },
+    "chart_data": {
+      "labels": [
+        "Вихідні",
+        "Будні"
+      ],
+      "values": [
+        1.4423480083857443,
+        1.5887772194304857
+      ],
+      "ylabel_uk": "Початки / день"
+    },
+    "headline_result_uk": "Вихідні: 1,44; будні: 1,59 тривоги/день. Середня різниця всередині місяців: -0,16.",
+    "verdict_label": "Висновок невизначений",
+    "verdict_state": "inconclusive",
+    "limitations_uk": [
+      "Попередження не вимірюють усі атаки; причина вибору дня не встановлена.",
+      "Дні серійно залежні, режими змінюються; новий тест значущості не проводився."
+    ],
+    "methodology_note_uk": "Порівнюємо на один доступний календарний день, не загальні суми для 2 та 5 днів. Місячна поправка — рівновагове середнє різниць у місяцях із ≥4 вихідними та ≥10 буднями."
+  },
+  {
+    "myth_id": "myth_5",
+    "title_uk": "Чи буває затишшя перед бурею?",
+    "short_question_uk": "Чи буває затишшя перед бурею?",
+    "what_is_tested_uk": "Чи відрізняється наступний день після трьох днів із сумарно ≤1 початком тривоги.",
+    "metric_summary": {
+      "preceding_days": 3,
+      "preceding_max_total_starts": 1,
+      "calm_days": 289,
+      "other_days": 1373,
+      "after_calm_mean": 0.9515570934256056,
+      "after_other_mean": 1.6649672250546248,
+      "month_adjusted_difference": 0.14288571759887195,
+      "matched_month_count": 43,
+      "yearly": [
+        {
+          "year": 2022,
+          "calm_days": 51,
+          "other_days": 252,
+          "difference": -1.2439309056956118
+        },
+        {
+          "year": 2023,
+          "calm_days": 126,
+          "other_days": 229,
+          "difference": -0.17813821307271094
+        },
+        {
+          "year": 2024,
+          "calm_days": 52,
+          "other_days": 314,
+          "difference": -0.3402743753062225
+        },
+        {
+          "year": 2025,
+          "calm_days": 33,
+          "other_days": 328,
+          "difference": -0.3814671101256468
+        },
+        {
+          "year": 2026,
+          "calm_days": 27,
+          "other_days": 250,
+          "difference": -0.7041481481481482
+        }
+      ],
+      "zero_start_sensitivity": {
+        "preceding_days": 3,
+        "preceding_max_total_starts": 0,
+        "calm_days": 93,
+        "other_days": 1569,
+        "after_calm_mean": 0.8279569892473119,
+        "after_other_mean": 1.5831739961759081,
+        "month_adjusted_difference": 0.03537044989918552,
+        "matched_month_count": 30,
+        "yearly": [
+          {
+            "year": 2022,
+            "calm_days": 15,
+            "other_days": 288,
+            "difference": -1.2534722222222223
+          },
+          {
+            "year": 2023,
+            "calm_days": 51,
+            "other_days": 304,
+            "difference": -0.25412796697626416
+          },
+          {
+            "year": 2024,
+            "calm_days": 14,
+            "other_days": 352,
+            "difference": -0.23498376623376638
+          },
+          {
+            "year": 2025,
+            "calm_days": 9,
+            "other_days": 352,
+            "difference": -0.30366161616161613
+          },
+          {
+            "year": 2026,
+            "calm_days": 4,
+            "other_days": 273,
+            "difference": -0.24084249084249088
+          }
+        ]
+      }
+    },
+    "chart_data": {
+      "labels": [
+        "Після затишшя",
+        "Після інших 3 днів"
+      ],
+      "values": [
+        0.9515570934256056,
+        1.6649672250546248
+      ],
+      "ylabel_uk": "Початки наступного дня"
+    },
+    "headline_result_uk": "Після затишшя: 0,95; після інших періодів: 1,66. Усередині місяців різниця змінює знак: +0,14. Висновок залежить від порівняння.",
+    "verdict_label": "Висновок невизначений",
+    "verdict_state": "inconclusive",
+    "limitations_uk": [
+      "«Затишшя» означає мало записаних попереджень, не відсутність небезпеки.",
+      "Вікна перекриваються, спостереження залежні. Порівняння не є перспективно перевіреним прогнозом.",
+      "Не встановлено повноту нульових днів; тиждень без записів виключено."
+    ],
+    "methodology_note_uk": "Визначення зафіксоване до розрахунку: попередні 3 календарні дні, сумарно ≤1 старт. Ціль — наступний день. Чутливість: рівно 0 стартів; також різниця всередині місяців і за роками. Пропущені дні не стискаються."
+  },
+  {
+    "myth_id": "myth_6",
+    "title_uk": "Чи посилюються обстріли після мирних переговорів?",
+    "short_question_uk": "Чи посилюються обстріли після мирних переговорів?",
+    "what_is_tested_uk": "Початки київських тривог за 3 дні до й після трьох вибраних раундів переговорів у Стамбулі.",
+    "metric_summary": {
+      "primary": {
+        "window_days": 3,
+        "event_count": 3,
+        "events": [
+          {
+            "date": "2022-03-29",
+            "before": 4.666666666666667,
+            "after": 4,
+            "difference": -0.666666666666667
+          },
+          {
+            "date": "2025-05-16",
+            "before": 1,
+            "after": 0.3333333333333333,
+            "difference": -0.6666666666666667
+          },
+          {
+            "date": "2025-06-02",
+            "before": 1.3333333333333333,
+            "after": 1.6666666666666667,
+            "difference": 0.3333333333333335
+          }
+        ],
+        "excluded_events": [],
+        "before_mean": 2.3333333333333335,
+        "after_mean": 2.0,
+        "difference": -0.3333333333333334
+      },
+      "seven_day_sensitivity": {
+        "window_days": 7,
+        "event_count": 3,
+        "events": [
+          {
+            "date": "2022-03-29",
+            "before": 5.714285714285714,
+            "after": 3.5714285714285716,
+            "difference": -2.142857142857143
+          },
+          {
+            "date": "2025-05-16",
+            "before": 0.8571428571428571,
+            "after": 0.8571428571428571,
+            "difference": 0.0
+          },
+          {
+            "date": "2025-06-02",
+            "before": 1.2857142857142858,
+            "after": 1.4285714285714286,
+            "difference": 0.1428571428571428
+          }
+        ],
+        "excluded_events": [],
+        "before_mean": 2.619047619047619,
+        "after_mean": 1.9523809523809526,
+        "difference": -0.6666666666666666
+      }
+    },
+    "chart_data": {
+      "labels": [
+        "3 дні до",
+        "3 дні після"
+      ],
+      "values": [
+        2.3333333333333335,
+        2.0
+      ],
+      "ylabel_uk": "Початки / день"
+    },
+    "headline_result_uk": "Лише 3 події: до — 2,33, після — 2,00 тривоги/день. Причинного висновку немає.",
+    "verdict_label": "Висновок невизначений",
+    "verdict_state": "inconclusive",
+    "limitations_uk": [
+      "Описове порівняння, не причинний доказ; переговори не призначаються випадково.",
+      "Лише три вибрані події, не повний календар дипломатії; добір і ширина вікна впливають на результат.",
+      "Немає даних про всі обстріли, цілі або фізичні пуски."
+    ],
+    "methodology_note_uk": "29.03.2022, 16.05.2025, 02.06.2025: дати підтверджено календарними джерелами. День події виключено; рівна вага подій; 7-денне вікно показано як чутливість, без вибору «кращого» результату."
+  },
+  {
+    "myth_id": "myth_7",
+    "title_uk": "Якщо вчора було багато тривог, сьогодні теж буде багато?",
+    "short_question_uk": "Якщо вчора було багато тривог, сьогодні теж буде багато?",
+    "what_is_tested_uk": "Кореляція кількості київських тривог сьогодні з попереднім днем із уже перевіреного Task005.",
+    "metric_summary": {
+      "raw": {
+        "effect": 0.4661410331780032,
+        "ci_low": 0.22433659953464732,
+        "ci_high": 0.5660183735320764
+      },
+      "month_adjusted": {
+        "effect": 0.07310022627707846,
+        "ci_low": -0.03836717424286721,
+        "ci_high": 0.19470779964672033
+      },
+      "source": "Task005 statistical_tests.csv; 14-day raw CI"
+    },
+    "chart_data": {
+      "labels": [
+        "Початковий ряд",
+        "Без місячного середнього"
+      ],
+      "values": [
+        0.4661410331780032,
+        0.07310022627707846
+      ],
+      "ylabel_uk": "Кореляція lag 1"
+    },
+    "headline_result_uk": "Початкова кореляція 0,47; після місячної поправки — 0,07. Значна частина зв’язку описує зміну режимів.",
+    "verdict_label": "Частково підтримано",
+    "verdict_state": "partially_supported",
+    "limitations_uk": [
+      "Місячне середнє вилучається ретроспективно й не доступне наперед.",
+      "Описова кореляція не гарантує прогнозу. Task006 не показав стабільної переваги моделі на фінальних 39 тижнях.",
+      "Це не правило для окремого дня й не порада про безпечний час."
+    ],
+    "methodology_note_uk": "Значення й дослідницькі 95% блокові інтервали перенесено дослівно з Task005. Нова кореляція не підміняє попередню методику; часткова підтримка стосується лише початкової описової залежності."
+  }
+]

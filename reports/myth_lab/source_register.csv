@@ -1,0 +1,9 @@
+source_id,publisher,title,url,access_date,status,scope
+S1,Wikipedia,Defender of the Fatherland Day,https://en.wikipedia.org/wiki/Defender_of_the_Fatherland_Day,2026-10-11,HTTP200,Fixed 23 February calendar date only; no attack evidence
+S2,Wikipedia,Victory Day 9 May,https://en.wikipedia.org/wiki/Victory_Day_(9_May),2026-10-11,HTTP200,Fixed 9 May calendar date only; no attack evidence
+S3,Wikipedia,Vladimir Putin,https://en.wikipedia.org/wiki/Vladimir_Putin,2026-10-11,HTTP200,Birth date 7 October only; no claim about motives
+S4,Wikipedia,Public holidays in Ukraine,https://en.wikipedia.org/w/index.php?title=Public_holidays_in_Ukraine&oldid=1379432051,2026-10-11,Current article HTTP200; revision recorded,Selected six stable fixed dates; conservative control exclusions; not a complete historical legal calendar
+S5,Wikipedia,Peace negotiations in the Russian invasion of Ukraine,https://en.wikipedia.org/w/index.php?title=Peace_negotiations_in_the_Russian_invasion_of_Ukraine&oldid=1378374891,2026-10-11,Current article HTTP200; revision recorded,29 March 2022 Istanbul meeting only
+S6,The Moscow Times,Kremlin Negotiator Invokes Peter the Great's 21-Year War With Sweden in Ukraine Talks,https://www.themoscowtimes.com/2025/05/16/kremlin-negotiator-invokes-peter-the-greats-21-year-war-with-sweden-in-ukraine-talks-a89109,2026-10-11,HTTP200,16 May 2025 Istanbul meeting date only
+S7,CNN,Putin did not budge in Ukraine peace talks,https://edition.cnn.com/2025/06/02/europe/putin-ukraine-peace-talks-trump-latam-intl,2026-10-11,HTTP200,2 June 2025 Istanbul meeting date only
+S8,Verkhovna Rada,Labour Code Article73,https://zakon.rada.gov.ua/laws/show/322-08,2026-10-11,HTTP503,Not retrieved; no independent legal validation claimed

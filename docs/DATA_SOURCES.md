@@ -224,3 +224,16 @@ are retained;2593 resolved durations contribute. No Telegram source text,
 individual message/alert provenance or local filesystem paths are published.
 Unknown and unavailable statistical results remain null. Source versions remain
 frozen; hosting approval is separate from Git publication. See dashboard/README.md.
+
+## Task007.1 — Myth Lab date calendars and aggregates
+
+`config/myth_lab_v1.json` versions three symbolic dates, six stable selected
+Ukrainian fixed holidays, conservative non-holiday control exclusions and three
+source-confirmed Istanbul meeting dates. Provenance/access response hashes:
+`reports/myth_lab/source_register.csv` and `source_access.json`. Date sources do
+not supply strike data; the public claims are tested only with Kyiv official
+warning history and existing reported v1.6 markers. Selected holiday/negotiation
+lists are explicitly incomplete. Rada legal source was not retrieved (503).
+Three separate `dashboard/public/data/myth_lab_*.json` contain aggregate results,
+questions and a version/input-hash summary. No source text or individual provenance.
+Prior Task007 JSON and all Tasks005/006 research outputs remain unchanged.

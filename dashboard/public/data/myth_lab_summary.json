@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "version": "myth-lab-v1",
+  "scope_uk": "Офіційні київські тривоги та повідомлені маркери загроз; не всі обстріли України.",
+  "official_starts_reconciled": 2594,
+  "daily_observed_days": 1681,
+  "daily_comparison_days": 1671,
+  "excluded_daily_days": 10,
+  "uav_unique_alerts": 691,
+  "verdict_counts": {
+    "inconclusive": 5,
+    "insufficient_data": 0,
+    "not_supported": 0,
+    "partially_supported": 2
+  },
+  "inputs": {
+    "config/myth_lab_v1.json": "60b3596458e4e5a21ba62341591595151764d36f1426a911fc7ce97382f57c79",
+    "data/processed/temporal_analysis/daily_alert_metrics.parquet": "7b6b460c164cba0803363be84a027a31aa6b642fb7646e48c224c44ad817498a",
+    "data/processed/temporal_analysis/alert_analysis_fact.parquet": "dcb2333eec749afac52749caac29f9420d8056c1b53dd5785cadb34e700b21c4",
+    "data/processed/classification_v1_5/alert_threat_features.parquet": "eefc7634ce0378547fcf9cbfd3183180781e768e333389dea294162bccf9a807",
+    "reports/temporal_analysis/temporal_summary.json": "985ae9828d3d09cb4312e0205c68001338cda1ab0477beb1ec5b93514b4f463c",
+    "reports/temporal_analysis/statistical_tests.csv": "b93016e31c0d9554ba5684c7e2903e2401c27b6cc103e8786528a55fefa02f01",
+    "reports/myth_lab/source_register.csv": "9965e31945d43f1613e588620da4e7a57eec4bc0c7daade635916e4bb757aaaf",
+    "reports/myth_lab/source_access.json": "288c710a385add60cd04359ee32bc9931a3f0c742087490fa45d319b77eca829"
+  },
+  "sources": [
+    {
+      "source_id": "S1",
+      "publisher": "Wikipedia",
+      "title": "Defender of the Fatherland Day",
+      "url": "https://en.wikipedia.org/wiki/Defender_of_the_Fatherland_Day",
+      "status": "HTTP200"
+    },
+    {
+      "source_id": "S2",
+      "publisher": "Wikipedia",
+      "title": "Victory Day 9 May",
+      "url": "https://en.wikipedia.org/wiki/Victory_Day_(9_May)",
+      "status": "HTTP200"
+    },
+    {
+      "source_id": "S3",
+      "publisher": "Wikipedia",
+      "title": "Vladimir Putin",
+      "url": "https://en.wikipedia.org/wiki/Vladimir_Putin",
+      "status": "HTTP200"
+    },
+    {
+      "source_id": "S4",
+      "publisher": "Wikipedia",
+      "title": "Public holidays in Ukraine",
+      "url": "https://en.wikipedia.org/w/index.php?title=Public_holidays_in_Ukraine&oldid=1379432051",
+      "status": "Current article HTTP200; revision recorded"
+    },
+    {
+      "source_id": "S5",
+      "publisher": "Wikipedia",
+      "title": "Peace negotiations in the Russian invasion of Ukraine",
+      "url": "https://en.wikipedia.org/w/index.php?title=Peace_negotiations_in_the_Russian_invasion_of_Ukraine&oldid=1378374891",
+      "status": "Current article HTTP200; revision recorded"
+    },
+    {
+      "source_id": "S6",
+      "publisher": "The Moscow Times",
+      "title": "Kremlin Negotiator Invokes Peter the Great's 21-Year War With Sweden in Ukraine Talks",
+      "url": "https://www.themoscowtimes.com/2025/05/16/kremlin-negotiator-invokes-peter-the-greats-21-year-war-with-sweden-in-ukraine-talks-a89109",
+      "status": "HTTP200"
+    },
+    {
+      "source_id": "S7",
+      "publisher": "CNN",
+      "title": "Putin did not budge in Ukraine peace talks",
+      "url": "https://edition.cnn.com/2025/06/02/europe/putin-ukraine-peace-talks-trump-latam-intl",
+      "status": "HTTP200"
+    },
+    {
+      "source_id": "S8",
+      "publisher": "Verkhovna Rada",
+      "title": "Labour Code Article73",
+      "url": "https://zakon.rada.gov.ua/laws/show/322-08",
+      "status": "HTTP503"
+    }
+  ],
+  "source_access": [
+    {
+      "source_id": "S1",
+      "retrieved_url": "https://en.wikipedia.org/wiki/Defender_of_the_Fatherland_Day",
+      "access_date": "2026-10-11",
+      "http_status": 200,
+      "response_sha256": "1612834951bedcec63938ed2fa46133992f1abaf23987ce86605690d8810e9ce",
+      "revision_id": null
+    },
+    {
+      "source_id": "S2",
+      "retrieved_url": "https://en.wikipedia.org/wiki/Victory_Day_(9_May)",
+      "access_date": "2026-10-11",
+      "http_status": 200,
+      "response_sha256": "e061f5b107ef807f1f8f1013b5c24836e13a5c6b52d4539ae08ab2f55c3d2708",
+      "revision_id": null
+    },
+    {
+      "source_id": "S3",
+      "retrieved_url": "https://en.wikipedia.org/wiki/Vladimir_Putin",
+      "access_date": "2026-10-11",
+      "http_status": 200,
+      "response_sha256": "a1818e2f8a417f9066f7673424aa11c3ae9a70dbbe0d121d338861f8cd1d71e9",
+      "revision_id": null
+    },
+    {
+      "source_id": "S4",
+      "retrieved_url": "https://en.wikipedia.org/wiki/Public_holidays_in_Ukraine",
+      "access_date": "2026-10-11",
+      "http_status": 200,
+      "response_sha256": "f5d2bf3dc9ce05f57cb8976db3641ec42c753411c88dd79e93d57d0e2142c808",
+      "revision_id": "1379432051"
+    },
+    {
+      "source_id": "S5",
+      "retrieved_url": "https://en.wikipedia.org/wiki/2022_Russia%E2%80%93Ukraine_peace_negotiations",
+      "access_date": "2026-10-11",
+      "http_status": 200,
+      "response_sha256": "056c06583f00c59a5023a49c2dd2fecd11803d5a64cf136733724b4d1d4efe15",
+      "revision_id": "1378374891"
+    },
+    {
+      "source_id": "S6",
+      "retrieved_url": "https://www.themoscowtimes.com/2025/05/16/kremlin-negotiator-invokes-peter-the-greats-21-year-war-with-sweden-in-ukraine-talks-a89109",
+      "access_date": "2026-10-11",
+      "http_status": 200,
+      "response_sha256": "3852884d548d3bc60c0be4f4c5ea84300c439eda812e6fc8f23f9c641a33ddec",
+      "revision_id": null
+    },
+    {
+      "source_id": "S7",
+      "retrieved_url": "https://edition.cnn.com/2025/06/02/europe/putin-ukraine-peace-talks-trump-latam-intl",
+      "access_date": "2026-10-11",
+      "http_status": 200,
+      "response_sha256": "eb4bc2588c184e38f1b7b717ff9ef94f43da66b7446da42bac3392307e87f7bb",
+      "revision_id": null
+    },
+    {
+      "source_id": "S8",
+      "retrieved_url": "https://zakon.rada.gov.ua/laws/show/322-08",
+      "access_date": "2026-10-11",
+      "http_status": 503,
+      "response_sha256": null,
+      "revision_id": null
+    }
+  ],
+  "new_significance_tests": false,
+  "hosting_activated": false
+}

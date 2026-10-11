@@ -1,0 +1,66 @@
+[
+  {
+    "source_id": "S1",
+    "retrieved_url": "https://en.wikipedia.org/wiki/Defender_of_the_Fatherland_Day",
+    "access_date": "2026-10-11",
+    "http_status": 200,
+    "response_sha256": "1612834951bedcec63938ed2fa46133992f1abaf23987ce86605690d8810e9ce",
+    "revision_id": null
+  },
+  {
+    "source_id": "S2",
+    "retrieved_url": "https://en.wikipedia.org/wiki/Victory_Day_(9_May)",
+    "access_date": "2026-10-11",
+    "http_status": 200,
+    "response_sha256": "e061f5b107ef807f1f8f1013b5c24836e13a5c6b52d4539ae08ab2f55c3d2708",
+    "revision_id": null
+  },
+  {
+    "source_id": "S3",
+    "retrieved_url": "https://en.wikipedia.org/wiki/Vladimir_Putin",
+    "access_date": "2026-10-11",
+    "http_status": 200,
+    "response_sha256": "a1818e2f8a417f9066f7673424aa11c3ae9a70dbbe0d121d338861f8cd1d71e9",
+    "revision_id": null
+  },
+  {
+    "source_id": "S4",
+    "retrieved_url": "https://en.wikipedia.org/wiki/Public_holidays_in_Ukraine",
+    "access_date": "2026-10-11",
+    "http_status": 200,
+    "response_sha256": "f5d2bf3dc9ce05f57cb8976db3641ec42c753411c88dd79e93d57d0e2142c808",
+    "revision_id": "1379432051"
+  },
+  {
+    "source_id": "S5",
+    "retrieved_url": "https://en.wikipedia.org/wiki/2022_Russia%E2%80%93Ukraine_peace_negotiations",
+    "access_date": "2026-10-11",
+    "http_status": 200,
+    "response_sha256": "056c06583f00c59a5023a49c2dd2fecd11803d5a64cf136733724b4d1d4efe15",
+    "revision_id": "1378374891"
+  },
+  {
+    "source_id": "S6",
+    "retrieved_url": "https://www.themoscowtimes.com/2025/05/16/kremlin-negotiator-invokes-peter-the-greats-21-year-war-with-sweden-in-ukraine-talks-a89109",
+    "access_date": "2026-10-11",
+    "http_status": 200,
+    "response_sha256": "3852884d548d3bc60c0be4f4c5ea84300c439eda812e6fc8f23f9c641a33ddec",
+    "revision_id": null
+  },
+  {
+    "source_id": "S7",
+    "retrieved_url": "https://edition.cnn.com/2025/06/02/europe/putin-ukraine-peace-talks-trump-latam-intl",
+    "access_date": "2026-10-11",
+    "http_status": 200,
+    "response_sha256": "eb4bc2588c184e38f1b7b717ff9ef94f43da66b7446da42bac3392307e87f7bb",
+    "revision_id": null
+  },
+  {
+    "source_id": "S8",
+    "retrieved_url": "https://zakon.rada.gov.ua/laws/show/322-08",
+    "access_date": "2026-10-11",
+    "http_status": 503,
+    "response_sha256": null,
+    "revision_id": null
+  }
+]

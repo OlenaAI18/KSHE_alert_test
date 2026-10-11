@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { createRoot } from "react-dom/client";
 import { Chart } from "./Chart";
+import { MythLab } from "./MythLab";
 import {
   loadData,
   categories,
@@ -24,6 +25,7 @@ const sections = [
   "Часові патерни",
   "Прогнозованість",
   "Методологія",
+  "Myth Lab",
 ];
 const ids = [
   "overview",
@@ -32,6 +34,7 @@ const ids = [
   "patterns",
   "forecast",
   "methodology",
+  "myth-lab",
 ];
 function App() {
   const [data, setData] = useState<Data>();
@@ -650,6 +653,7 @@ function App() {
             </a>
           </div>
         </section>
+        <MythLab />
       </main>
       <footer>
         <b>Київ · Air Alert Research</b>

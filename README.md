@@ -242,3 +242,12 @@ and [validation](reports/dashboard/validation_report.md). From `dashboard/` run
 `npm install`, `npm test`, `npm run dev`, `npm run build`. A clone needs no private
 inputs to display the dashboard. Manual GitHub Pages workflow is prepared; public
 hosting is not activated and requires research-lead approval. No live forecasts/chat.
+
+## Task007.1 — Myth Lab
+
+Seven Ukrainian hypothesis cards extend the existing dashboard with separate
+historical aggregates. Read [results](reports/myth_lab/myth_lab_report.md) and
+[definitions/limits](reports/myth_lab/methodology_notes.md). Run
+`python -m kyiv_alerts.myth_lab --root .` in the complete research workspace to
+regenerate the three public files. A clone displays them without private data.
+Prior research outputs remain frozen; no hosting activation, chatbot or live forecast.

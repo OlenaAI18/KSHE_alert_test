@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "python_full_suite": {
+    "tests": 647,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "python_final_targeted_passed": 15,
+  "frontend_passed": 14,
+  "production_build": "PASS",
+  "browser": "desktop/mobile + missing/invalid data + core filter regression PASS",
+  "public_output_hashes": {
+    "myth_lab_questions.json": "86578c75c2dad64b350472ca866a07093c0c8962c2defd5d84c9cd45bbb1f648",
+    "myth_lab_results.json": "4645a3ecfe0b0d6000599728e1dbe3052b89ebd4e83ca3b02a2c501a12354ff3",
+    "myth_lab_summary.json": "0fd87a7a868f1337252e49918f08c86eb03105e2c36dbead964522154e28f6c5"
+  },
+  "prior_protection": {
+    "baseline_commit": "dc1225e43c311b26a5e79ee2ae96cc818c8c71d8",
+    "protected_tracked_files": 203,
+    "byte_identical": true,
+    "protected_core_public_json_count": 12,
+    "status": "PASS"
+  },
+  "hosting_changes": false
+}

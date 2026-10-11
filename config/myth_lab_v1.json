@@ -1,0 +1,36 @@
+{
+  "version": "myth-lab-v1",
+  "timezone": "Europe/Kyiv",
+  "analysis_scope": "official Kyiv alerts and reported v1.6 UAV markers only",
+  "symbolic_dates": [
+    {"month_day":"02-23","label_uk":"23 лютого","source_id":"S1"},
+    {"month_day":"05-09","label_uk":"9 травня","source_id":"S2"},
+    {"month_day":"10-07","label_uk":"7 жовтня · день народження Путіна","source_id":"S3"}
+  ],
+  "ukrainian_holidays": [
+    {"month_day":"01-01","label_uk":"Новий рік","source_id":"S4"},
+    {"month_day":"03-08","label_uk":"Міжнародний жіночий день","source_id":"S4"},
+    {"month_day":"05-01","label_uk":"День праці","source_id":"S4"},
+    {"month_day":"06-28","label_uk":"День Конституції","source_id":"S4"},
+    {"month_day":"08-24","label_uk":"День Незалежності","source_id":"S4"},
+    {"month_day":"12-25","label_uk":"Різдво · 25 грудня","source_id":"S4"}
+  ],
+  "control_holiday_exclusions_month_day": ["01-01","01-07","03-08","05-01","05-08","05-09","06-28","07-15","07-28","08-24","10-01","10-14","12-25"],
+  "control_moving_holiday_exclusions": ["2022-04-24","2022-06-12","2023-04-16","2023-06-04","2024-05-05","2024-06-23","2025-04-20","2025-06-08","2026-04-12","2026-05-31"],
+  "negotiations": [
+    {"date":"2022-03-29","label_uk":"Переговори у Стамбулі","source_id":"S5"},
+    {"date":"2025-05-16","label_uk":"Прямі переговори у Стамбулі","source_id":"S6"},
+    {"date":"2025-06-02","label_uk":"Другий раунд у Стамбулі","source_id":"S7"}
+  ],
+  "matched_control_offsets_days": [-28,-21,-14,-7,7,14,21,28],
+  "event_window_radius_days": 1,
+  "negotiation_window_days": [3,7],
+  "night_start_hour": 22,
+  "night_end_hour": 6,
+  "uav_categories": ["shahed_uav","jet_uav"],
+  "calm_preceding_days": 3,
+  "calm_preceding_max_total_starts": 1,
+  "calm_sensitivity_max_total_starts": 0,
+  "daily_exclusion": "source boundary days, unresolved-end day, and all days of the no-record week 2023-10-09 to 2023-10-15",
+  "decision_policy": "No new significance tests. Positive descriptive differences do not establish support for targeting motives; myths1/2/4/5/6 remain inconclusive. Myth3 partially_supported only when pooled night-minute share exceeds 0.5, framed as selected marker context. Myth7 partially_supported for raw dependence with explicit month-adjusted/forecast limitations."
+}

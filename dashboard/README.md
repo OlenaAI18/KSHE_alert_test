@@ -42,3 +42,35 @@ Manual `workflow_dispatch` only: a push cannot activate hosting. No repository s
 ## Scope of inference
 
 Source interval: 2022-02-28 to final end2026-10-05; partial2022/2026, partialOctober. All yellow/red official warnings retained. September policy and intensity changes are descriptive, not causal. v1.6 broad UAV is not confirmed Shahed; MiG channel shorthand is not confirmed MiG31K. 71.82% is classification yield, not accuracy. Task006 evaluates39 final weeks; Task006.1 evaluates36 and does not score the lateSeptember tail. Retrospective taxonomy and incomplete source latency information restrict prospective claims.
+
+## Task007.1 — Myth Lab extension
+
+A seventh section adds exactly seven respectful hypothesis cards. Results, verdicts
+and charts reveal on **Перевірити**, with expandable methods/limits. Core graphs
+and their public JSON/manifest are retained. Myth Lab has an isolated loader/schema:
+missing/corrupt results cannot erase the core dashboard. Seven additional charts
+appear only when cards are opened. No chat, live model or hosting configuration change.
+
+New versioned public files: `myth_lab_questions.json`, `myth_lab_results.json`,
+`myth_lab_summary.json`. Regenerate from the retained private workspace, at repo root:
+
+```sh
+.venv/bin/python -m kyiv_alerts.myth_lab --root .
+.venv/bin/python -m pytest -q tests/test_myth_lab.py
+```
+
+The six selected fixed Ukrainian holidays are not the full historical legal calendar.
+Event contrasts, weekends, calm and negotiations are descriptive/uncertain; calendar
+sources do not establish attack motives. Night22:00–06:00 uses interval/DST overlap;
+the pooled63.18%night-minute finding reverses to39.90%in2026, displayed explicitly.
+Task005 correlation reused without changing old outputs. No new significance test.
+See [methods](../reports/myth_lab/methodology_notes.md),
+[report](../reports/myth_lab/myth_lab_report.md),
+[sources](../reports/myth_lab/source_register.csv).
+
+Browser regression on the production build with preview on4173:
+`node myth-browser-check.mjs` in dashboard. Writes only new `reports/myth_lab/`
+evidence, preserving Task007 screenshots/reports. It checks desktop/mobile, card
+reveal/collapse, schema/fetch error isolation and existing filters.
+Existing manual Pages deployment procedure and research-lead approval requirement
+are unchanged. Git push of this extension does not activate public hosting.

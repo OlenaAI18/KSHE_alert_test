@@ -374,3 +374,172 @@ footer {
     min-width: 600px;
   }
 }
+
+/* Task007.1: isolated Myth Lab extension */
+.myth-lab {
+  position: relative;
+}
+.myth-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  margin-top: 30px;
+  align-items: start;
+}
+.myth-card {
+  background: #fff;
+  border: 1px solid #d8e2ef;
+  border-radius: 16px;
+  padding: 26px;
+  min-width: 0;
+  box-shadow: 0 5px 0 #e7eef7;
+}
+.myth-card h3 {
+  font-size: 21px;
+  line-height: 1.35;
+  margin: 20px 0 12px;
+}
+.myth-visual {
+  height: 88px;
+  border-radius: 10px;
+  background: #eef4ff;
+  color: #2256c7;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 18px;
+  overflow: hidden;
+}
+.myth-tone-1 .myth-visual {
+  background: #e9f8f6;
+  color: #078a85;
+}
+.myth-tone-2 .myth-visual {
+  background: #fff3e6;
+  color: #b66d1f;
+}
+.myth-number {
+  font-size: 31px;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+}
+.myth-visual svg {
+  width: 100px;
+  max-width: 30%;
+  flex-shrink: 0;
+  opacity: 0.6;
+}
+.myth-topic {
+  font-size: 11px;
+  font-weight: 750;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.myth-test {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.myth-button {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  background: #2256c7;
+  color: #fff;
+  border: 0;
+  border-radius: 8px;
+  padding: 12px 18px;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 650;
+  cursor: pointer;
+  min-width: 160px;
+}
+.myth-button:hover {
+  background: #1748b2;
+}
+.myth-result {
+  padding-top: 24px;
+}
+.myth-verdict {
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 5px;
+  background: #edf1f7;
+  color: #42516a;
+  font-size: 12px;
+  font-weight: 700;
+}
+.state-partially_supported {
+  background: #e8f5f3;
+  color: #156c63;
+}
+.state-inconclusive {
+  background: #fff2df;
+  color: #885e2a;
+}
+.myth-headline {
+  color: #172e50;
+  font-size: 16px;
+  font-weight: 600;
+}
+.myth-result .chart-card {
+  padding: 10px 0;
+  border: 0;
+  margin: 18px 0;
+}
+.myth-result .chart-card h3 {
+  font-size: 14px;
+  color: #5b6c83;
+  margin: 0;
+}
+.myth-result h4 {
+  font-size: 14px;
+  margin: 12px 0;
+}
+.myth-result table {
+  font-size: 12px;
+}
+.myth-result .table-wrap table {
+  min-width: 0;
+}
+.myth-result ul {
+  padding-left: 20px;
+  font-size: 13px;
+  color: #4c5f78;
+}
+.myth-result li {
+  margin: 8px 0;
+}
+.myth-evidence {
+  margin: 18px 0;
+}
+.myth-result details {
+  padding: 14px 12px;
+}
+.myth-result summary {
+  font-size: 13px;
+}
+@media (max-width: 720px) {
+  .myth-grid {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+  .myth-card {
+    padding: 20px;
+  }
+  .myth-card h3 {
+    font-size: 20px;
+  }
+  .myth-topic {
+    font-size: 10px;
+  }
+  .myth-visual {
+    padding: 12px;
+  }
+  .myth-result td,
+  .myth-result th {
+    padding: 8px 4px;
+  }
+}
