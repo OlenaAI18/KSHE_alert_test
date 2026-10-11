@@ -39,3 +39,12 @@ of 96 alerts without linked records and two with only empty-text records.
 
 v1.3/v1.4, dictionaries, source timestamps and temporal links are unchanged.
 **DIAGNOSTIC — HUMAN REVIEW REQUIRED.** No v1.5 is implemented.
+
+## Task 004.8 — experimental v1.5 audit
+
+Open [false_positive_audit_20.xlsx](task0048/false_positive_audit_20.xlsx) and click
+**Download raw file**. The workbook contains 20 audit cases, full in-alert
+timelines, separate pre-alert evidence and blank human review fields.
+
+**EXPERIMENTAL — HUMAN VALIDATION REQUIRED.** Coverage gains are not validated
+classification accuracy.
