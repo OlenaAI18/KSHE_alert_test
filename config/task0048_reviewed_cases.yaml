@@ -1,0 +1,9 @@
+# Audit fixtures only. This file is never read by the classification engine.
+review_cases:
+  - {alert_id: '833', approved_categories: [cruise_missile], label_status: research_lead_confirmed, failure: cross_message}
+  - {alert_id: '1312', approved_categories: [shahed_uav], label_status: research_lead_confirmed, failure: pre_alert_cross_message}
+  - {alert_id: '1500', approved_categories: [ballistic_high_speed], label_status: research_lead_confirmed, failure: context}
+  - {alert_id: '2589', approved_categories: [jet_uav], label_status: research_lead_confirmed, failure: context_geo}
+  - {alert_id: '806', approved_categories: [ballistic_high_speed], label_status: research_lead_confirmed, failure: lexical}
+  - {alert_id: '1096', approved_categories: [shahed_uav, ballistic_high_speed], label_status: research_lead_confirmed, failure: context}
+  - {alert_id: '1416', approved_categories: [shahed_uav], label_status: provisional_pending_formal_approval, failure: diagnostic}

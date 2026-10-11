@@ -1,0 +1,318 @@
+dictionary_version: v1.3
+status: provisional_human_validation_required
+description: 'Task 004.3 approved 2026-10-11: broad UAV analytical group, reactive shorthand to jet UAV, never confirmed
+  deployment.'
+category_order:
+- shahed_uav
+- jet_uav
+- ballistic_high_speed
+- cruise_missile
+- mig31
+- strategic_aviation
+- other
+- unknown
+normalization:
+  lowercase: true
+  hyphens: ‐‑‒–—−
+  apostrophes: ’ʼ`
+rules:
+- rule_id: jet_uav.shahed_238
+  category: jet_uav
+  subtype: shahed_238
+  pattern: (?<!\w)(?:(?:shahed|шахед)[ -]?238)(?!\w)
+  priority: 30
+  exclusions: []
+  uav_evidence_type: jet_uav_explicit
+- rule_id: jet_uav.jet_attack_uav
+  category: jet_uav
+  subtype: jet_attack_uav
+  pattern: (?<!\w)(?:реактивн(?:ий|і|ого|их|им|а|е)\s+(?:бпла|бплa|шахед(?:и|ів|ом)?|дрон(?:и|ів|ом)?))(?!\w)
+  priority: 30
+  exclusions: []
+  uav_evidence_type: jet_uav_explicit
+- rule_id: shahed_uav.shahed
+  category: shahed_uav
+  subtype: shahed
+  pattern: (?<!\w)(?:шахед(?:и|ів|а|ами|ом|у)?(?:[ -]?(?:136|131))?|shahed(?:[ -]?(?:136|131))?)(?!\w)
+  priority: 20
+  exclusions:
+  - (?:shahed|шахед)[ -]?238
+  uav_evidence_type: shahed_explicit
+- rule_id: shahed_uav.geran
+  category: shahed_uav
+  subtype: geran
+  pattern: (?<!\w)(?:геран(?:ь|і|ей|ями)(?:[ -]?2)?|geran[ -]?2)(?!\w)
+  priority: 20
+  exclusions: []
+  uav_evidence_type: shahed_explicit
+- rule_id: shahed_uav.attack_uav
+  category: shahed_uav
+  subtype: attack_uav
+  pattern: (?<!\w)(?:ударн(?:ий|і|их|ого)\s+(?:бпла|дрон(?:и|ів)?)|дрон(?:и|ів)?[ -]камікадзе)(?!\w)
+  priority: 20
+  exclusions: []
+  uav_evidence_type: attack_uav_explicit
+- rule_id: ballistic_high_speed.ballistic
+  category: ballistic_high_speed
+  subtype: ballistic
+  pattern: (?<!\w)(?:балістик(?:а|и|у|ою)|балістичн(?:а|і|их|ої|у|ої|ий|ого)\s+(?:загроз(?:а|и|у)|ракет(?:а|и|у|ою|ами|і|ної)))(?!\w)
+  priority: 10
+  exclusions: []
+- rule_id: ballistic_high_speed.iskander_m
+  category: ballistic_high_speed
+  subtype: iskander_m
+  pattern: (?<!\w)(?:іскандер[ -]м|iskander[ -]m)(?!\w)
+  priority: 10
+  exclusions: []
+- rule_id: ballistic_high_speed.kn23
+  category: ballistic_high_speed
+  subtype: kn23
+  pattern: (?<!\w)(?:(?:kn|кн)[ -]?23)(?!\w)
+  priority: 10
+  exclusions: []
+- rule_id: ballistic_high_speed.kinzhal
+  category: ballistic_high_speed
+  subtype: kinzhal
+  pattern: (?<!\w)(?:к[иі]нджал(?:и|ів|а|ом|у)?|kinzhal)(?!\w)
+  priority: 10
+  exclusions: []
+- rule_id: ballistic_high_speed.zircon
+  category: ballistic_high_speed
+  subtype: zircon
+  pattern: (?<!\w)(?:циркон(?:и|ів|а|ом|у)?|zircon)(?!\w)
+  priority: 10
+  exclusions: []
+- rule_id: cruise_missile.cruise
+  category: cruise_missile
+  subtype: cruise
+  pattern: (?<!\w)(?:крилат(?:а|і|их|ої|у|ими)\s+ракет(?:а|и|і|у|ою|ами)?)(?!\w)
+  priority: 10
+  exclusions: []
+- rule_id: cruise_missile.kh101
+  category: cruise_missile
+  subtype: kh101
+  pattern: (?<!\w)(?:(?:[хx]|kh)[ -]?101)(?!\w)
+  priority: 10
+  exclusions: []
+- rule_id: cruise_missile.kh555
+  category: cruise_missile
+  subtype: kh555
+  pattern: (?<!\w)(?:(?:[хx]|kh)[ -]?555)(?!\w)
+  priority: 10
+  exclusions: []
+- rule_id: cruise_missile.kalibr
+  category: cruise_missile
+  subtype: kalibr
+  pattern: (?<!\w)(?:калібр(?:и|ів|а|ом|у)?|kalibr)(?!\w)
+  priority: 10
+  exclusions: []
+- rule_id: cruise_missile.iskander_k
+  category: cruise_missile
+  subtype: iskander_k
+  pattern: (?<!\w)(?:іскандер[ -]к|iskander[ -]k)(?!\w)
+  priority: 10
+  exclusions: []
+- rule_id: cruise_missile.kh59
+  category: cruise_missile
+  subtype: kh59
+  pattern: (?<!\w)(?:(?:[хx]|kh)[ -]?59)(?!\w)
+  priority: 10
+  exclusions: []
+- rule_id: cruise_missile.kh69
+  category: cruise_missile
+  subtype: kh69
+  pattern: (?<!\w)(?:(?:[хx]|kh)[ -]?69)(?!\w)
+  priority: 10
+  exclusions: []
+- rule_id: mig31.mig31k
+  category: mig31
+  subtype: mig31k
+  pattern: (?<!\w)(?:(?:міг|миг|mig)[ -]?31[ -]?[кk])(?!\w)
+  priority: 10
+  exclusions: []
+- rule_id: mig31.mig_takeoff_unspecified_model
+  category: mig31
+  subtype: mig_takeoff_unspecified_model
+  pattern: (?<!\w)(?:(?:підйом|зліт)\s+міга)(?!\w)
+  priority: 10
+  exclusions: []
+- rule_id: strategic_aviation.strategic
+  category: strategic_aviation
+  subtype: strategic
+  pattern: (?<!\w)(?:стратегічн(?:а|ої|у|ою)\s+авіаці(?:я|ї|ю|єю))(?!\w)
+  priority: 10
+  exclusions: []
+- rule_id: strategic_aviation.tu95ms
+  category: strategic_aviation
+  subtype: tu95ms
+  pattern: (?<!\w)(?:(?:ту|tu)[ -]?95[ -]?(?:мс|ms))(?!\w)
+  priority: 10
+  exclusions: []
+- rule_id: strategic_aviation.tu160
+  category: strategic_aviation
+  subtype: tu160
+  pattern: (?<!\w)(?:(?:ту|tu)[ -]?160)(?!\w)
+  priority: 10
+  exclusions: []
+- rule_id: strategic_aviation.tu22m3
+  category: strategic_aviation
+  subtype: tu22m3
+  pattern: (?<!\w)(?:(?:ту|tu)[ -]?22[ -]?(?:м|m)3)(?!\w)
+  priority: 10
+  exclusions: []
+- rule_id: other.generic_uav
+  category: shahed_uav
+  subtype: generic_uav
+  pattern: (?<!\w)(?:бпла|бплa|дрон(?:и|ів|а|ом|у)?|безпілотник(?:и|ів|а|ом|у)?)(?!\w)
+  priority: 1
+  exclusions: []
+  uav_evidence_type: generic_uav
+- rule_id: other.unspecified_missile
+  category: other
+  subtype: unspecified_missile
+  pattern: (?<!\w)(?:ракет(?:а|и|і|у|ою|ами))(?!\w)
+  priority: 1
+  exclusions: []
+- rule_id: shahed_uav.shakh_shorthand
+  category: shahed_uav
+  subtype: shakh_shorthand
+  pattern: (?<!\w)шах(?:а|ів|и|ом|у)?(?!\w)
+  priority: 20
+  exclusions:
+  - шахмат\w*|шахов\w*|гра(?:ємо|ти)\s+в\s+шах\w*
+  uav_evidence_type: shahed_explicit
+- rule_id: shahed_uav.reactive_shorthand
+  category: jet_uav
+  subtype: reactive_shorthand_user_inferred
+  pattern: (?<!\w)реактивн(?:ий|і|ого|их|им|а|е|у|ої|ою)(?!\w)
+  priority: 15
+  exclusions:
+  - двигун\w*|вогнемет\w*|артилер\w*|снаряд\w*|літак\w*|ракет\w*
+  - розвідувальн\w*
+  uav_evidence_type: reactive_shorthand_inferred
+  inferred_shorthand: true
+- rule_id: cruise_missile.cruise_shorthand
+  category: cruise_missile
+  subtype: cruise_shorthand
+  pattern: (?<!\w)крилат(?:і|а|их)(?!\w)
+  priority: 5
+  exclusions: []
+- rule_id: jet_uav.reactive_noun_shorthand
+  category: jet_uav
+  subtype: reactive_noun_user_inferred
+  pattern: (?<!\w)реактив(?:и|ів|ом|у|а)?(?!\w)
+  priority: 15
+  exclusions:
+  - двигун\w*|вогнемет\w*|артилер\w*|снаряд\w*|літак\w*|ракет\w*
+  - розвідувальн\w*
+  uav_evidence_type: reactive_shorthand_inferred
+  inferred_shorthand: true
+context_rules:
+  negated_or_cancelled:
+  - \bвідбій\b
+  - \bскасован\w*
+  - \bзагроз\w*\s+(?:немає|нема|не\s+(?:нес\w*|станов\w*))
+  - \bне\s+(?:загрож\w*|нес\w*\s+загроз\w*|підтверд\w*)
+  - \bбез\s+загроз\w*
+  - \b(?:повернув\w*|поверта\w*|приземли\w*|сіли|сів)\b
+  - \bне\s+(?:на|до|над)\s+(?:київ|києв\w*|столиц\w*)\b
+  historical_or_summary:
+  - \b(?:вчора|учора|минул\w*|підсум\w*|статистик\w*|зведення|за\s+(?:добу|ніч|тиждень)|було\s+(?:збито|знищено)|збили|знищили)\b
+  uncertain:
+  - \b(?:ймовір\w*|можливо|схоже|непідтвердж\w*|чутки|якщо|походу|начебто|нібито|можлив\w*)\b
+  - \b(?:носій|носіями|носієм|є\s+носі\w*|експертиз\w*|характеристик\w*)\b
+  - \?
+  - \bрозвідувальн\w*
+  - \b(?:ніби|потенційн\w*|можуть|сподіва\w*|нагніта\w*)\b
+  explicit_alert_cause:
+  - \bтривог\w*[^\n.!?]{0,90}\b(?:через|пов.язан\w*\s+(?:з|із)|спричинен\w*)\b
+  - \bпричин\w*\s+тривог\w*
+  current_threat:
+  - \b(?:загроз\w*|небезпек\w*|зліт|зльот\w*|підйом|підня\w*|активніст\w*|активност\w*|в\s+повітрі|у\s+повітрі|рух\w*|курс\w*|лет\w*|прям\w*|наближ\w*|пуск\w*|запуск\w*|напрям\w*|вектор\w*)\b
+  - \b(?:на|до|над)\s+(?:ки(?:їв|єв(?:а|і|у|ом))|столиц(?:я|і|ю|ею))\b
+  - \bки(?:їв|єв(?:а|і|у|ом))\s*[-,:!]\s*(?:балістик\w*|шахед\w*|ракет\w*|бпла)\b
+geography_rules:
+  explicit_kyiv:
+  - \bки(?:їв|єв(?:а|і|у|ом))\b(?!\s*(?:обл\w*|регіон\w*))
+  - \bстолиц(?:я|і|ю|ею)\b
+  kyiv_region:
+  - \bкиївщин\w*
+  - \bкиївськ\w*\s+(?:обл\w*|регіон\w*)
+  - \bкиїв\s+обл\w*
+  nationwide:
+  - \bпо\s+(?:всій\s+)?(?:україні|країні)\b
+  - \bвс\w*\s+україн\w*
+  - \bвсі\s+області\b
+  - \bзагальнонаціональн\w*
+  other_region:
+  - \b(?:харків\w*|одес\w*|сумщин\w*|сумськ\w*|чернігів\w*|полтав\w*|черкас\w*|вінниц\w*|віннич\w*|житомир\w*|херсон\w*|миколаїв\w*|дніпр\w*|запорі\w*|львів\w*|кропивни\w*|крим\w*|бориспі\w*|бровар\w*|фастів\w*|білоцерк\w*)\b
+aggregation:
+  accepted_contexts:
+  - current_threat
+  - explicit_alert_cause
+  accepted_geographies:
+  - explicit_kyiv
+  - nationwide
+  unspecified_geography_policy: review_only
+  generic_uav_policy: shahed_uav:generic_uav; broad analytical UAV group, no inferred Shahed model
+  jet_overlap_policy: highest priority wins on overlapping spans; separate non-overlapping mentions retained
+  generic_overlap_policy: Suppress generic UAV/missile candidates when a corresponding specific family occurs in
+    the same clause; retain suppressed evidence for review.
+launch_negation_patterns:
+- \bбез\s+пуск\w*
+- \bпуск\w*\s+(?:немає|нема|не\s+було)
+- \bне\s+було\s+пуск\w*
+interpretation_policy:
+  version: user-context-v1.1-broad-uav
+  authorization_date: '2026-10-11'
+  classification_version: v1.3
+  required_geography_version: kyiv-geography-v1.1
+  approved_rules:
+    locality_threat_bulletin: Named Kyiv locality + threat shorthand is current threat; generic UAV remains generic.
+    toward_kyiv: Movement from outside toward Kyiv is relevant even with mixed source geography.
+    kyiv_alert_cause: Explicit Kyiv alert cause may reference a threat near an oblast settlement.
+    center_is_kyiv: Center is Kyiv in this inspected channel; not a universal place-name rule.
+    kinzhal_launch_warning: Bare Kinzhal launch warning is Kyiv-relevant alert context; source geography stays unspecified.
+    probabilistic_warning: Include operational probable/potential warnings, retaining uncertainty and no confirmed
+      cause inference.
+    shakh_is_shahed: Shakh shorthand denotes Shahed context.
+    cruise_shorthand_in_example7: Bare krylati in the user-approved operational example denotes cruise-missile context,
+      not a confirmed launch.
+    reactive_is_jet_uav: Reactive adjective/noun shorthand denotes channel-interpreted jet UAV context; preserve
+      inferred uncertainty, no model inference.
+    generic_uav_broad_group: Operational generic UAV terms belong to broad analytical shahed_uav with subtype generic_uav,
+      not an explicit Shahed model.
+  short_bulletin_max_characters: 140
+  short_bulletin_allowed_tokens: (?:\s|[\d#.,:;!+~≈()\[\]\-–—/]|бпла|увага|знову|знов|ще|на|над|до|у|в|біля|коло|актуально|шт|штук|один|два|три|пара|шляп\w*|хрін\w*)*
+  city_target_prefix: (?:\b(?:на|до|над)|\b(?:в|у)\s+(?:бік|напрямку))\s*$
+  denied_target_prefix: \bне\s+(?:на|до|над|в\s+бік|у\s+бік)\s*$
+  city_alert_prefix: \bтривог\w*[^\n.!?;]{0,45}\b(?:в|у|на)\s*$
+  launch_pattern: \bпуск\w*\b
+  qualifier_pattern: \b(?:ймовір\w*|можлив\w*|потенційн\w*|схоже|нібито|ніби|начебто|походу|можуть)\b
+  blocked_context_pattern: \?|\b(?:носій|носієм|носіями|експертиз\w*|характеристик\w*|якщо|завтра|післязавтра|жарт\w*|збір\w*|донат\w*|наш(?:і|ий|ого|их)|навчан\w*)\b
+  examples:
+  - Троя бпла
+  - ДВРЗ бпла
+  - 5 шахедів від Вишгорода на Київ
+  - Тривога в Києві через бпла біля Чабанів
+  - Буча бпла
+  - Центр бпла
+  - Пуск Кинджалу
+  - Київ увага, з обох сторін крилаті + в повітрі потенційно Кинджал
+  - Жуляни, шах
+  - Схоже на реактивну шляпу
+  operational_pattern: \b(?:загроз\w*|небезпек\w*|зліт|зльот\w*|підйом|підня\w*|активніст\w*|активност\w*|в\s+повітрі|у\s+повітрі|рух\w*|курс\w*|лет\w*|прям\w*|наближ\w*|пуск\w*|запуск\w*|напрям\w*|вектор\w*)\b|\b(?:на|до|над)\s+(?:ки(?:їв|єв(?:а|і|у|ом))|столиц(?:я|і|ю|ею))\b|\bки(?:їв|єв(?:а|і|у|ом))\s*[-,:!]\s*(?:балістик\w*|шахед\w*|ракет\w*|бпла)\b
+category_semantics_version: v1.3-broad-uav
+category_semantics:
+  shahed_uav: 'Broad non-jet UAV analytical group: explicit Shahed/Geran/attack UAV or generic UAV. Generic mentions
+    do not establish a Shahed model.'
+  jet_uav: Explicit jet UAV/model references plus research-lead-inferred reactive shorthand. Bare shorthand never
+    establishes a particular model.
+approved_change_log:
+- Keep prior rule IDs, patterns and explicit lexical subtypes. other.generic_uav category changes other -> shahed_uav;
+  prefix is historical provenance.
+- shahed_uav.reactive_shorthand moves shahed_uav -> jet_uav; subtype unchanged, inferred uncertainty always true.
+- Add jet_uav.reactive_noun_shorthand for approved reactive noun forms; inferred uncertainty always true.
+- No geography, timestamp, negation/history, cause, target, probability, elliptical-reference or non-UAV vocabulary
+  changes.
+- Explicit source model/family labels remain lexical evidence, never independent confirmation.

@@ -1,0 +1,22 @@
+status: ANALYST_COMPACT_SOURCE_CHECK_NOT_HUMAN_GOLD
+cases:
+  - {alert_id: '1545', message_id: '25400', category: mig31, accepted: true, assessment: 'Explicit MiG takeoff shorthand; model unspecified, lead approved.'}
+  - {alert_id: '1696', message_id: '31408', category: mig31, accepted: true, assessment: 'Explicit MiG in-air channel bulletin, not the verb.'}
+  - {alert_id: '899', message_id: '3794', category: ballistic_high_speed, accepted: true, assessment: 'Current ballistic-trajectory report is separate from introductory quoted question.'}
+  - {alert_id: '1120', message_id: '9501', category: ballistic_high_speed, accepted: true, assessment: 'Current ballistic warning; Severshchyna/Poltava is exact promotional footer, not destination.'}
+  - {alert_id: '841', message_id: '1514', category: strategic_aviation, accepted: true, assessment: 'Current threat from strategic bombers; carrier explanation does not cancel the warning.'}
+  - {alert_id: '2302', message_id: '45576', category: jet_uav, accepted: true, assessment: 'Explicit reactive UAV into our oblast; no separate generic UAV model attribution.'}
+  - {alert_id: '1947', message_id: '38741', category: cruise_missile, accepted: true, assessment: 'Explicit probable cruise missile; uncertainty retained.'}
+  - {alert_id: '2367', message_id: '47084', category: shahed_uav, accepted: true, assessment: 'Troia Kyiv locality plus current UAV destination; generic UAV, not model proof.'}
+  - {alert_id: '1180', message_id: '10958', category: strategic_aviation, accepted: false, assessment: 'Aircraft explicitly described as non-threatening evacuation from strike.'}
+  - {alert_id: '1834', message_id: '35357', category: shahed_uav, accepted: false, assessment: 'Satirical sequence of contradictory reactions, not an operational warning.'}
+  - {alert_id: '1983', message_id: '39590', category: ballistic_high_speed, accepted: false, assessment: 'Could have been a launch; hypothetical past occurrence is not a current anchor.'}
+  - {alert_id: '2241', message_id: '44638', category: shahed_uav, accepted: false, assessment: 'Current absence of UAVs; sole invalid old acceptance withdrawn.'}
+  - {alert_id: '1303', message_id: '15714', category: ballistic_high_speed, accepted: false, assessment: 'No ballistic target to Kyiv now or earlier; distant negation remains scoped to target.'}
+  - {alert_id: '1190', message_id: '11182', category: strategic_aviation, accepted: false, assessment: 'Channel boasting about earlier reporting, not a new operational takeoff.'}
+  - {alert_id: '1208', message_id: '11763', category: strategic_aviation, accepted: false, assessment: 'Hope about morning plus explicit no signs of activity; no current aviation warning.'}
+  - {alert_id: '1342', message_id: '17428', category: strategic_aviation, accepted: false, assessment: 'Anticipation of hysteria about launches, not source-backed launch warning.'}
+  - {alert_id: '862', message_id: '2352', category: ballistic_high_speed, accepted: false, assessment: 'Explicitly absent Kinzhal launches; MiG takeoff remains separately supported.'}
+  - {alert_id: '1076', message_id: '8596', category: strategic_aviation, accepted: false, assessment: 'Explicitly absent operational strategic aviation activity.'}
+  - {alert_id: '873', message_id: '2795', category: ballistic_high_speed, accepted: false, assessment: 'Explanatory how-targets-work post, not current target evidence.'}
+  - {alert_id: '888', message_id: '3377', category: other, accepted: false, assessment: 'Missiles headed to Sumy; Kursk origin must not match the word course and permit Kyiv transfer.'}

@@ -1,0 +1,48 @@
+attribution_version: v1.6
+status: EXPERIMENTAL — HUMAN VALIDATION REQUIRED
+source_classification_version: v1.5
+pre_alert_minutes: 10
+context_anchor_max_minutes: 10
+context_max_gap_minutes: 5
+short_bulletin_max_tokens: 12
+enabled_corrections: [A, B, C, D, scope]
+enabled_v16_corrections: [lexical, boilerplate, operational, scope]
+mig_shorthand_approved: true
+mig_shorthand_authorization: research_lead_reply_2026-10-11_channel_convention_model_unspecified
+lexical_extensions:
+  - rule_id: ballistic_high_speed.inflections_v16
+    category: ballistic_high_speed
+    subtype: ballistic_inflection
+    pattern: '(?<!\w)балісти(?:ці|кою)(?!\w)'
+    priority: 10
+    exclusions: []
+  - rule_id: ballistic_high_speed.target_trajectory_v16
+    category: ballistic_high_speed
+    subtype: ballistic_target_or_trajectory
+    pattern: '(?<!\w)балістичн(?:а|і|их|ої|у|ою|ими|ій)\s+(?:ціл(?:ь|і|ей|лю|ям|ями|ях)|тра(?:є|е)кторі(?:я|ї|єю|ю))(?!\w)'
+    priority: 10
+    exclusions: []
+  - rule_id: strategic_aviation.tu95_unspecified_variant_v16
+    category: strategic_aviation
+    subtype: tu95_variant_unspecified
+    pattern: '(?<!\w)(?:ту|tu)[ -]?95(?![\w-])'
+    priority: 10
+    exclusions: []
+  - rule_id: cruise_missile.inflected_missile_v16
+    category: cruise_missile
+    subtype: cruise_inflection
+    pattern: '(?<!\w)крилат(?:ою|ій|ого|ими)\s+ракет(?:ою|і|ами|а|и|у)(?!\w)'
+    priority: 10
+    exclusions: []
+  - rule_id: ballistic_high_speed.brsd_v16
+    category: ballistic_high_speed
+    subtype: medium_range_ballistic_abbreviation
+    pattern: '(?<!\w)брсд(?!\w)'
+    priority: 10
+    exclusions: []
+  - rule_id: mig31.channel_shorthand_user_confirmed_v16
+    category: mig31
+    subtype: mig_channel_model_unspecified
+    pattern: '(?<!\w)(?:міг|миг|mig)(?:у|а|ів|и|ам)?(?![\w-])'
+    priority: 20
+    exclusions: []

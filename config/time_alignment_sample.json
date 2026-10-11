@@ -1,0 +1,216 @@
+{
+  "schema_version": "1",
+  "description": "Task 002.1 hand-reviewed Kyiv-specific start/end announcements. This is an exploratory verification sample, not a production linking rule or random statistical sample.",
+  "source_sha256": {
+    "alerts": "0c9ef4fc776ef695d818127ff5d11f9a9e994acf703c063e97b89f332c07e44b",
+    "telegram": "8225e1a3e886671cfb24257d2e3b7effe549a4245c5c042af3cfaf93e1a7ee61"
+  },
+  "samples": [
+    {
+      "message_id": "133",
+      "alert_id": "796",
+      "event": "start",
+      "selection_basis": "Reviewed current Kyiv-city/capital alert announcement; geography and event type checked in source text. Fixed same official boundary for both hypotheses."
+    },
+    {
+      "message_id": "136",
+      "alert_id": "796",
+      "event": "end",
+      "selection_basis": "Reviewed current Kyiv-city/capital alert announcement; geography and event type checked in source text. Fixed same official boundary for both hypotheses."
+    },
+    {
+      "message_id": "1631",
+      "alert_id": "849",
+      "event": "start",
+      "selection_basis": "Reviewed current Kyiv-city/capital alert announcement; geography and event type checked in source text. Fixed same official boundary for both hypotheses."
+    },
+    {
+      "message_id": "2754",
+      "alert_id": "873",
+      "event": "start",
+      "selection_basis": "Reviewed current Kyiv-city/capital alert announcement; geography and event type checked in source text. Fixed same official boundary for both hypotheses."
+    },
+    {
+      "message_id": "3326",
+      "alert_id": "886",
+      "event": "start",
+      "selection_basis": "Reviewed current Kyiv-city/capital alert announcement; geography and event type checked in source text. Fixed same official boundary for both hypotheses."
+    },
+    {
+      "message_id": "3683",
+      "alert_id": "897",
+      "event": "start",
+      "selection_basis": "Reviewed current Kyiv-city/capital alert announcement; geography and event type checked in source text. Fixed same official boundary for both hypotheses."
+    },
+    {
+      "message_id": "5112",
+      "alert_id": "935",
+      "event": "start",
+      "selection_basis": "Reviewed current Kyiv-city/capital alert announcement; geography and event type checked in source text. Fixed same official boundary for both hypotheses."
+    },
+    {
+      "message_id": "9438",
+      "alert_id": "1116",
+      "event": "start",
+      "selection_basis": "Reviewed current Kyiv-city/capital alert announcement; geography and event type checked in source text. Fixed same official boundary for both hypotheses."
+    },
+    {
+      "message_id": "9751",
+      "alert_id": "1129",
+      "event": "start",
+      "selection_basis": "Reviewed current Kyiv-city/capital alert announcement; geography and event type checked in source text. Fixed same official boundary for both hypotheses."
+    },
+    {
+      "message_id": "10532",
+      "alert_id": "1171",
+      "event": "start",
+      "selection_basis": "Reviewed current Kyiv-city/capital alert announcement; geography and event type checked in source text. Fixed same official boundary for both hypotheses."
+    },
+    {
+      "message_id": "10746",
+      "alert_id": "1176",
+      "event": "start",
+      "selection_basis": "Reviewed current Kyiv-city/capital alert announcement; geography and event type checked in source text. Fixed same official boundary for both hypotheses."
+    },
+    {
+      "message_id": "11030",
+      "alert_id": "1184",
+      "event": "start",
+      "selection_basis": "Reviewed current Kyiv-city/capital alert announcement; geography and event type checked in source text. Fixed same official boundary for both hypotheses."
+    },
+    {
+      "message_id": "14469",
+      "alert_id": "1274",
+      "event": "end",
+      "selection_basis": "Reviewed current Kyiv-city/capital alert announcement; geography and event type checked in source text. Fixed same official boundary for both hypotheses."
+    },
+    {
+      "message_id": "14568",
+      "alert_id": "1276",
+      "event": "end",
+      "selection_basis": "Reviewed current Kyiv-city/capital alert announcement; geography and event type checked in source text. Fixed same official boundary for both hypotheses."
+    },
+    {
+      "message_id": "15068",
+      "alert_id": "1287",
+      "event": "end",
+      "selection_basis": "Reviewed current Kyiv-city/capital alert announcement; geography and event type checked in source text. Fixed same official boundary for both hypotheses."
+    },
+    {
+      "message_id": "21681",
+      "alert_id": "1448",
+      "event": "start",
+      "selection_basis": "Reviewed current Kyiv-city/capital alert announcement; geography and event type checked in source text. Fixed same official boundary for both hypotheses."
+    },
+    {
+      "message_id": "25060",
+      "alert_id": "1530",
+      "event": "start",
+      "selection_basis": "Reviewed current Kyiv-city/capital alert announcement; geography and event type checked in source text. Fixed same official boundary for both hypotheses."
+    },
+    {
+      "message_id": "26697",
+      "alert_id": "1603",
+      "event": "start",
+      "selection_basis": "Reviewed current Kyiv-city/capital alert announcement; geography and event type checked in source text. Fixed same official boundary for both hypotheses."
+    },
+    {
+      "message_id": "30632",
+      "alert_id": "1678",
+      "event": "start",
+      "selection_basis": "Reviewed current Kyiv-city/capital alert announcement; geography and event type checked in source text. Fixed same official boundary for both hypotheses."
+    },
+    {
+      "message_id": "36415",
+      "alert_id": "1880",
+      "event": "start",
+      "selection_basis": "Reviewed current Kyiv-city/capital alert announcement; geography and event type checked in source text. Fixed same official boundary for both hypotheses."
+    },
+    {
+      "message_id": "37188",
+      "alert_id": "1898",
+      "event": "start",
+      "selection_basis": "Reviewed current Kyiv-city/capital alert announcement; geography and event type checked in source text. Fixed same official boundary for both hypotheses."
+    },
+    {
+      "message_id": "39072",
+      "alert_id": "1963",
+      "event": "start",
+      "selection_basis": "Reviewed current Kyiv-city/capital alert announcement; geography and event type checked in source text. Fixed same official boundary for both hypotheses."
+    },
+    {
+      "message_id": "39722",
+      "alert_id": "1991",
+      "event": "start",
+      "selection_basis": "Reviewed current Kyiv-city/capital alert announcement; geography and event type checked in source text. Fixed same official boundary for both hypotheses."
+    },
+    {
+      "message_id": "41745",
+      "alert_id": "2084",
+      "event": "start",
+      "selection_basis": "Reviewed current Kyiv-city/capital alert announcement; geography and event type checked in source text. Fixed same official boundary for both hypotheses."
+    },
+    {
+      "message_id": "42291",
+      "alert_id": "2117",
+      "event": "start",
+      "selection_basis": "Reviewed current Kyiv-city/capital alert announcement; geography and event type checked in source text. Fixed same official boundary for both hypotheses."
+    },
+    {
+      "message_id": "43617",
+      "alert_id": "2182",
+      "event": "start",
+      "selection_basis": "Reviewed current Kyiv-city/capital alert announcement; geography and event type checked in source text. Fixed same official boundary for both hypotheses."
+    },
+    {
+      "message_id": "44902",
+      "alert_id": "2252",
+      "event": "end",
+      "selection_basis": "Reviewed current Kyiv-city/capital alert announcement; geography and event type checked in source text. Fixed same official boundary for both hypotheses."
+    },
+    {
+      "message_id": "47859",
+      "alert_id": "2395",
+      "event": "start",
+      "selection_basis": "Reviewed current Kyiv-city/capital alert announcement; geography and event type checked in source text. Fixed same official boundary for both hypotheses."
+    }
+  ],
+  "excluded_examples": [
+    {
+      "message_id": "1152",
+      "reason": "City readiness, while an alert is active in the region; not a Kyiv-city start announcement."
+    },
+    {
+      "message_id": "1655",
+      "reason": "All-clear is for Cherkasy; Kyiv remains under alert."
+    },
+    {
+      "message_id": "268",
+      "reason": "Domestic explosion explicitly unrelated to an alert."
+    },
+    {
+      "message_id": "298",
+      "reason": "Bot update, not a contemporary alert boundary."
+    },
+    {
+      "message_id": "1311",
+      "reason": "Regional alert and possible future city alert, not a current city start."
+    },
+    {
+      "message_id": "14123",
+      "reason": "Expected future all-clear; not an announced end."
+    },
+    {
+      "message_id": "14703",
+      "reason": "Retrospective commentary on a previous alert."
+    },
+    {
+      "message_id": "35484",
+      "reason": "Ambiguous qualification (there is a nuance) rather than an unequivocal boundary bulletin."
+    },
+    {
+      "message_id": "44214",
+      "reason": "Joke, not a reliable contemporary announcement."
+    }
+  ]
+}

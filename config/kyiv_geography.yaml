@@ -1,0 +1,673 @@
+dictionary_version: kyiv-geography-v1.0
+status: provisional_human_validation_required
+scope: Small Kyiv locality and nearby-settlement dictionary, not an exhaustive gazetteer.
+normalization: Same reversible lowercase/dash/apostrophe mapping as threat dictionary.
+resolution:
+  overlap: Longest specific locality span wins; nested shorter aliases are suppressed.
+  anchor: Generic or shared names require explicit Kyiv or another unambiguous city locality; no inference from
+    channel or alert interval.
+  mixed_geographies: Keep uncertain; do not infer direction or destination.
+  suburbs: kyiv_region, never Kyiv City.
+localities:
+- locality_id: kyiv_city
+  canonical_name: Київ
+  locality_type: city
+  category: explicit_kyiv
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:ки(?:їв|єв(?:а|і|у|ом))|киев(?:а|е|у|ом)?)(?!\w)(?!\s*(?:обл\w*|регіон\w*))
+  - (?<!\w)столиц(?:я|і|ю|ею)(?!\w)
+  note: City reference; neither actual destination nor confirmed threat.
+- locality_id: kyiv_oblast
+  canonical_name: Київська область
+  locality_type: administrative_oblast
+  category: kyiv_region
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:київщин(?:а|и|і|у|ою)|київськ(?:а|ої|ій|у|ою)\s+област(?:ь|і|ю)|київ\s+обл)(?!\w)
+  note: Oblast is distinct from City.
+- locality_id: holosiivskyi
+  canonical_name: Голосіївський район
+  locality_type: administrative_district
+  category: explicit_kyiv
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:голосіївськ(?:ий|ого|ому|ім|им)\s*(?:р(?:айон(?:у|і|ом)?)?|р-н(?:у|і|ом)?|рн))(?!\w)
+  note: Some district names also occur in other cities; ambiguous entries need a Kyiv anchor.
+- locality_id: darnytskyi
+  canonical_name: Дарницький район
+  locality_type: administrative_district
+  category: explicit_kyiv
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:дарницьк(?:ий|ого|ому|ім|им)\s*(?:р(?:айон(?:у|і|ом)?)?|р-н(?:у|і|ом)?|рн))(?!\w)
+  note: Some district names also occur in other cities; ambiguous entries need a Kyiv anchor.
+- locality_id: desnianskyi
+  canonical_name: Деснянський район
+  locality_type: administrative_district
+  category: explicit_kyiv
+  requires_kyiv_anchor: true
+  patterns:
+  - (?<!\w)(?:деснянськ(?:ий|ого|ому|ім|им)\s*(?:р(?:айон(?:у|і|ом)?)?|р-н(?:у|і|ом)?|рн))(?!\w)
+  note: Some district names also occur in other cities; ambiguous entries need a Kyiv anchor.
+- locality_id: dniprovskyi
+  canonical_name: Дніпровський район
+  locality_type: administrative_district
+  category: explicit_kyiv
+  requires_kyiv_anchor: true
+  patterns:
+  - (?<!\w)(?:дніпровськ(?:ий|ого|ому|ім|им)\s*(?:р(?:айон(?:у|і|ом)?)?|р-н(?:у|і|ом)?|рн))(?!\w)
+  note: Some district names also occur in other cities; ambiguous entries need a Kyiv anchor.
+- locality_id: obolonskyi
+  canonical_name: Оболонський район
+  locality_type: administrative_district
+  category: explicit_kyiv
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:оболонськ(?:ий|ого|ому|ім|им)\s*(?:р(?:айон(?:у|і|ом)?)?|р-н(?:у|і|ом)?|рн))(?!\w)
+  note: Some district names also occur in other cities; ambiguous entries need a Kyiv anchor.
+- locality_id: pecherskyi
+  canonical_name: Печерський район
+  locality_type: administrative_district
+  category: explicit_kyiv
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:печерськ(?:ий|ого|ому|ім|им)\s*(?:р(?:айон(?:у|і|ом)?)?|р-н(?:у|і|ом)?|рн))(?!\w)
+  note: Some district names also occur in other cities; ambiguous entries need a Kyiv anchor.
+- locality_id: podilskyi
+  canonical_name: Подільський район
+  locality_type: administrative_district
+  category: explicit_kyiv
+  requires_kyiv_anchor: true
+  patterns:
+  - (?<!\w)(?:подільськ(?:ий|ого|ому|ім|им)\s*(?:р(?:айон(?:у|і|ом)?)?|р-н(?:у|і|ом)?|рн))(?!\w)
+  note: Some district names also occur in other cities; ambiguous entries need a Kyiv anchor.
+- locality_id: sviatoshynskyi
+  canonical_name: Святошинський район
+  locality_type: administrative_district
+  category: explicit_kyiv
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:святошинськ(?:ий|ого|ому|ім|им)\s*(?:р(?:айон(?:у|і|ом)?)?|р-н(?:у|і|ом)?|рн))(?!\w)
+  note: Some district names also occur in other cities; ambiguous entries need a Kyiv anchor.
+- locality_id: solomianskyi
+  canonical_name: Солом’янський район
+  locality_type: administrative_district
+  category: explicit_kyiv
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:солом'?янськ(?:ий|ого|ому|ім|им)\s*(?:р(?:айон(?:у|і|ом)?)?|р-н(?:у|і|ом)?|рн))(?!\w)
+  note: Some district names also occur in other cities; ambiguous entries need a Kyiv anchor.
+- locality_id: shevchenkivskyi
+  canonical_name: Шевченківський район
+  locality_type: administrative_district
+  category: explicit_kyiv
+  requires_kyiv_anchor: true
+  patterns:
+  - (?<!\w)(?:шевченківськ(?:ий|ого|ому|ім|им)\s*(?:р(?:айон(?:у|і|ом)?)?|р-н(?:у|і|ом)?|рн))(?!\w)
+  note: Some district names also occur in other cities; ambiguous entries need a Kyiv anchor.
+- locality_id: troieshchyna
+  canonical_name: Троєщина
+  locality_type: neighborhood
+  category: explicit_kyiv
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:тро(?:є|е)щин(?:а|и|і|у|ою|е|ой))(?!\w)
+  - (?<!\w)(?:тро(?:я|ї|ю|ею))(?!\w)
+  note: Троя is a colloquial alias; lexical identification is provisional.
+- locality_id: obolon
+  canonical_name: Оболонь
+  locality_type: neighborhood
+  category: explicit_kyiv
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:оболон(?:ь|і|ю|и))(?!\w)
+  note: null
+- locality_id: holosiiv
+  canonical_name: Голосіїв
+  locality_type: neighborhood
+  category: explicit_kyiv
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:голосі(?:їв|єв)(?:о|а|і|у|ом)?)(?!\w)
+  - (?<!\w)(?:голосе(?:ево|еве|еву|ева))(?!\w)
+  note: null
+- locality_id: pechersk
+  canonical_name: Печерськ
+  locality_type: neighborhood
+  category: explicit_kyiv
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:печерськ(?:у|а|ом)?)(?!\w)
+  - (?<!\w)(?:печерск(?:е|а|у|ом)?)(?!\w)
+  note: null
+- locality_id: podil
+  canonical_name: Поділ
+  locality_type: neighborhood
+  category: explicit_kyiv
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:под(?:іл|ол)(?:і|у|а|ом)?)(?!\w)
+  note: null
+- locality_id: sviatoshyn
+  canonical_name: Святошин
+  locality_type: neighborhood
+  category: explicit_kyiv
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:святошин(?:о|а|і|у|ом)?)(?!\w)
+  note: null
+- locality_id: darnytsia
+  canonical_name: Дарниця
+  locality_type: neighborhood
+  category: explicit_kyiv
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:дарниц(?:я|і|ю|ею|а|е|у))(?!\w)
+  note: null
+- locality_id: solomianka
+  canonical_name: Солом’янка
+  locality_type: neighborhood
+  category: explicit_kyiv
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:солом'?янк(?:а|и|і|у|ою))(?!\w)
+  note: null
+- locality_id: soloma_alias
+  canonical_name: Солом’янка (Солома)
+  locality_type: neighborhood
+  category: explicit_kyiv
+  requires_kyiv_anchor: true
+  patterns:
+  - (?<!\w)(?:солом(?:а|і|у|ою))(?!\w)
+  note: Common noun; do not infer Kyiv without an anchor.
+- locality_id: vynohradar
+  canonical_name: Виноградар
+  locality_type: neighborhood
+  category: explicit_kyiv
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:виноградар(?:я|і|у|ем|ь|е)?)(?!\w)
+  note: null
+- locality_id: nyvky
+  canonical_name: Нивки
+  locality_type: neighborhood
+  category: explicit_kyiv
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:нив(?:ки|ок|ках|ками))(?!\w)
+  note: null
+- locality_id: syrets
+  canonical_name: Сирець
+  locality_type: neighborhood
+  category: explicit_kyiv
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:сир(?:ець|ця|ці|цем)|сырец)(?!\w)
+  note: null
+- locality_id: lukianivka
+  canonical_name: Лук’янівка
+  locality_type: neighborhood
+  category: explicit_kyiv
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:лук'?ян(?:івк|овк)(?:а|и|і|у|ою|е))(?!\w)
+  note: null
+- locality_id: dorohozhychi
+  canonical_name: Дорогожичі
+  locality_type: neighborhood
+  category: explicit_kyiv
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:дорогожич(?:і|и|ах|ів|ами))(?!\w)
+  note: null
+- locality_id: shuliavka
+  canonical_name: Шулявка
+  locality_type: neighborhood
+  category: explicit_kyiv
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:шулявк(?:а|и|і|у|ою|е))(?!\w)
+  note: null
+- locality_id: zhuliany
+  canonical_name: Жуляни
+  locality_type: neighborhood
+  category: explicit_kyiv
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:жулян(?:и|ів|ах|ами))(?!\w)
+  note: null
+- locality_id: vidradnyi
+  canonical_name: Відрадний
+  locality_type: neighborhood
+  category: explicit_kyiv
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:відрадн(?:ий|ого|ому|ім)|отрадн(?:ый|ого|ом))(?!\w)
+  note: null
+- locality_id: teremky
+  canonical_name: Теремки
+  locality_type: neighborhood
+  category: explicit_kyiv
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:терем(?:ки|ків|ках|ками))(?!\w)
+  note: null
+- locality_id: feofaniia
+  canonical_name: Феофанія
+  locality_type: neighborhood
+  category: explicit_kyiv
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:феофані(?:я|ї|ю|єю)|феофани(?:я|и|ю))(?!\w)
+  note: null
+- locality_id: akademmistechko
+  canonical_name: Академмістечко
+  locality_type: neighborhood
+  category: explicit_kyiv
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:академ(?:містечк|городк)(?:о|а|у|ом)|академгородок)(?!\w)
+  note: null
+- locality_id: akadem_alias
+  canonical_name: Академмістечко (Академ)
+  locality_type: neighborhood
+  category: explicit_kyiv
+  requires_kyiv_anchor: true
+  patterns:
+  - (?<!\w)(?:академ)(?!\w)
+  note: Abbreviation is ambiguous without Kyiv anchor.
+- locality_id: bilychi
+  canonical_name: Біличі
+  locality_type: neighborhood
+  category: explicit_kyiv
+  requires_kyiv_anchor: true
+  patterns:
+  - (?<!\w)(?:білич(?:і|ах|ів)|белич(?:и|ах))(?!\w)
+  note: Non-unique name; Kyiv anchor required.
+- locality_id: bortnychi
+  canonical_name: Бортничі
+  locality_type: neighborhood
+  category: explicit_kyiv
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:бортнич(?:і|и|ів|ах|ами))(?!\w)
+  note: null
+- locality_id: dvrz
+  canonical_name: ДВРЗ
+  locality_type: neighborhood
+  category: explicit_kyiv
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:дврз)(?!\w)
+  note: null
+- locality_id: berezniaky
+  canonical_name: Березняки
+  locality_type: neighborhood
+  category: explicit_kyiv
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:березня(?:ки|ків|ках|ками|ков))(?!\w)
+  note: null
+- locality_id: rusanivka
+  canonical_name: Русанівка
+  locality_type: neighborhood
+  category: explicit_kyiv
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:русан(?:івк|овк)(?:а|и|і|у|ою|е))(?!\w)
+  note: null
+- locality_id: pozniaky
+  canonical_name: Позняки
+  locality_type: neighborhood
+  category: explicit_kyiv
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:позня(?:ки|ків|ках|ками|ков))(?!\w)
+  note: null
+- locality_id: osokorky
+  canonical_name: Осокорки
+  locality_type: neighborhood
+  category: explicit_kyiv
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:осокор(?:ки|ків|ках|ками|ков))(?!\w)
+  note: null
+- locality_id: kharkivskyi_masyv
+  canonical_name: Харківський масив
+  locality_type: neighborhood
+  category: explicit_kyiv
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:харківськ(?:ий|ого|ому|ім)\s+масив(?:у|і|ом)?)(?!\w)
+  note: null
+- locality_id: lisovyi_masyv
+  canonical_name: Лісовий масив
+  locality_type: neighborhood
+  category: explicit_kyiv
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:(?:лісов|лесн)(?:ий|ой|ого|ому|ом)\s+(?:масив|массив)(?:у|і|ом)?)(?!\w)
+  note: null
+- locality_id: lisovyi_alias
+  canonical_name: Лісовий масив (Лісовий)
+  locality_type: neighborhood
+  category: explicit_kyiv
+  requires_kyiv_anchor: true
+  patterns:
+  - (?<!\w)(?:лісов(?:ий|ого|ому|ім))(?!\w)
+  note: Generic adjective; Kyiv anchor required.
+- locality_id: borshchahivka
+  canonical_name: Борщагівка (без уточнення)
+  locality_type: neighborhood
+  category: explicit_kyiv
+  requires_kyiv_anchor: true
+  patterns:
+  - (?<!\w)(?:борщаг(?:івк|овк)(?:а|и|і|у|ою|е)|борщаг(?:а|и|і|у|ою|ами|ах))(?!\w)
+  note: Could mean Kyiv neighborhoods or neighboring settlements; require a city anchor.
+- locality_id: pivdenna_borshchahivka
+  canonical_name: Південна Борщагівка
+  locality_type: neighborhood
+  category: explicit_kyiv
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:південн(?:а|ої|ій|у)\s+борщагівк(?:а|и|і|у|ою))(?!\w)
+  note: null
+- locality_id: mykilska_borshchahivka
+  canonical_name: Микільська Борщагівка
+  locality_type: neighborhood
+  category: explicit_kyiv
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:микільськ(?:а|ої|ій|у)\s+борщагівк(?:а|и|і|у|ою))(?!\w)
+  note: null
+- locality_id: pushcha_vodytsia
+  canonical_name: Пуща-Водиця
+  locality_type: neighborhood
+  category: explicit_kyiv
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:пущ(?:а|і|у|ею)[ -]водиц(?:я|і|ю|ею))(?!\w)
+  note: null
+- locality_id: pushcha_alias
+  canonical_name: Пуща-Водиця (Пуща)
+  locality_type: neighborhood
+  category: explicit_kyiv
+  requires_kyiv_anchor: true
+  patterns:
+  - (?<!\w)(?:пущ(?:а|і|у|ею))(?!\w)
+  note: Generic wooded area; require Kyiv anchor.
+- locality_id: koncha_zaspa
+  canonical_name: Конча-Заспа
+  locality_type: neighborhood
+  category: explicit_kyiv
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:конч(?:а|і|у|ою)[ -]засп(?:а|и|і|у|ою))(?!\w)
+  note: null
+- locality_id: zaspa_alias
+  canonical_name: Конча-Заспа (Заспа)
+  locality_type: neighborhood
+  category: explicit_kyiv
+  requires_kyiv_anchor: true
+  patterns:
+  - (?<!\w)(?:засп(?:а|и|і|у|ою))(?!\w)
+  note: null
+- locality_id: pivnichnyi_bridge
+  canonical_name: Північний / Московський міст
+  locality_type: landmark
+  category: explicit_kyiv
+  requires_kyiv_anchor: true
+  patterns:
+  - (?<!\w)(?:(?:північн(?:ий|ого|ому)|московськ(?:ий|ого|ому))\s+м(?:іст|ост(?:а|у|і|ом)))(?!\w)
+  note: null
+- locality_id: paton_bridge
+  canonical_name: Міст Патона
+  locality_type: landmark
+  category: explicit_kyiv
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:міст\s+патона|мост(?:а|у|і|ом)?\s+патона)(?!\w)
+  note: null
+- locality_id: havanskyi_bridge
+  canonical_name: Гаванський міст
+  locality_type: landmark
+  category: explicit_kyiv
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:гаванськ(?:ий|ого|ому)\s+м(?:іст|ост(?:а|у|і|ом)))(?!\w)
+  note: null
+- locality_id: pivdennyi_bridge
+  canonical_name: Південний міст
+  locality_type: landmark
+  category: explicit_kyiv
+  requires_kyiv_anchor: true
+  patterns:
+  - (?<!\w)(?:південн(?:ий|ого|ому)\s+м(?:іст|ост(?:а|у|і|ом)))(?!\w)
+  note: null
+- locality_id: left_bank
+  canonical_name: Лівий берег
+  locality_type: landmark
+  category: explicit_kyiv
+  requires_kyiv_anchor: true
+  patterns:
+  - (?<!\w)(?:лів(?:ий|ого|ому|им)\s+берег(?:а|у|ом|і)?|лб)(?!\w)
+  note: null
+- locality_id: right_bank
+  canonical_name: Правий берег
+  locality_type: landmark
+  category: explicit_kyiv
+  requires_kyiv_anchor: true
+  patterns:
+  - (?<!\w)(?:прав(?:ий|ого|ому|им)\s+берег(?:а|у|ом|і)?|пб)(?!\w)
+  note: null
+- locality_id: city_center
+  canonical_name: Центр
+  locality_type: landmark
+  category: explicit_kyiv
+  requires_kyiv_anchor: true
+  patterns:
+  - (?<!\w)(?:центр(?:і|у|ом|а)?)(?!\w)
+  note: null
+- locality_id: vyshhorod
+  canonical_name: Вишгород
+  locality_type: suburb
+  category: kyiv_region
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:вишгород(?:а|і|у|ом)?)(?!\w)
+  note: null
+- locality_id: irpin
+  canonical_name: Ірпінь
+  locality_type: suburb
+  category: kyiv_region
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:ірп(?:інь|ен(?:я|і|ем|ь))|ирп(?:ень|ен(?:я|е|ем)))(?!\w)
+  note: null
+- locality_id: bucha
+  canonical_name: Буча
+  locality_type: suburb
+  category: kyiv_region
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:буч(?:а|і|у|ею|и))(?!\w)
+  note: null
+- locality_id: hostomel
+  canonical_name: Гостомель
+  locality_type: suburb
+  category: kyiv_region
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:гостомел(?:ь|я|і|ем|ю|е))(?!\w)
+  note: null
+- locality_id: vyshneve
+  canonical_name: Вишневе
+  locality_type: suburb
+  category: kyiv_region
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:вишнев(?:е|ого|ому|им))(?!\w)
+  note: null
+- locality_id: boiarka
+  canonical_name: Боярка
+  locality_type: suburb
+  category: kyiv_region
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:боярк(?:а|и|і|у|ою|е))(?!\w)
+  note: null
+- locality_id: boryspil
+  canonical_name: Бориспіль
+  locality_type: suburb
+  category: kyiv_region
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:борисп(?:іль|ол(?:я|і|ем|ь|ю)))(?!\w)
+  note: null
+- locality_id: brovary
+  canonical_name: Бровари
+  locality_type: suburb
+  category: kyiv_region
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:бровар(?:и|ів|ах|ами|ов))(?!\w)
+  note: null
+- locality_id: vasylkiv
+  canonical_name: Васильків
+  locality_type: suburb
+  category: kyiv_region
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:васильк(?:ів|ов(?:а|і|у|ом))|васік(?:а|у|ом|і)?)(?!\w)
+  note: null
+- locality_id: obukhiv
+  canonical_name: Обухів
+  locality_type: suburb
+  category: kyiv_region
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:обух(?:ів|ов(?:а|і|у|ом)))(?!\w)
+  note: null
+- locality_id: ukrainka
+  canonical_name: Українка
+  locality_type: suburb
+  category: kyiv_region
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:українк(?:а|и|і|у|ою))(?!\w)
+  note: null
+- locality_id: dymer
+  canonical_name: Димер
+  locality_type: suburb
+  category: kyiv_region
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:димер(?:а|і|у|ом)?)(?!\w)
+  note: null
+- locality_id: velyka_dymerka
+  canonical_name: Велика Димерка
+  locality_type: suburb
+  category: kyiv_region
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:велик(?:а|ої|ій|у)\s+димерк(?:а|и|і|у|ою))(?!\w)
+  note: null
+- locality_id: hlevakha
+  canonical_name: Глеваха
+  locality_type: suburb
+  category: kyiv_region
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:глевах(?:а|и|у|ою|і))(?!\w)
+  note: null
+- locality_id: chabany
+  canonical_name: Чабани
+  locality_type: suburb
+  category: kyiv_region
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:чабан(?:и|ів|ах|ами))(?!\w)
+  note: null
+- locality_id: petropavlivska_borshchahivka
+  canonical_name: Петропавлівська Борщагівка
+  locality_type: suburb
+  category: kyiv_region
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:петропавлівськ(?:а|ої|ій|у)\s+борщагівк(?:а|и|і|у|ою))(?!\w)
+  note: null
+- locality_id: sofiivska_borshchahivka
+  canonical_name: Софіївська Борщагівка
+  locality_type: suburb
+  category: kyiv_region
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:софіївськ(?:а|ої|ій|у)\s+борщагівк(?:а|и|і|у|ою))(?!\w)
+  note: null
+- locality_id: kotsiubynske
+  canonical_name: Коцюбинське
+  locality_type: suburb
+  category: kyiv_region
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:коцюбинськ(?:е|ого|ому|им))(?!\w)
+  note: null
+- locality_id: vyshenky
+  canonical_name: Вишеньки
+  locality_type: suburb
+  category: kyiv_region
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:вишень(?:ки|ок|ках|ками))(?!\w)
+  note: null
+- locality_id: hnidyn
+  canonical_name: Гнідин
+  locality_type: suburb
+  category: kyiv_region
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:гнідин(?:а|і|у|ом)?)(?!\w)
+  note: null
+- locality_id: bila_tserkva
+  canonical_name: Біла Церква
+  locality_type: oblast_city
+  category: kyiv_region
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:біл(?:а|ої|ій|у)\s+церкв(?:а|и|і|у|ою))(?!\w)
+  - (?<!\w)(?:бцр)(?!\w)
+  - (?<!\w)(?:білоцерківськ(?:ий|ого|ому|ім)\s+район(?:у|і|ом)?)(?!\w)
+  note: null
+- locality_id: fastiv
+  canonical_name: Фастів
+  locality_type: oblast_city
+  category: kyiv_region
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:фаст(?:ів|ов(?:а|і|у|ом)))(?!\w)
+  note: null
+- locality_id: pereiaslav
+  canonical_name: Переяслав
+  locality_type: oblast_city
+  category: kyiv_region
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:переяслав(?:а|і|у|ом)?)(?!\w)
+  note: null
+- locality_id: slavutych
+  canonical_name: Славутич
+  locality_type: oblast_city
+  category: kyiv_region
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:славутич(?:а|і|у|ем)?)(?!\w)
+  note: null
+- locality_id: chornobyl_zone
+  canonical_name: Чорнобильська зона
+  locality_type: region_area
+  category: kyiv_region
+  requires_kyiv_anchor: false
+  patterns:
+  - (?<!\w)(?:чзв|чорнобиль(?:ська\s+зона|ської\s+зони|ській\s+зоні))(?!\w)
+  note: null

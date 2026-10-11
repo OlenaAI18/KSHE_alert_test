@@ -1,0 +1,35 @@
+# Local environments, credentials, caches and build outputs
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+.coverage
+htmlcov/
+
+# Raw and generated datasets: retain directory placeholders only
+/data/raw/**
+!/data/raw/.gitkeep
+/data/interim/**
+!/data/interim/.gitkeep
+/data/processed/**
+!/data/processed/.gitkeep
+/reports/**
+!/reports/.gitkeep
+
+# Source exports accidentally placed elsewhere
+*.zip
+airAlert_*.json
+ChatExport_*/
+
+# External snapshots are source data, not implementation
+/data/external/**

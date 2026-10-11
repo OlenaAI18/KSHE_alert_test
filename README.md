@@ -211,3 +211,14 @@ and [Ukrainian MVP decision](reports/forecastability_validation/mvp_decision.md)
 All official warning colors are retained. The2026 final holdout does not show
 stable candidate improvement over recent baselines: **B — NO_STABLE_GAIN_OVER_BASELINES**.
 No dashboard, chatbot or operational deployment is implemented.
+
+## Source code and reproduction
+
+All implementation modules are directly available under `src/kyiv_alerts/`,
+with command-line helpers in `scripts/`, regression tests in `tests/`, and
+versioned dictionaries/policies in `config/`. Python packaging is defined in
+`pyproject.toml`; tested dependency versions are in `requirements-*.lock.txt`.
+Raw source exports and external snapshots remain excluded from Git. Full real-data
+reproduction and the full test suite require the frozen original inputs and derived
+artifacts. A fresh clone provides the code, but does not contain the complete data
+workspace; missing artifact-dependent inputs can cause checks to fail.

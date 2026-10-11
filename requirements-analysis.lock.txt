@@ -1,0 +1,8 @@
+# Tested local sparse NLP dependencies for Task 004.2 (Python 3.12/Linux).
+# Install after requirements-dev.lock.txt; no hosted models or APIs.
+cloudpickle==3.1.2
+joblib==1.6.0
+numpy==2.5.4
+scikit-learn==1.8.0
+scipy==1.18.1
+threadpoolctl==3.7.0

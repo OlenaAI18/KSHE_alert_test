@@ -1,0 +1,19 @@
+# Research-lead supplied regression examples; never input to attribution rules.
+review_cases:
+  - alert_id: '2563'
+    approved_categories: [shahed_uav]
+    label_status: research_lead_confirmed
+  - alert_id: '2565'
+    approved_categories: [shahed_uav]
+    label_status: research_lead_confirmed
+  - alert_id: '2581'
+    approved_categories: [shahed_uav, jet_uav]
+    label_status: research_lead_confirmed_with_source_discrepancy
+    research_lead_decision: retain_discrepancy_for_review
+    clarification: 'Research lead subsequently confirmed that banderol means reactive UAV (jet_uav). No separate shahed_uav anchor is recorded in this interval.'
+  - alert_id: '2578'
+    approved_categories: [shahed_uav]
+    label_status: research_lead_confirmed
+  - alert_id: '2590'
+    approved_categories: [shahed_uav]
+    label_status: provisional_working_hypothesis_not_confirmed

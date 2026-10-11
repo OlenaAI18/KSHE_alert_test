@@ -1,0 +1,30 @@
+attribution_version: v1.5
+status: EXPERIMENTAL — HUMAN VALIDATION REQUIRED
+source_classification_version: v1.4
+pre_alert_minutes: 10
+context_anchor_max_minutes: 10
+context_max_gap_minutes: 5
+short_bulletin_max_tokens: 12
+enabled_corrections: [A, B, C, D, scope]
+policy:
+  preserve_valid_v14_accepted: true
+  pre_alert_requires_in_alert_correspondence: true
+  unrelated_static_region_remains_blocked: true
+  no_taxonomy_expansion: true
+  no_alert_id_exceptions: true
+  independent_semantic_validation: false
+lexical_extensions:
+  - rule_id: ballistic_high_speed.ballistic_weaponry_v15
+    category: ballistic_high_speed
+    subtype: ballistic_weaponry
+    pattern: '(?<!\w)балістичн(?:е|ого|ому|им|ім|ої|а|і|их)\s+озброєнн(?:я|ю|ям|і)(?!\w)'
+    priority: 20
+    exclusions: []
+  - rule_id: shahed_uav.enemy_uav_v15
+    category: shahed_uav
+    subtype: enemy_uav
+    pattern: '(?<!\w)ворож(?:ий|ого|ому|им|і|их)\s+(?:бпла|бплa)(?!\w)'
+    priority: 20
+    exclusions: []
+    uav_evidence_type: generic_uav
+    inferred_shorthand: false

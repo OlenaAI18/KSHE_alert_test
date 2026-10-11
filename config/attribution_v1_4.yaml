@@ -1,0 +1,28 @@
+attribution_version: v1.4
+status: EXPERIMENTAL — HUMAN VALIDATION REQUIRED
+source_dictionary_version: v1.3
+source_geography_version: kyiv-geography-v1.1
+pre_alert_minutes: 10
+context_anchor_max_minutes: 10
+context_max_gap_minutes: 5
+short_bulletin_max_tokens: 12
+policy:
+  preserve_baseline_accepted: true
+  require_explicit_lexical_anchor: true
+  suppress_overlapping_specific_rules: true
+  preserve_literal_geography: true
+  pre_alert_requires_kyiv_text_or_coherent_local_followup: true
+  weak_pre_anchor_requires_recognized_locality_in_inside_followup: true
+  exclude_previous_alert_membership_and_intervening_boundaries: true
+  unresolved_and_outside_coverage: unknown
+  independent_semantic_validation: false
+user_approved_lexical_extensions:
+  - rule_id: jet_uav.banderol_user_confirmed
+    category: jet_uav
+    subtype: banderol_user_confirmed_jet_uav
+    pattern: '(?<!\w)бандерол(?:ь|і|лю|ями|ей|ям|ях)(?!\w)'
+    priority: 30
+    uav_evidence_type: jet_uav_explicit
+    inferred_shorthand: false
+    exclusions: []
+    approval: 'Research-lead clarification: бандероль це реактивний БПЛА; no particular model inferred.'
