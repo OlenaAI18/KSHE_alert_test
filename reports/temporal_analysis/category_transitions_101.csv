@@ -1,0 +1,64 @@
+﻿before,after,count
+ballistic_high_speed,ballistic_high_speed + cruise_missile,1
+ballistic_high_speed,ballistic_high_speed + mig31,8
+ballistic_high_speed,shahed_uav + ballistic_high_speed,1
+ballistic_high_speed,shahed_uav + ballistic_high_speed + mig31,1
+ballistic_high_speed + cruise_missile + mig31,ballistic_high_speed + cruise_missile + mig31 + strategic_aviation,1
+ballistic_high_speed + cruise_missile + mig31,ballistic_high_speed + cruise_missile + mig31 + strategic_aviation + other,1
+ballistic_high_speed + cruise_missile + mig31 + other,ballistic_high_speed + cruise_missile + mig31 + strategic_aviation + other,1
+ballistic_high_speed + mig31,ballistic_high_speed + cruise_missile + mig31,1
+ballistic_high_speed + mig31,mig31,1
+ballistic_high_speed + mig31,shahed_uav + ballistic_high_speed + mig31 + strategic_aviation,1
+cruise_missile,ballistic_high_speed + cruise_missile,2
+cruise_missile,shahed_uav + cruise_missile,1
+cruise_missile + other,ballistic_high_speed + cruise_missile + other,1
+cruise_missile + other,cruise_missile,1
+cruise_missile + other,shahed_uav + cruise_missile + other,1
+cruise_missile + strategic_aviation + other,ballistic_high_speed + cruise_missile + strategic_aviation + other,1
+jet_uav,jet_uav + mig31,2
+jet_uav,shahed_uav + jet_uav,3
+jet_uav + strategic_aviation,jet_uav + mig31 + strategic_aviation,1
+mig31,ballistic_high_speed + mig31,2
+mig31,cruise_missile + mig31,1
+mig31,mig31 + strategic_aviation,1
+mig31,shahed_uav + mig31,3
+mig31 + strategic_aviation,mig31,1
+other,ballistic_high_speed + other,1
+other,mig31 + other,3
+shahed_uav,shahed_uav + ballistic_high_speed,8
+shahed_uav,shahed_uav + ballistic_high_speed + strategic_aviation + other,1
+shahed_uav,shahed_uav + cruise_missile + strategic_aviation,1
+shahed_uav,shahed_uav + jet_uav + ballistic_high_speed,1
+shahed_uav,shahed_uav + mig31,1
+shahed_uav,shahed_uav + mig31 + strategic_aviation,1
+shahed_uav,shahed_uav + strategic_aviation,2
+shahed_uav + ballistic_high_speed,ballistic_high_speed,1
+shahed_uav + ballistic_high_speed,shahed_uav,1
+shahed_uav + ballistic_high_speed,shahed_uav + ballistic_high_speed + mig31,2
+shahed_uav + ballistic_high_speed + cruise_missile,shahed_uav + ballistic_high_speed + cruise_missile + mig31,1
+shahed_uav + ballistic_high_speed + cruise_missile,shahed_uav + ballistic_high_speed + cruise_missile + mig31 + strategic_aviation,1
+shahed_uav + ballistic_high_speed + cruise_missile + other,shahed_uav + ballistic_high_speed + cruise_missile + mig31 + other,3
+shahed_uav + ballistic_high_speed + cruise_missile + other,shahed_uav + ballistic_high_speed + cruise_missile + mig31 + strategic_aviation + other,2
+shahed_uav + ballistic_high_speed + cruise_missile + strategic_aviation,shahed_uav + ballistic_high_speed + cruise_missile + mig31 + strategic_aviation,2
+shahed_uav + ballistic_high_speed + cruise_missile + strategic_aviation + other,shahed_uav + ballistic_high_speed + cruise_missile + mig31 + strategic_aviation + other,2
+shahed_uav + ballistic_high_speed + mig31 + strategic_aviation,shahed_uav + ballistic_high_speed + mig31,1
+shahed_uav + ballistic_high_speed + other,shahed_uav + ballistic_high_speed + mig31 + other,1
+shahed_uav + cruise_missile,shahed_uav + ballistic_high_speed + cruise_missile,2
+shahed_uav + cruise_missile,shahed_uav + cruise_missile + mig31,5
+shahed_uav + cruise_missile,shahed_uav + cruise_missile + strategic_aviation,3
+shahed_uav + cruise_missile + other,shahed_uav + cruise_missile + mig31 + other,1
+shahed_uav + cruise_missile + strategic_aviation + other,shahed_uav + cruise_missile + mig31 + strategic_aviation + other,1
+shahed_uav + cruise_missile + strategic_aviation + other,shahed_uav + cruise_missile + strategic_aviation,1
+shahed_uav + cruise_missile + strategic_aviation + other,shahed_uav + jet_uav + cruise_missile + strategic_aviation + other,1
+shahed_uav + jet_uav,shahed_uav + jet_uav + ballistic_high_speed,1
+shahed_uav + jet_uav,shahed_uav + jet_uav + mig31,1
+shahed_uav + jet_uav + ballistic_high_speed,jet_uav + ballistic_high_speed,1
+shahed_uav + jet_uav + ballistic_high_speed + cruise_missile + other,shahed_uav + jet_uav + ballistic_high_speed + cruise_missile + mig31 + other,1
+shahed_uav + jet_uav + cruise_missile + strategic_aviation,shahed_uav + jet_uav + ballistic_high_speed + cruise_missile + strategic_aviation,1
+shahed_uav + other,shahed_uav,1
+shahed_uav + other,shahed_uav + ballistic_high_speed,1
+shahed_uav + strategic_aviation,shahed_uav,2
+shahed_uav + strategic_aviation,shahed_uav + ballistic_high_speed + strategic_aviation,1
+strategic_aviation,mig31,1
+strategic_aviation,mig31 + strategic_aviation,1
+strategic_aviation + other,mig31 + strategic_aviation + other,1

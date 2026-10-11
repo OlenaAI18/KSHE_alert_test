@@ -1,0 +1,6 @@
+﻿population,n,median,mean,p90,maximum,category_counts,unknown
+all_valid_official,2593,37.36666666666667,68.63522303638,158.00000000000034,764.0666666666667,"{""shahed_uav"": 630, ""jet_uav"": 131, ""ballistic_high_speed"": 458, ""cruise_missile"": 99, ""mig31"": 293, ""strategic_aviation"": 77, ""other"": 70}",1298
+eligible,1803,33.56666666666667,68.74898317618783,168.68666666666655,764.0666666666667,"{""shahed_uav"": 630, ""jet_uav"": 131, ""ballistic_high_speed"": 458, ""cruise_missile"": 99, ""mig31"": 293, ""strategic_aviation"": 77, ""other"": 70}",508
+classified_v16,1295,38.38333333333333,81.11491634491634,205.55333333333346,764.0666666666667,"{""shahed_uav"": 630, ""jet_uav"": 131, ""ballistic_high_speed"": 458, ""cruise_missile"": 99, ""mig31"": 293, ""strategic_aviation"": 77, ""other"": 70}",0
+unknown_eligible_v16,508,26.133333333333333,37.2255905511811,71.34166666666667,548.7,"{""shahed_uav"": 0, ""jet_uav"": 0, ""ballistic_high_speed"": 0, ""cruise_missile"": 0, ""mig31"": 0, ""strategic_aviation"": 0, ""other"": 0}",508
+eligible_excluding_weak_months,1568,33.88333333333333,70.16355229591835,170.11833333333328,764.0666666666667,"{""shahed_uav"": 555, ""jet_uav"": 124, ""ballistic_high_speed"": 418, ""cruise_missile"": 90, ""mig31"": 268, ""strategic_aviation"": 67, ""other"": 67}",401

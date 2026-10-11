@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "compared_files": 33,
+  "all_outputs_byte_identical": true,
+  "statistical_csv_identical": true,
+  "seed": 20261011,
+  "repeat_execution_seconds": 5.727211492994684
+}

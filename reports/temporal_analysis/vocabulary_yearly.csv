@@ -1,0 +1,287 @@
+﻿year,category,subtype,matched_expression,unique_alerts
+2023,ballistic_high_speed,ballistic,балістики,2
+2023,ballistic_high_speed,ballistic_inflection,балістиці,1
+2023,ballistic_high_speed,ballistic_target_or_trajectory,балістичною траекторією,1
+2023,ballistic_high_speed,ballistic_weaponry,балістичне озброєння,1
+2023,ballistic_high_speed,ballistic_weaponry,балістичного озброєння,11
+2023,ballistic_high_speed,kinzhal,кинджал,1
+2023,cruise_missile,cruise,крилатих ракет,2
+2023,cruise_missile,cruise,крилаті ракети,1
+2023,cruise_missile,iskander_k,іскандер-к,1
+2023,cruise_missile,kalibr,калібр,4
+2023,cruise_missile,kh101,х-101,1
+2023,cruise_missile,kh555,х-555,1
+2023,cruise_missile,kh59,"[context reference, no lexical expression]",1
+2023,cruise_missile,kh59,х-59,2
+2023,mig31,mig31k,міг-31к,46
+2023,other,unspecified_missile,"[context reference, no lexical expression]",1
+2023,other,unspecified_missile,ракета,4
+2023,other,unspecified_missile,ракети,1
+2023,shahed_uav,attack_uav,"[context reference, no lexical expression]",2
+2023,shahed_uav,attack_uav,ударних бпла,2
+2023,shahed_uav,attack_uav,ударні бпла,2
+2023,shahed_uav,generic_uav,"[context reference, no lexical expression]",4
+2023,shahed_uav,generic_uav,безпілотники,1
+2023,shahed_uav,generic_uav,безпілотників,2
+2023,shahed_uav,generic_uav,бпла,12
+2023,shahed_uav,shahed,shahed-136,1
+2023,strategic_aviation,strategic,стратегічної авіації,4
+2023,strategic_aviation,tu22m3,ту-22м3,3
+2023,strategic_aviation,tu95ms,ту-95мс,2
+2024,ballistic_high_speed,ballistic,"[context reference, no lexical expression]",2
+2024,ballistic_high_speed,ballistic,балістика,9
+2024,ballistic_high_speed,ballistic,балістики,6
+2024,ballistic_high_speed,ballistic,балістику,2
+2024,ballistic_high_speed,ballistic,балістична загроза,2
+2024,ballistic_high_speed,ballistic,балістична ракета,1
+2024,ballistic_high_speed,ballistic,балістичні ракети,2
+2024,ballistic_high_speed,ballistic_inflection,балістиці,2
+2024,ballistic_high_speed,ballistic_target_or_trajectory,"[context reference, no lexical expression]",4
+2024,ballistic_high_speed,ballistic_target_or_trajectory,балістична траекторія,1
+2024,ballistic_high_speed,ballistic_target_or_trajectory,балістична ціль,8
+2024,ballistic_high_speed,ballistic_target_or_trajectory,балістичних цілей,1
+2024,ballistic_high_speed,ballistic_target_or_trajectory,балістичних цілях,1
+2024,ballistic_high_speed,ballistic_target_or_trajectory,балістичною траекторією,2
+2024,ballistic_high_speed,ballistic_target_or_trajectory,балістичною траєкторією,1
+2024,ballistic_high_speed,ballistic_target_or_trajectory,балістичної цілі,1
+2024,ballistic_high_speed,ballistic_target_or_trajectory,балістичні траєкторії,1
+2024,ballistic_high_speed,ballistic_weaponry,"[context reference, no lexical expression]",17
+2024,ballistic_high_speed,ballistic_weaponry,балістичного озброєння,108
+2024,ballistic_high_speed,iskander_m,іскандер-м,1
+2024,ballistic_high_speed,kinzhal,"[context reference, no lexical expression]",4
+2024,ballistic_high_speed,kinzhal,кинджал,10
+2024,ballistic_high_speed,kinzhal,кинджали,2
+2024,ballistic_high_speed,kinzhal,кинджалу,5
+2024,ballistic_high_speed,kinzhal,кинджалів,8
+2024,ballistic_high_speed,kn23,kn-23,1
+2024,ballistic_high_speed,medium_range_ballistic_abbreviation,"[context reference, no lexical expression]",2
+2024,ballistic_high_speed,medium_range_ballistic_abbreviation,брсд,3
+2024,cruise_missile,cruise,"[context reference, no lexical expression]",10
+2024,cruise_missile,cruise,крилата ракета,4
+2024,cruise_missile,cruise,крилатими ракетами,1
+2024,cruise_missile,cruise,крилатих ракет,18
+2024,cruise_missile,cruise,крилатої ракети,1
+2024,cruise_missile,cruise,крилаті ракети,11
+2024,cruise_missile,cruise_shorthand,"[context reference, no lexical expression]",2
+2024,cruise_missile,cruise_shorthand,крилата,1
+2024,cruise_missile,cruise_shorthand,крилатих,2
+2024,cruise_missile,cruise_shorthand,крилаті,5
+2024,cruise_missile,iskander_k,іскандер-к,1
+2024,cruise_missile,kalibr,"[context reference, no lexical expression]",3
+2024,cruise_missile,kalibr,калібр,6
+2024,cruise_missile,kalibr,калібри,3
+2024,cruise_missile,kalibr,калібрів,4
+2024,cruise_missile,kh101,"[context reference, no lexical expression]",2
+2024,cruise_missile,kh101,х-101,7
+2024,cruise_missile,kh555,х-555,2
+2024,cruise_missile,kh59,х-59,4
+2024,cruise_missile,kh69,х-69,1
+2024,mig31,mig31k,"[context reference, no lexical expression]",13
+2024,mig31,mig31k,міг-31к,137
+2024,mig31,mig_channel_model_unspecified,"[context reference, no lexical expression]",1
+2024,mig31,mig_channel_model_unspecified,мігу,1
+2024,other,unspecified_missile,"[context reference, no lexical expression]",9
+2024,other,unspecified_missile,ракета,9
+2024,other,unspecified_missile,ракети,24
+2024,other,unspecified_missile,ракету,2
+2024,shahed_uav,attack_uav,"[context reference, no lexical expression]",5
+2024,shahed_uav,attack_uav,ударний бпла,3
+2024,shahed_uav,attack_uav,ударних бпла,14
+2024,shahed_uav,attack_uav,ударних дронів,1
+2024,shahed_uav,attack_uav,ударного бпла,2
+2024,shahed_uav,attack_uav,ударні бпла,2
+2024,shahed_uav,enemy_uav,ворожий бпла,2
+2024,shahed_uav,generic_uav,"[context reference, no lexical expression]",61
+2024,shahed_uav,generic_uav,безпілотник,6
+2024,shahed_uav,generic_uav,безпілотники,6
+2024,shahed_uav,generic_uav,безпілотників,6
+2024,shahed_uav,generic_uav,бпла,111
+2024,shahed_uav,generic_uav,дрони,1
+2024,shahed_uav,geran,"[context reference, no lexical expression]",1
+2024,shahed_uav,geran,герань,2
+2024,shahed_uav,shahed,"[context reference, no lexical expression]",2
+2024,shahed_uav,shahed,shahed-136,7
+2024,shahed_uav,shahed,шахед,3
+2024,shahed_uav,shahed,шахеда,1
+2024,shahed_uav,shahed,шахеди,1
+2024,shahed_uav,shahed,шахедів,1
+2024,strategic_aviation,strategic,стратегічною авіацією,1
+2024,strategic_aviation,strategic,стратегічної авіації,7
+2024,strategic_aviation,strategic,стратегічну авіацію,2
+2024,strategic_aviation,tu160,"[context reference, no lexical expression]",1
+2024,strategic_aviation,tu160,ту-160,1
+2024,strategic_aviation,tu22m3,"[context reference, no lexical expression]",1
+2024,strategic_aviation,tu22m3,ту-22м3,18
+2024,strategic_aviation,tu95_variant_unspecified,"[context reference, no lexical expression]",1
+2024,strategic_aviation,tu95_variant_unspecified,ту-95,1
+2024,strategic_aviation,tu95ms,ту-95мс,10
+2025,ballistic_high_speed,ballistic,"[context reference, no lexical expression]",28
+2025,ballistic_high_speed,ballistic,балістика,24
+2025,ballistic_high_speed,ballistic,балістики,95
+2025,ballistic_high_speed,ballistic,балістикою,1
+2025,ballistic_high_speed,ballistic,балістична загроза,4
+2025,ballistic_high_speed,ballistic,балістичну загрозу,1
+2025,ballistic_high_speed,ballistic_inflection,"[context reference, no lexical expression]",1
+2025,ballistic_high_speed,ballistic_inflection,балістиці,7
+2025,ballistic_high_speed,ballistic_weaponry,"[context reference, no lexical expression]",6
+2025,ballistic_high_speed,ballistic_weaponry,балістичного озброєння,34
+2025,ballistic_high_speed,kinzhal,"[context reference, no lexical expression]",3
+2025,ballistic_high_speed,kinzhal,кинджал,2
+2025,ballistic_high_speed,kinzhal,кинджала,2
+2025,ballistic_high_speed,kinzhal,кинджалу,4
+2025,ballistic_high_speed,kinzhal,кинджалів,2
+2025,ballistic_high_speed,kinzhal,кінджали,1
+2025,ballistic_high_speed,kinzhal,кінджалів,1
+2025,ballistic_high_speed,medium_range_ballistic_abbreviation,брсд,2
+2025,cruise_missile,cruise,"[context reference, no lexical expression]",5
+2025,cruise_missile,cruise,крилата ракети,1
+2025,cruise_missile,cruise,крилатих ракет,8
+2025,cruise_missile,cruise,крилаті ракети,5
+2025,cruise_missile,cruise_shorthand,"[context reference, no lexical expression]",2
+2025,cruise_missile,cruise_shorthand,крилата,1
+2025,cruise_missile,cruise_shorthand,крилатих,1
+2025,cruise_missile,cruise_shorthand,крилаті,7
+2025,cruise_missile,kalibr,"[context reference, no lexical expression]",10
+2025,cruise_missile,kalibr,калібр,4
+2025,cruise_missile,kalibr,калібри,15
+2025,cruise_missile,kalibr,калібром,1
+2025,cruise_missile,kalibr,калібрів,15
+2025,cruise_missile,kh101,х-101,6
+2025,cruise_missile,kh59,"[context reference, no lexical expression]",2
+2025,cruise_missile,kh59,х-59,2
+2025,jet_uav,jet_attack_uav,"[context reference, no lexical expression]",1
+2025,jet_uav,jet_attack_uav,реактивний бпла,1
+2025,jet_uav,reactive_shorthand_user_inferred,"[context reference, no lexical expression]",2
+2025,jet_uav,reactive_shorthand_user_inferred,реактивна,2
+2025,jet_uav,reactive_shorthand_user_inferred,реактивне,1
+2025,jet_uav,reactive_shorthand_user_inferred,реактивний,1
+2025,jet_uav,reactive_shorthand_user_inferred,реактивну,1
+2025,jet_uav,reactive_shorthand_user_inferred,реактивні,1
+2025,mig31,mig31k,міг 31к,1
+2025,mig31,mig31k,міг-31к,15
+2025,mig31,mig31k,міг31к,1
+2025,mig31,mig_channel_model_unspecified,"[context reference, no lexical expression]",14
+2025,mig31,mig_channel_model_unspecified,mig,1
+2025,mig31,mig_channel_model_unspecified,міг,46
+2025,mig31,mig_channel_model_unspecified,міга,4
+2025,mig31,mig_channel_model_unspecified,міги,2
+2025,mig31,mig_channel_model_unspecified,мігу,2
+2025,mig31,mig_channel_model_unspecified,мігів,1
+2025,other,unspecified_missile,"[context reference, no lexical expression]",13
+2025,other,unspecified_missile,ракета,6
+2025,other,unspecified_missile,ракетами,2
+2025,other,unspecified_missile,ракети,26
+2025,other,unspecified_missile,ракету,2
+2025,shahed_uav,attack_uav,"[context reference, no lexical expression]",1
+2025,shahed_uav,attack_uav,ударних бпла,1
+2025,shahed_uav,attack_uav,ударних дронів,1
+2025,shahed_uav,generic_uav,"[context reference, no lexical expression]",129
+2025,shahed_uav,generic_uav,безпілотник,5
+2025,shahed_uav,generic_uav,безпілотники,2
+2025,shahed_uav,generic_uav,безпілотників,3
+2025,shahed_uav,generic_uav,бпла,184
+2025,shahed_uav,generic_uav,дрон,3
+2025,shahed_uav,generic_uav,дрона,1
+2025,shahed_uav,generic_uav,дрону,1
+2025,shahed_uav,shahed,"[context reference, no lexical expression]",33
+2025,shahed_uav,shahed,шахед,45
+2025,shahed_uav,shahed,шахеда,4
+2025,shahed_uav,shahed,шахеди,11
+2025,shahed_uav,shahed,шахеду,5
+2025,shahed_uav,shahed,шахедів,14
+2025,shahed_uav,shakh_shorthand,"[context reference, no lexical expression]",8
+2025,shahed_uav,shakh_shorthand,шах,15
+2025,shahed_uav,shakh_shorthand,шахи,3
+2025,shahed_uav,shakh_shorthand,шаху,1
+2025,strategic_aviation,strategic,"[context reference, no lexical expression]",1
+2025,strategic_aviation,strategic,стратегічною авіацією,1
+2025,strategic_aviation,strategic,стратегічної авіації,2
+2025,strategic_aviation,tu160,"[context reference, no lexical expression]",2
+2025,strategic_aviation,tu160,ту-160,7
+2025,strategic_aviation,tu22m3,"[context reference, no lexical expression]",2
+2025,strategic_aviation,tu22m3,ту-22м3,6
+2025,strategic_aviation,tu95_variant_unspecified,"[context reference, no lexical expression]",3
+2025,strategic_aviation,tu95_variant_unspecified,ту-95,8
+2025,strategic_aviation,tu95_variant_unspecified,ту95,3
+2025,strategic_aviation,tu95ms,"[context reference, no lexical expression]",3
+2025,strategic_aviation,tu95ms,ту-95мс,12
+2026,ballistic_high_speed,ballistic,"[context reference, no lexical expression]",33
+2026,ballistic_high_speed,ballistic,балістика,32
+2026,ballistic_high_speed,ballistic,балістики,97
+2026,ballistic_high_speed,ballistic,балістику,1
+2026,ballistic_high_speed,ballistic,балістична загроза,1
+2026,ballistic_high_speed,medium_range_ballistic_abbreviation,"[context reference, no lexical expression]",1
+2026,ballistic_high_speed,medium_range_ballistic_abbreviation,брсд,1
+2026,ballistic_high_speed,zircon,"[context reference, no lexical expression]",2
+2026,ballistic_high_speed,zircon,циркон,2
+2026,ballistic_high_speed,zircon,циркона,1
+2026,ballistic_high_speed,zircon,циркони,3
+2026,ballistic_high_speed,zircon,цирконів,3
+2026,cruise_missile,cruise,"[context reference, no lexical expression]",1
+2026,cruise_missile,cruise,крилата ракета,2
+2026,cruise_missile,cruise,крилатих ракет,4
+2026,cruise_missile,cruise,крилаті ракети,1
+2026,cruise_missile,cruise_shorthand,"[context reference, no lexical expression]",5
+2026,cruise_missile,cruise_shorthand,крилата,2
+2026,cruise_missile,cruise_shorthand,крилатих,3
+2026,cruise_missile,cruise_shorthand,крилаті,8
+2026,cruise_missile,kalibr,"[context reference, no lexical expression]",2
+2026,cruise_missile,kalibr,калібр,1
+2026,cruise_missile,kalibr,калібри,4
+2026,cruise_missile,kalibr,калібрів,10
+2026,cruise_missile,kh101,"[context reference, no lexical expression]",1
+2026,cruise_missile,kh101,х-101,3
+2026,jet_uav,banderol_user_confirmed_jet_uav,"[context reference, no lexical expression]",5
+2026,jet_uav,banderol_user_confirmed_jet_uav,бандероль,8
+2026,jet_uav,banderol_user_confirmed_jet_uav,бандеролі,3
+2026,jet_uav,jet_attack_uav,"[context reference, no lexical expression]",36
+2026,jet_uav,jet_attack_uav,реактивний бпла,37
+2026,jet_uav,jet_attack_uav,реактивний дрон,1
+2026,jet_uav,jet_attack_uav,реактивний шахед,4
+2026,jet_uav,jet_attack_uav,реактивним бпла,1
+2026,jet_uav,jet_attack_uav,реактивних бпла,23
+2026,jet_uav,jet_attack_uav,реактивні бпла,2
+2026,jet_uav,jet_attack_uav,реактивні шахеди,1
+2026,jet_uav,reactive_noun_user_inferred,"[context reference, no lexical expression]",12
+2026,jet_uav,reactive_noun_user_inferred,реактив,15
+2026,jet_uav,reactive_noun_user_inferred,реактива,4
+2026,jet_uav,reactive_noun_user_inferred,реактивів,1
+2026,jet_uav,reactive_shorthand_user_inferred,"[context reference, no lexical expression]",31
+2026,jet_uav,reactive_shorthand_user_inferred,реактивний,38
+2026,jet_uav,reactive_shorthand_user_inferred,реактивних,16
+2026,jet_uav,reactive_shorthand_user_inferred,реактивні,7
+2026,mig31,mig31k,міг-31к,1
+2026,mig31,mig_channel_model_unspecified,"[context reference, no lexical expression]",5
+2026,mig31,mig_channel_model_unspecified,міг,41
+2026,mig31,mig_channel_model_unspecified,міга,1
+2026,mig31,mig_channel_model_unspecified,мігу,3
+2026,other,unspecified_missile,"[context reference, no lexical expression]",4
+2026,other,unspecified_missile,ракета,3
+2026,other,unspecified_missile,ракети,5
+2026,shahed_uav,enemy_uav,"[context reference, no lexical expression]",1
+2026,shahed_uav,enemy_uav,ворожий бпла,1
+2026,shahed_uav,generic_uav,"[context reference, no lexical expression]",199
+2026,shahed_uav,generic_uav,безпілотник,2
+2026,shahed_uav,generic_uav,безпілотники,1
+2026,shahed_uav,generic_uav,бпла,261
+2026,shahed_uav,generic_uav,дрон,10
+2026,shahed_uav,generic_uav,дрони,1
+2026,shahed_uav,generic_uav,дрону,2
+2026,shahed_uav,generic_uav,дронів,6
+2026,shahed_uav,geran,"[context reference, no lexical expression]",1
+2026,shahed_uav,geran,герань,1
+2026,shahed_uav,shahed,"[context reference, no lexical expression]",11
+2026,shahed_uav,shahed,шахед,12
+2026,shahed_uav,shahed,шахеда,3
+2026,shahed_uav,shahed,шахеди,2
+2026,shahed_uav,shahed,шахедів,7
+2026,shahed_uav,shakh_shorthand,"[context reference, no lexical expression]",1
+2026,shahed_uav,shakh_shorthand,шах,4
+2026,strategic_aviation,strategic,"[context reference, no lexical expression]",1
+2026,strategic_aviation,strategic,стратегічної авіації,1
+2026,strategic_aviation,tu160,"[context reference, no lexical expression]",5
+2026,strategic_aviation,tu160,ту-160,9
+2026,strategic_aviation,tu22m3,ту-22м3,1
+2026,strategic_aviation,tu95_variant_unspecified,ту-95,2
+2026,strategic_aviation,tu95ms,"[context reference, no lexical expression]",4
+2026,strategic_aviation,tu95ms,ту-95мс,10

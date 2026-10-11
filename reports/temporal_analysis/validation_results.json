@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "command": ".venv/bin/python -m pytest -q --junitxml=/tmp/task005-pytest.xml",
+  "tests": 591,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "passed": 591,
+  "elapsed_seconds": 25.337,
+  "prior_files_hash_checked": 207,
+  "original_timestamps_preserved": true,
+  "unique_official_ids": 2594,
+  "valid_intervals": 2593,
+  "eligible": 1803,
+  "classified": 1295,
+  "unknown_eligible": 508
+}

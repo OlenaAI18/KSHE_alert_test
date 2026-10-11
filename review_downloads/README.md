@@ -63,3 +63,21 @@ Read the [comparison report](task0049/classification_comparison.md) and
 582 tests and 20 compact source checks passed. Coverage is not measured accuracy.
 **EXPERIMENTAL — HUMAN VALIDATION REQUIRED.** Marker development has stopped;
 analytical adoption remains subject to research-lead acceptance.
+
+## Task005 — temporal diagnostics
+
+Read the [Ukrainian execution summary](../reports/temporal_analysis/execution_summary.md),
+[full analysis](../reports/temporal_analysis/temporal_analysis_report.md) and
+[forecasting readiness](../reports/temporal_analysis/forecasting_readiness.md).
+Figures and CSV evidence are directly viewable in
+[reports/temporal_analysis](../reports/temporal_analysis/).
+
+Download [task005_temporal_bundle.zip](task005/task005_temporal_bundle.zip) with
+**Download raw file**. It contains four analytical Parquet tables, all Task005
+reports/figures, implementation/tests and updated documentation. Original raw
+exports are excluded. Reproduction requires the existing frozen source/earlier
+classification workspace; the ZIP is an overlay, not a complete private dataset.
+
+591 tests passed. Recommendation: **FURTHER_VALIDATION_NEEDED**. No forecasting
+model. Task005 explicitly adopts v1.6 for exploratory analysis without approving
+classifier accuracy. Unknowns and original timestamps remain preserved.
