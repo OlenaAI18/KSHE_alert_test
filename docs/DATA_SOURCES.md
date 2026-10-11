@@ -187,3 +187,14 @@ month_ago history without proving complete historical-threat retention.
 Initial proxy restrictions were resolved; DSNS still returns a browser challenge
 and direct relevant Air Force technical statements remain unverified. Raw external
 snapshots/subsets are local only; reports include hashes and reviewed notes.
+
+## Task006 — weekly archived official start target
+
+Uses the frozen Task005 alert_analysis_fact.parquet, retaining all2594 known starts
+and source IDs, including the DST interval whose end remains unresolved. Telegram
+markers are never forecasting features. Every warning color counts once per UID.
+Complete weeks only; endpoint weeks excluded conservatively. Week2023-10-09 has
+no records and is unknown in the primary target, not certified zero. Every positive
+week also has unverified internal completeness; actual publication/revision latency
+is not certified. External export identity supports provenance, not independence or
+full historic coverage. Conditional archived-zero sensitivity does not alter sources.

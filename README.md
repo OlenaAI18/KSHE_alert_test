@@ -201,3 +201,13 @@ Official records are confirmed, but the September 2026 warning-level transition
 limits comparison over time. External positive category support is not accuracy.
 599 tests pass; original sources and v1.6 remain unchanged. Task006 is not started.
 Download the [review bundle](review_downloads/task0051/task0051_external_validation_bundle.zip).
+
+## Task006 — retrospective forecastability validation
+
+Run `.venv/bin/python -m kyiv_alerts.forecastability --root .` using the existing
+analysis/temporal locked dependencies and frozen Task005 fact table.
+Read [forecastability report](reports/forecastability_validation/forecastability_report.md)
+and [Ukrainian MVP decision](reports/forecastability_validation/mvp_decision.md).
+All official warning colors are retained. The2026 final holdout does not show
+stable candidate improvement over recent baselines: **B — NO_STABLE_GAIN_OVER_BASELINES**.
+No dashboard, chatbot or operational deployment is implemented.

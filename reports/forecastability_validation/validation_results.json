@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "command": ".venv/bin/python -m pytest -q --junitxml=/tmp/task006-pytest.xml",
+  "tests": 613,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "elapsed_seconds": 64.994,
+  "protected_prior_files": 298,
+  "all_prior_hashes_unchanged": true,
+  "official_starts_reconciled": 2594,
+  "prediction_rows": 1068,
+  "feature_cutoffs_audited": true,
+  "final_selection_past_only_tested": true
+}

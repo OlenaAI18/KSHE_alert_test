@@ -91,3 +91,14 @@ using **Download raw file**. It contains reports, figures, new implementation,
 tests and documentation. Raw exports are excluded. This is an overlay requiring
 the existing frozen workspace and external caches; source URLs, pinned commits
 and hashes are recorded in the reports. 599 tests pass; Task006 is not started.
+
+## Task006 — retrospective forecastability validation
+
+Read [the full report](../reports/forecastability_validation/forecastability_report.md)
+and [Ukrainian MVP decision](../reports/forecastability_validation/mvp_decision.md).
+Download [task006_forecastability_bundle.zip](task006/task006_forecastability_bundle.zip)
+using **Download raw file**. Contains derived weekly/prediction Parquet tables,
+all reports/figures, new implementation/tests and documentation; no raw exports.
+Reproduction requires the existing package/workspace and frozen Task005 fact table.
+613 tests pass. Decision **B — NO_STABLE_GAIN_OVER_BASELINES**; all official colors
+retained. No dashboard/chatbot/live forecast/deployment started.

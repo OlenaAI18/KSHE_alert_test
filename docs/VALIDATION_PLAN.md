@@ -429,3 +429,18 @@ Repeated analytical/report execution checks byte-identical outputs; captured
 external source snapshots are frozen locally, not refetched during tests.
 No scores are presented as independent weapon ground-truth accuracy. Native
 API token requirements and DSNS browser challenge are respected.
+
+## Task006 executed validation
+
+Full existing suite: **613 passed**, zero failures/errors/skips (599 prior plus14).
+Weekly source IDs reconcile all2594 starts; 239 complete calendar weeks, one
+no-record week unknown; nine common-origin exclusions. 178 scored one-week origins
+produce1068 model rows (139 development,39 final). Tests cover Kyiv DST167/169-hour
+weeks, UTC/local boundaries, unresolved ends with known starts, duplicate IDs,
+missingness, metrics, baseline calculations, suffix perturbation, training-only
+scaling, frozen final selection, deterministic fits/resampling and real cutoff checks.
+Repeated full analysis checks byte identity of16 analytical outputs including both
+Parquet files and plots; run metadata excluded. 298 prior data/config/source/report
+files remain hash-identical. No classifier changes or operational forecast.
+See reports/forecastability_validation/validation_results.json and
+reproducibility_results.json for machine-readable actual execution evidence.

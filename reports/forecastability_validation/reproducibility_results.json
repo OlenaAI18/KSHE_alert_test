@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "analytical_files_compared": 16,
+  "all_outputs_byte_identical": true,
+  "repeat_seconds": 4.2797442030132515,
+  "seed": 20261011,
+  "metadata_excluded": [
+    "validation_results.json",
+    "reproducibility_results.json"
+  ]
+}

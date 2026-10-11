@@ -438,3 +438,45 @@ labels; reinterpret late growth as procedurally confounded, not pure physical
 escalation. Source support is only warning context, not launches/weapon model.
 DSNS/jet-specific direct technical evidence remains limited; no bypass. No
 classifier corrections, official endpoint repair, forecasts or Task006 start.
+
+## ADR 028 — Task006 retrospective aggregate forecastability protocol
+
+User Task006 authorizes weekly official starts, all warning colors, one-week horizon,
+without modifying the historical sources. No yellow exclusion or causal policy claim.
+Frozen before inspecting forecast scores: complete Monday–Monday Europe/Kyiv weeks,
+conservative exclusion of source endpoint dates; initial 52 calendar weeks;
+development origins before 2026-01-05, final holdout origins from 2026-01-05.
+One candidate: log-link L2 Poisson autoregression, standardized log1p lags1/2/4
+and preceding4/8 calendar-week means; alpha grid1/10/100. All fitting is past-only.
+B4 windows13/26/52 selected by development MAE; then candidate alpha and strongest
+baseline selected on development only, frozen for final expanding evaluation.
+All models score on common available origins. A no-record week is unknown in the
+primary experiment (not an observed zero); exclude unavailable lag windows. An
+explicit archived-zero sensitivity is separate and cannot certify completeness.
+Positive weeks also have unverified internal completeness; infer only recorded activity.
+Primary paired absolute-error difference uses circular4-week blocks,2000 repetitions,
+seed20261011;8/13-week block sensitivities. Pointwise intervals are conditional on
+this short nonstationary holdout, not guaranteed calibration. No opportunistic retries.
+A requires >=10% final MAE gain over development-selected baseline, paired95%CI
+strictly below zero, lower final MAE than every baseline, and positive skill in at
+least3 of the4 year strata2023–2026 (year strata are partly development evidence).
+Otherwise B if the archived target can be evaluated but no stable gain; C if data
+or execution prevents evaluation. Forecast uncertainty is not operational warning.
+Low/high activity groups use training-only expanding median; shift flags use
+training-only recent4 versus preceding8 means, absolute difference>=5 counts/week.
+September/post-Sep10 subsets are descriptive and too short for independent inference.
+No category features, future detrending, full-sample scaling, live forecasts or dashboard.
+Secondary forecasting is deferred: unresolved duration and completeness make minutes
+less defensible, and monthly sample size is small. Retain monthly descriptive counts.
+Existing document/push authorization persists; publish derived reports and review bundle
+only, never raw source exports. Stop after Task006.
+
+ADR028 execution: 52 initialization weeks,139 development origins,39 final origins;
+selected B4=13 weeks, M1 alpha10 and baseline B1(previous4-week mean). Final M1
+MAE7.3921 versus B1 5.6923 alerts/week; paired difference1.6998,95%4-week-block
+interval[-0.0923,4.1317]. All baseline/candidate results retained. Final decision B,
+NO_STABLE_GAIN_OVER_BASELINES. Excluding September-start weeks still leaves M1
+MAE5.8815 versus B1 5.4143. September increases the gap but does not change decision.
+All colors retained;3 full post-policy weeks descriptive only. No dashboard/chatbot/
+deployment begun. This is evidence about archived administrative counts, not physical
+attack timing or certified real-time predictability. 613 tests pass; prior files frozen.

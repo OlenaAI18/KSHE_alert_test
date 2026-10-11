@@ -309,3 +309,19 @@ level; excluding observed yellow is a scope sensitivity, not a repaired series,
 and older null levels are not imputed red. Forecast validation requires a target
 comparable across this procedural transition. Single/multi selection and duration/
 publication opportunity confound category-duration physics. Stop after Task005.1.
+
+## Task006 — authorized retrospective weekly forecastability validation
+
+Task006 explicitly approves weekly recorded official starts, all warning colors,
+Monday–Monday Europe/Kyiv, one-week horizon. It supersedes the Task005.1 target
+prerequisite for this conditional archived-target experiment; yellow alerts remain
+real alerts and are never excluded. Procedure changes are possible measurement
+regime effects, not an explanation away of observed threat activity.
+ADR028 freezes52-week initialization, development through2025, final2026 holdout,
+B0–B4 and one L2 Poisson autoregression. Training-only scaling/selection and exact
+calendar lags prevent future leakage. Primary no-record weeks remain unknown;
+archived-zero sensitivity is explicit. Source publication latency and full internal
+completeness remain unverified, limiting live generalization. Dependence-aware
+paired error intervals and period sensitivities distinguish forecast skill from
+correlation. Outputs and implementation are isolated under forecastability folders.
+No individual threat/safe-period prediction or live deployment.
