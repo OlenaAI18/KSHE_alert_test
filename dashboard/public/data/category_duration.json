@@ -1,0 +1,155 @@
+[
+  {
+    "scope": "overall",
+    "period": "all",
+    "category": "ALL",
+    "group": "single_category",
+    "n": 1015.0,
+    "median": 32.35,
+    "median_messages": 5.0
+  },
+  {
+    "scope": "overall",
+    "period": "all",
+    "category": "ALL",
+    "group": "multiple_categories",
+    "n": 280.0,
+    "median": 110.15,
+    "median_messages": 29.0
+  },
+  {
+    "scope": "overall",
+    "period": "all",
+    "category": "ALL",
+    "group": "unknown",
+    "n": 508.0,
+    "median": 26.133333333333333,
+    "median_messages": 3.0
+  },
+  {
+    "scope": "overall",
+    "period": "all",
+    "category": "shahed_uav",
+    "group": "single_category",
+    "n": 431.0,
+    "median": 58.333333333333336,
+    "median_messages": 16.0
+  },
+  {
+    "scope": "overall",
+    "period": "all",
+    "category": "shahed_uav",
+    "group": "multiple_categories",
+    "n": 199.0,
+    "median": 155.58333333333334,
+    "median_messages": 46.0
+  },
+  {
+    "scope": "overall",
+    "period": "all",
+    "category": "jet_uav",
+    "group": "single_category",
+    "n": 50.0,
+    "median": 26.96666666666667,
+    "median_messages": 6.0
+  },
+  {
+    "scope": "overall",
+    "period": "all",
+    "category": "jet_uav",
+    "group": "multiple_categories",
+    "n": 81.0,
+    "median": 95.51666666666667,
+    "median_messages": 38.0
+  },
+  {
+    "scope": "overall",
+    "period": "all",
+    "category": "ballistic_high_speed",
+    "group": "single_category",
+    "n": 307.0,
+    "median": 23.966666666666665,
+    "median_messages": 2.0
+  },
+  {
+    "scope": "overall",
+    "period": "all",
+    "category": "ballistic_high_speed",
+    "group": "multiple_categories",
+    "n": 151.0,
+    "median": 119.03333333333333,
+    "median_messages": 29.0
+  },
+  {
+    "scope": "overall",
+    "period": "all",
+    "category": "cruise_missile",
+    "group": "single_category",
+    "n": 9.0,
+    "median": 37.8,
+    "median_messages": 4.0
+  },
+  {
+    "scope": "overall",
+    "period": "all",
+    "category": "cruise_missile",
+    "group": "multiple_categories",
+    "n": 90.0,
+    "median": 179.08333333333334,
+    "median_messages": 52.0
+  },
+  {
+    "scope": "overall",
+    "period": "all",
+    "category": "mig31",
+    "group": "single_category",
+    "n": 205.0,
+    "median": 30.566666666666666,
+    "median_messages": 2.0
+  },
+  {
+    "scope": "overall",
+    "period": "all",
+    "category": "mig31",
+    "group": "multiple_categories",
+    "n": 88.0,
+    "median": 71.53333333333333,
+    "median_messages": 17.0
+  },
+  {
+    "scope": "overall",
+    "period": "all",
+    "category": "strategic_aviation",
+    "group": "single_category",
+    "n": 8.0,
+    "median": 46.3,
+    "median_messages": 4.5
+  },
+  {
+    "scope": "overall",
+    "period": "all",
+    "category": "strategic_aviation",
+    "group": "multiple_categories",
+    "n": 69.0,
+    "median": 187.91666666666666,
+    "median_messages": 49.0
+  },
+  {
+    "scope": "overall",
+    "period": "all",
+    "category": "other",
+    "group": "single_category",
+    "n": 5.0,
+    "median": 107.78333333333333,
+    "median_messages": 18.0
+  },
+  {
+    "scope": "overall",
+    "period": "all",
+    "category": "other",
+    "group": "multiple_categories",
+    "n": 65.0,
+    "median": 177.26666666666668,
+    "median_messages": 55.0
+  }
+]

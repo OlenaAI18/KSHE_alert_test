@@ -213,3 +213,14 @@ latency and historical as-of taxonomy remain unverified. Observed nondetection c
 are not evidence of negative real threats. Weekly quality tables retain unknowns,
 message volume and classification yield; annual terminology/evidence counts are
 marker occurrences, not distinct alert or weapon counts.
+
+## Task007 public presentation aggregates
+
+`dashboard/public/data/` contains versioned allowlisted research aggregates and a
+SHA256 manifest from saved Task005/005.1/006/006.1 outputs. Generate with
+`scripts/export_dashboard_data.py`; no new source collection or model fitting.
+Duration histogram bins derive from the saved Task005 fact table. All2594 starts
+are retained;2593 resolved durations contribute. No Telegram source text,
+individual message/alert provenance or local filesystem paths are published.
+Unknown and unavailable statistical results remain null. Source versions remain
+frozen; hosting approval is separate from Git publication. See dashboard/README.md.

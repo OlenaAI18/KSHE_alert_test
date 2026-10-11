@@ -1,0 +1,58 @@
+[
+  {
+    "category": "shahed_uav",
+    "decision": "INCONCLUSIVE",
+    "final_weeks": 36.0,
+    "baseline_MAE": 3.0208333333333335,
+    "candidate_MAE": 3.5633391702365,
+    "candidate_tested": true
+  },
+  {
+    "category": "jet_uav",
+    "decision": "INSUFFICIENT_DATA_FOR_RELIABLE_FORECAST_TEST",
+    "final_weeks": 0.0,
+    "baseline_MAE": null,
+    "candidate_MAE": null,
+    "candidate_tested": false
+  },
+  {
+    "category": "ballistic_high_speed",
+    "decision": "NO_STABLE_GAIN_OVER_BASELINES",
+    "final_weeks": 36.0,
+    "baseline_MAE": 1.6881320594646079,
+    "candidate_MAE": null,
+    "candidate_tested": false
+  },
+  {
+    "category": "cruise_missile",
+    "decision": "INSUFFICIENT_DATA_FOR_RELIABLE_FORECAST_TEST",
+    "final_weeks": 0.0,
+    "baseline_MAE": null,
+    "candidate_MAE": null,
+    "candidate_tested": false
+  },
+  {
+    "category": "mig31",
+    "decision": "INSUFFICIENT_DATA_FOR_RELIABLE_FORECAST_TEST",
+    "final_weeks": 0.0,
+    "baseline_MAE": null,
+    "candidate_MAE": null,
+    "candidate_tested": false
+  },
+  {
+    "category": "strategic_aviation",
+    "decision": "INSUFFICIENT_DATA_FOR_RELIABLE_FORECAST_TEST",
+    "final_weeks": 0.0,
+    "baseline_MAE": null,
+    "candidate_MAE": null,
+    "candidate_tested": false
+  },
+  {
+    "category": "other",
+    "decision": "INSUFFICIENT_DATA_FOR_RELIABLE_FORECAST_TEST",
+    "final_weeks": 0.0,
+    "baseline_MAE": null,
+    "candidate_MAE": null,
+    "candidate_tested": false
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "test": "daily_acf_lag_1",
+    "effect": 0.4661410331780032,
+    "ci_low": 0.25057965111620156,
+    "ci_high": 0.5102870121504824,
+    "block_length": 7.0,
+    "holm_p": null
+  },
+  {
+    "test": "within_month_residual_acf_lag_1",
+    "effect": 0.07310022627707846,
+    "ci_low": -0.03836717424286721,
+    "ci_high": 0.19470779964672033,
+    "block_length": null,
+    "holm_p": null
+  },
+  {
+    "test": "season_DJF_vs_rest",
+    "effect": -0.07046731046731047,
+    "ci_low": -0.30412023134252175,
+    "ci_high": 0.159392552515853,
+    "block_length": 14.0,
+    "holm_p": 1.0
+  },
+  {
+    "test": "season_MAM_vs_rest",
+    "effect": -0.16144679926019181,
+    "ci_low": -0.36056320377256434,
+    "ci_high": 0.020920117330486793,
+    "block_length": 14.0,
+    "holm_p": 0.2913622359302164
+  },
+  {
+    "test": "season_JJA_vs_rest",
+    "effect": 0.19683161614294598,
+    "ci_low": 0.00872923256407095,
+    "ci_high": 0.40096442705051666,
+    "block_length": 14.0,
+    "holm_p": 0.19667017831545736
+  },
+  {
+    "test": "season_SON_vs_rest",
+    "effect": 0.03518841256067525,
+    "ci_low": -0.13701218416891428,
+    "ci_high": 0.23326064612525,
+    "block_length": 14.0,
+    "holm_p": 1.0
+  }
+]

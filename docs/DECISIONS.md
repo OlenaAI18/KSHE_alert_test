@@ -535,3 +535,7 @@ No category has conclusive adjusted evidence of predictive signal. This is not a
 physical unpredictability claim. 626 tests pass; all earlier inputs/results frozen.
 Existing authorization covers publication of new source/config/tests as well as
 reports and derived review bundle. Stop after006.1; no dashboard or deployment.
+
+## ADR 030 — Task007 static research presentation
+
+User Task007 explicitly authorizes a web presentation superseding the charter's initial no-web-application scope. No research objective, target, classification, timestamp or saved analytical output changes. Publish allowlisted aggregates only, with provenance hashes; unknown/null values retained. Official start counts use all2594 records; duration denominator is2593. Category counts overlap and do not certify weapons. Global cards are not recomputed by partial filters. No chat or operational predictions. Six Ukrainian sections, React/Vite/TypeScript/Plotly, repository base and hash navigation. Existing persistent user authorization covers committing/pushing code and documents. Hosting is separately subject to research-lead approval per Task007; workflow is manual-only and no repository settings changed.

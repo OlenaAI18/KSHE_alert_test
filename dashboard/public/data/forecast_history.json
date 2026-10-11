@@ -1,0 +1,1874 @@
+[
+  {
+    "week_start": "2026-01-05",
+    "phase": "final_holdout",
+    "actual": 9.0,
+    "model": "B0",
+    "prediction": 9.35678391959799,
+    "absolute_error": 0.3567839195979907
+  },
+  {
+    "week_start": "2026-01-05",
+    "phase": "final_holdout",
+    "actual": 9.0,
+    "model": "B1",
+    "prediction": 5.5,
+    "absolute_error": 3.5
+  },
+  {
+    "week_start": "2026-01-05",
+    "phase": "final_holdout",
+    "actual": 9.0,
+    "model": "B2",
+    "prediction": 6.375,
+    "absolute_error": 2.625
+  },
+  {
+    "week_start": "2026-01-05",
+    "phase": "final_holdout",
+    "actual": 9.0,
+    "model": "B3",
+    "prediction": 6.0,
+    "absolute_error": 3.0
+  },
+  {
+    "week_start": "2026-01-05",
+    "phase": "final_holdout",
+    "actual": 9.0,
+    "model": "B4",
+    "prediction": 8.076923076923077,
+    "absolute_error": 0.9230769230769234
+  },
+  {
+    "week_start": "2026-01-05",
+    "phase": "final_holdout",
+    "actual": 9.0,
+    "model": "M1",
+    "prediction": 7.72702503030084,
+    "absolute_error": 1.2729749696991597
+  },
+  {
+    "week_start": "2026-01-12",
+    "phase": "final_holdout",
+    "actual": 22.0,
+    "model": "B0",
+    "prediction": 9.355,
+    "absolute_error": 12.645
+  },
+  {
+    "week_start": "2026-01-12",
+    "phase": "final_holdout",
+    "actual": 22.0,
+    "model": "B1",
+    "prediction": 6.5,
+    "absolute_error": 15.5
+  },
+  {
+    "week_start": "2026-01-12",
+    "phase": "final_holdout",
+    "actual": 22.0,
+    "model": "B2",
+    "prediction": 6.375,
+    "absolute_error": 15.625
+  },
+  {
+    "week_start": "2026-01-12",
+    "phase": "final_holdout",
+    "actual": 22.0,
+    "model": "B3",
+    "prediction": 9.0,
+    "absolute_error": 13.0
+  },
+  {
+    "week_start": "2026-01-12",
+    "phase": "final_holdout",
+    "actual": 22.0,
+    "model": "B4",
+    "prediction": 7.923076923076923,
+    "absolute_error": 14.076923076923077
+  },
+  {
+    "week_start": "2026-01-12",
+    "phase": "final_holdout",
+    "actual": 22.0,
+    "model": "M1",
+    "prediction": 7.625105034930962,
+    "absolute_error": 14.37489496506904
+  },
+  {
+    "week_start": "2026-01-19",
+    "phase": "final_holdout",
+    "actual": 20.0,
+    "model": "B0",
+    "prediction": 9.417910447761194,
+    "absolute_error": 10.582089552238806
+  },
+  {
+    "week_start": "2026-01-19",
+    "phase": "final_holdout",
+    "actual": 20.0,
+    "model": "B1",
+    "prediction": 11.75,
+    "absolute_error": 8.25
+  },
+  {
+    "week_start": "2026-01-19",
+    "phase": "final_holdout",
+    "actual": 20.0,
+    "model": "B2",
+    "prediction": 8.5,
+    "absolute_error": 11.5
+  },
+  {
+    "week_start": "2026-01-19",
+    "phase": "final_holdout",
+    "actual": 20.0,
+    "model": "B3",
+    "prediction": 22.0,
+    "absolute_error": 2.0
+  },
+  {
+    "week_start": "2026-01-19",
+    "phase": "final_holdout",
+    "actual": 20.0,
+    "model": "B4",
+    "prediction": 9.076923076923077,
+    "absolute_error": 10.923076923076923
+  },
+  {
+    "week_start": "2026-01-19",
+    "phase": "final_holdout",
+    "actual": 20.0,
+    "model": "M1",
+    "prediction": 10.25586102848965,
+    "absolute_error": 9.74413897151035
+  },
+  {
+    "week_start": "2026-01-26",
+    "phase": "final_holdout",
+    "actual": 4.0,
+    "model": "B0",
+    "prediction": 9.470297029702971,
+    "absolute_error": 5.470297029702971
+  },
+  {
+    "week_start": "2026-01-26",
+    "phase": "final_holdout",
+    "actual": 4.0,
+    "model": "B1",
+    "prediction": 14.25,
+    "absolute_error": 10.25
+  },
+  {
+    "week_start": "2026-01-26",
+    "phase": "final_holdout",
+    "actual": 4.0,
+    "model": "B2",
+    "prediction": 9.875,
+    "absolute_error": 5.875
+  },
+  {
+    "week_start": "2026-01-26",
+    "phase": "final_holdout",
+    "actual": 4.0,
+    "model": "B3",
+    "prediction": 20.0,
+    "absolute_error": 16.0
+  },
+  {
+    "week_start": "2026-01-26",
+    "phase": "final_holdout",
+    "actual": 4.0,
+    "model": "B4",
+    "prediction": 9.461538461538462,
+    "absolute_error": 5.461538461538462
+  },
+  {
+    "week_start": "2026-01-26",
+    "phase": "final_holdout",
+    "actual": 4.0,
+    "model": "M1",
+    "prediction": 11.702632272095935,
+    "absolute_error": 7.702632272095935
+  },
+  {
+    "week_start": "2026-02-02",
+    "phase": "final_holdout",
+    "actual": 13.0,
+    "model": "B0",
+    "prediction": 9.443349753694582,
+    "absolute_error": 3.556650246305418
+  },
+  {
+    "week_start": "2026-02-02",
+    "phase": "final_holdout",
+    "actual": 13.0,
+    "model": "B1",
+    "prediction": 13.75,
+    "absolute_error": 0.75
+  },
+  {
+    "week_start": "2026-02-02",
+    "phase": "final_holdout",
+    "actual": 13.0,
+    "model": "B2",
+    "prediction": 9.625,
+    "absolute_error": 3.375
+  },
+  {
+    "week_start": "2026-02-02",
+    "phase": "final_holdout",
+    "actual": 13.0,
+    "model": "B3",
+    "prediction": 4.0,
+    "absolute_error": 9.0
+  },
+  {
+    "week_start": "2026-02-02",
+    "phase": "final_holdout",
+    "actual": 13.0,
+    "model": "B4",
+    "prediction": 9.23076923076923,
+    "absolute_error": 3.76923076923077
+  },
+  {
+    "week_start": "2026-02-02",
+    "phase": "final_holdout",
+    "actual": 13.0,
+    "model": "M1",
+    "prediction": 9.425296691652472,
+    "absolute_error": 3.5747033083475284
+  },
+  {
+    "week_start": "2026-02-09",
+    "phase": "final_holdout",
+    "actual": 12.0,
+    "model": "B0",
+    "prediction": 9.46078431372549,
+    "absolute_error": 2.5392156862745097
+  },
+  {
+    "week_start": "2026-02-09",
+    "phase": "final_holdout",
+    "actual": 12.0,
+    "model": "B1",
+    "prediction": 14.75,
+    "absolute_error": 2.75
+  },
+  {
+    "week_start": "2026-02-09",
+    "phase": "final_holdout",
+    "actual": 12.0,
+    "model": "B2",
+    "prediction": 10.625,
+    "absolute_error": 1.375
+  },
+  {
+    "week_start": "2026-02-09",
+    "phase": "final_holdout",
+    "actual": 12.0,
+    "model": "B3",
+    "prediction": 13.0,
+    "absolute_error": 1.0
+  },
+  {
+    "week_start": "2026-02-09",
+    "phase": "final_holdout",
+    "actual": 12.0,
+    "model": "B4",
+    "prediction": 9.153846153846153,
+    "absolute_error": 2.8461538461538467
+  },
+  {
+    "week_start": "2026-02-09",
+    "phase": "final_holdout",
+    "actual": 12.0,
+    "model": "M1",
+    "prediction": 9.671877278901126,
+    "absolute_error": 2.3281227210988735
+  },
+  {
+    "week_start": "2026-02-16",
+    "phase": "final_holdout",
+    "actual": 8.0,
+    "model": "B0",
+    "prediction": 9.473170731707317,
+    "absolute_error": 1.4731707317073166
+  },
+  {
+    "week_start": "2026-02-16",
+    "phase": "final_holdout",
+    "actual": 8.0,
+    "model": "B1",
+    "prediction": 12.25,
+    "absolute_error": 4.25
+  },
+  {
+    "week_start": "2026-02-16",
+    "phase": "final_holdout",
+    "actual": 8.0,
+    "model": "B2",
+    "prediction": 12.0,
+    "absolute_error": 4.0
+  },
+  {
+    "week_start": "2026-02-16",
+    "phase": "final_holdout",
+    "actual": 8.0,
+    "model": "B3",
+    "prediction": 12.0,
+    "absolute_error": 4.0
+  },
+  {
+    "week_start": "2026-02-16",
+    "phase": "final_holdout",
+    "actual": 8.0,
+    "model": "B4",
+    "prediction": 9.384615384615385,
+    "absolute_error": 1.384615384615385
+  },
+  {
+    "week_start": "2026-02-16",
+    "phase": "final_holdout",
+    "actual": 8.0,
+    "model": "M1",
+    "prediction": 10.556071018770062,
+    "absolute_error": 2.556071018770062
+  },
+  {
+    "week_start": "2026-02-23",
+    "phase": "final_holdout",
+    "actual": 8.0,
+    "model": "B0",
+    "prediction": 9.466019417475728,
+    "absolute_error": 1.466019417475728
+  },
+  {
+    "week_start": "2026-02-23",
+    "phase": "final_holdout",
+    "actual": 8.0,
+    "model": "B1",
+    "prediction": 9.25,
+    "absolute_error": 1.25
+  },
+  {
+    "week_start": "2026-02-23",
+    "phase": "final_holdout",
+    "actual": 8.0,
+    "model": "B2",
+    "prediction": 11.75,
+    "absolute_error": 3.75
+  },
+  {
+    "week_start": "2026-02-23",
+    "phase": "final_holdout",
+    "actual": 8.0,
+    "model": "B3",
+    "prediction": 8.0,
+    "absolute_error": 0.0
+  },
+  {
+    "week_start": "2026-02-23",
+    "phase": "final_holdout",
+    "actual": 8.0,
+    "model": "B4",
+    "prediction": 9.615384615384615,
+    "absolute_error": 1.615384615384615
+  },
+  {
+    "week_start": "2026-02-23",
+    "phase": "final_holdout",
+    "actual": 8.0,
+    "model": "M1",
+    "prediction": 9.57613738433703,
+    "absolute_error": 1.5761373843370308
+  },
+  {
+    "week_start": "2026-03-02",
+    "phase": "final_holdout",
+    "actual": 5.0,
+    "model": "B0",
+    "prediction": 9.458937198067632,
+    "absolute_error": 4.458937198067632
+  },
+  {
+    "week_start": "2026-03-02",
+    "phase": "final_holdout",
+    "actual": 5.0,
+    "model": "B1",
+    "prediction": 10.25,
+    "absolute_error": 5.25
+  },
+  {
+    "week_start": "2026-03-02",
+    "phase": "final_holdout",
+    "actual": 5.0,
+    "model": "B2",
+    "prediction": 12.0,
+    "absolute_error": 7.0
+  },
+  {
+    "week_start": "2026-03-02",
+    "phase": "final_holdout",
+    "actual": 5.0,
+    "model": "B3",
+    "prediction": 8.0,
+    "absolute_error": 3.0
+  },
+  {
+    "week_start": "2026-03-02",
+    "phase": "final_holdout",
+    "actual": 5.0,
+    "model": "B4",
+    "prediction": 9.538461538461538,
+    "absolute_error": 4.538461538461538
+  },
+  {
+    "week_start": "2026-03-02",
+    "phase": "final_holdout",
+    "actual": 5.0,
+    "model": "M1",
+    "prediction": 9.442705199529676,
+    "absolute_error": 4.4427051995296765
+  },
+  {
+    "week_start": "2026-03-09",
+    "phase": "final_holdout",
+    "actual": 6.0,
+    "model": "B0",
+    "prediction": 9.4375,
+    "absolute_error": 3.4375
+  },
+  {
+    "week_start": "2026-03-09",
+    "phase": "final_holdout",
+    "actual": 6.0,
+    "model": "B1",
+    "prediction": 8.25,
+    "absolute_error": 2.25
+  },
+  {
+    "week_start": "2026-03-09",
+    "phase": "final_holdout",
+    "actual": 6.0,
+    "model": "B2",
+    "prediction": 11.5,
+    "absolute_error": 5.5
+  },
+  {
+    "week_start": "2026-03-09",
+    "phase": "final_holdout",
+    "actual": 6.0,
+    "model": "B3",
+    "prediction": 5.0,
+    "absolute_error": 1.0
+  },
+  {
+    "week_start": "2026-03-09",
+    "phase": "final_holdout",
+    "actual": 6.0,
+    "model": "B4",
+    "prediction": 9.461538461538462,
+    "absolute_error": 3.4615384615384617
+  },
+  {
+    "week_start": "2026-03-09",
+    "phase": "final_holdout",
+    "actual": 6.0,
+    "model": "M1",
+    "prediction": 8.67182484797644,
+    "absolute_error": 2.67182484797644
+  },
+  {
+    "week_start": "2026-03-16",
+    "phase": "final_holdout",
+    "actual": 11.0,
+    "model": "B0",
+    "prediction": 9.421052631578947,
+    "absolute_error": 1.578947368421053
+  },
+  {
+    "week_start": "2026-03-16",
+    "phase": "final_holdout",
+    "actual": 11.0,
+    "model": "B1",
+    "prediction": 6.75,
+    "absolute_error": 4.25
+  },
+  {
+    "week_start": "2026-03-16",
+    "phase": "final_holdout",
+    "actual": 11.0,
+    "model": "B2",
+    "prediction": 9.5,
+    "absolute_error": 1.5
+  },
+  {
+    "week_start": "2026-03-16",
+    "phase": "final_holdout",
+    "actual": 11.0,
+    "model": "B3",
+    "prediction": 6.0,
+    "absolute_error": 5.0
+  },
+  {
+    "week_start": "2026-03-16",
+    "phase": "final_holdout",
+    "actual": 11.0,
+    "model": "B4",
+    "prediction": 9.538461538461538,
+    "absolute_error": 1.4615384615384617
+  },
+  {
+    "week_start": "2026-03-16",
+    "phase": "final_holdout",
+    "actual": 11.0,
+    "model": "M1",
+    "prediction": 8.068194921795298,
+    "absolute_error": 2.931805078204702
+  },
+  {
+    "week_start": "2026-03-23",
+    "phase": "final_holdout",
+    "actual": 9.0,
+    "model": "B0",
+    "prediction": 9.428571428571429,
+    "absolute_error": 0.4285714285714288
+  },
+  {
+    "week_start": "2026-03-23",
+    "phase": "final_holdout",
+    "actual": 9.0,
+    "model": "B1",
+    "prediction": 7.5,
+    "absolute_error": 1.5
+  },
+  {
+    "week_start": "2026-03-23",
+    "phase": "final_holdout",
+    "actual": 9.0,
+    "model": "B2",
+    "prediction": 8.375,
+    "absolute_error": 0.625
+  },
+  {
+    "week_start": "2026-03-23",
+    "phase": "final_holdout",
+    "actual": 9.0,
+    "model": "B3",
+    "prediction": 11.0,
+    "absolute_error": 2.0
+  },
+  {
+    "week_start": "2026-03-23",
+    "phase": "final_holdout",
+    "actual": 9.0,
+    "model": "B4",
+    "prediction": 10.307692307692308,
+    "absolute_error": 1.3076923076923084
+  },
+  {
+    "week_start": "2026-03-23",
+    "phase": "final_holdout",
+    "actual": 9.0,
+    "model": "M1",
+    "prediction": 8.710661970387822,
+    "absolute_error": 0.28933802961217836
+  },
+  {
+    "week_start": "2026-03-30",
+    "phase": "final_holdout",
+    "actual": 15.0,
+    "model": "B0",
+    "prediction": 9.42654028436019,
+    "absolute_error": 5.57345971563981
+  },
+  {
+    "week_start": "2026-03-30",
+    "phase": "final_holdout",
+    "actual": 15.0,
+    "model": "B1",
+    "prediction": 7.75,
+    "absolute_error": 7.25
+  },
+  {
+    "week_start": "2026-03-30",
+    "phase": "final_holdout",
+    "actual": 15.0,
+    "model": "B2",
+    "prediction": 9.0,
+    "absolute_error": 6.0
+  },
+  {
+    "week_start": "2026-03-30",
+    "phase": "final_holdout",
+    "actual": 15.0,
+    "model": "B3",
+    "prediction": 9.0,
+    "absolute_error": 6.0
+  },
+  {
+    "week_start": "2026-03-30",
+    "phase": "final_holdout",
+    "actual": 15.0,
+    "model": "B4",
+    "prediction": 10.23076923076923,
+    "absolute_error": 4.76923076923077
+  },
+  {
+    "week_start": "2026-03-30",
+    "phase": "final_holdout",
+    "actual": 15.0,
+    "model": "M1",
+    "prediction": 9.046759347779648,
+    "absolute_error": 5.953240652220352
+  },
+  {
+    "week_start": "2026-04-06",
+    "phase": "final_holdout",
+    "actual": 5.0,
+    "model": "B0",
+    "prediction": 9.452830188679245,
+    "absolute_error": 4.452830188679245
+  },
+  {
+    "week_start": "2026-04-06",
+    "phase": "final_holdout",
+    "actual": 5.0,
+    "model": "B1",
+    "prediction": 10.25,
+    "absolute_error": 5.25
+  },
+  {
+    "week_start": "2026-04-06",
+    "phase": "final_holdout",
+    "actual": 5.0,
+    "model": "B2",
+    "prediction": 9.25,
+    "absolute_error": 4.25
+  },
+  {
+    "week_start": "2026-04-06",
+    "phase": "final_holdout",
+    "actual": 5.0,
+    "model": "B3",
+    "prediction": 15.0,
+    "absolute_error": 10.0
+  },
+  {
+    "week_start": "2026-04-06",
+    "phase": "final_holdout",
+    "actual": 5.0,
+    "model": "B4",
+    "prediction": 10.923076923076923,
+    "absolute_error": 5.923076923076923
+  },
+  {
+    "week_start": "2026-04-06",
+    "phase": "final_holdout",
+    "actual": 5.0,
+    "model": "M1",
+    "prediction": 9.82245927796413,
+    "absolute_error": 4.82245927796413
+  },
+  {
+    "week_start": "2026-04-13",
+    "phase": "final_holdout",
+    "actual": 8.0,
+    "model": "B0",
+    "prediction": 9.431924882629108,
+    "absolute_error": 1.431924882629108
+  },
+  {
+    "week_start": "2026-04-13",
+    "phase": "final_holdout",
+    "actual": 8.0,
+    "model": "B1",
+    "prediction": 10.0,
+    "absolute_error": 2.0
+  },
+  {
+    "week_start": "2026-04-13",
+    "phase": "final_holdout",
+    "actual": 8.0,
+    "model": "B2",
+    "prediction": 8.375,
+    "absolute_error": 0.375
+  },
+  {
+    "week_start": "2026-04-13",
+    "phase": "final_holdout",
+    "actual": 8.0,
+    "model": "B3",
+    "prediction": 5.0,
+    "absolute_error": 3.0
+  },
+  {
+    "week_start": "2026-04-13",
+    "phase": "final_holdout",
+    "actual": 8.0,
+    "model": "B4",
+    "prediction": 10.615384615384615,
+    "absolute_error": 2.615384615384615
+  },
+  {
+    "week_start": "2026-04-13",
+    "phase": "final_holdout",
+    "actual": 8.0,
+    "model": "M1",
+    "prediction": 8.921629718368159,
+    "absolute_error": 0.921629718368159
+  },
+  {
+    "week_start": "2026-04-20",
+    "phase": "final_holdout",
+    "actual": 9.0,
+    "model": "B0",
+    "prediction": 9.425233644859814,
+    "absolute_error": 0.42523364485981396
+  },
+  {
+    "week_start": "2026-04-20",
+    "phase": "final_holdout",
+    "actual": 9.0,
+    "model": "B1",
+    "prediction": 9.25,
+    "absolute_error": 0.25
+  },
+  {
+    "week_start": "2026-04-20",
+    "phase": "final_holdout",
+    "actual": 9.0,
+    "model": "B2",
+    "prediction": 8.375,
+    "absolute_error": 0.625
+  },
+  {
+    "week_start": "2026-04-20",
+    "phase": "final_holdout",
+    "actual": 9.0,
+    "model": "B3",
+    "prediction": 8.0,
+    "absolute_error": 1.0
+  },
+  {
+    "week_start": "2026-04-20",
+    "phase": "final_holdout",
+    "actual": 9.0,
+    "model": "B4",
+    "prediction": 9.538461538461538,
+    "absolute_error": 0.5384615384615383
+  },
+  {
+    "week_start": "2026-04-20",
+    "phase": "final_holdout",
+    "actual": 9.0,
+    "model": "M1",
+    "prediction": 8.487355471772247,
+    "absolute_error": 0.512644528227753
+  },
+  {
+    "week_start": "2026-04-27",
+    "phase": "final_holdout",
+    "actual": 10.0,
+    "model": "B0",
+    "prediction": 9.423255813953489,
+    "absolute_error": 0.5767441860465112
+  },
+  {
+    "week_start": "2026-04-27",
+    "phase": "final_holdout",
+    "actual": 10.0,
+    "model": "B1",
+    "prediction": 9.25,
+    "absolute_error": 0.75
+  },
+  {
+    "week_start": "2026-04-27",
+    "phase": "final_holdout",
+    "actual": 10.0,
+    "model": "B2",
+    "prediction": 8.5,
+    "absolute_error": 1.5
+  },
+  {
+    "week_start": "2026-04-27",
+    "phase": "final_holdout",
+    "actual": 10.0,
+    "model": "B3",
+    "prediction": 9.0,
+    "absolute_error": 1.0
+  },
+  {
+    "week_start": "2026-04-27",
+    "phase": "final_holdout",
+    "actual": 10.0,
+    "model": "B4",
+    "prediction": 8.692307692307692,
+    "absolute_error": 1.3076923076923084
+  },
+  {
+    "week_start": "2026-04-27",
+    "phase": "final_holdout",
+    "actual": 10.0,
+    "model": "M1",
+    "prediction": 8.950510257690048,
+    "absolute_error": 1.0494897423099516
+  },
+  {
+    "week_start": "2026-05-04",
+    "phase": "final_holdout",
+    "actual": 9.0,
+    "model": "B0",
+    "prediction": 9.425925925925926,
+    "absolute_error": 0.4259259259259256
+  },
+  {
+    "week_start": "2026-05-04",
+    "phase": "final_holdout",
+    "actual": 9.0,
+    "model": "B1",
+    "prediction": 8.0,
+    "absolute_error": 1.0
+  },
+  {
+    "week_start": "2026-05-04",
+    "phase": "final_holdout",
+    "actual": 9.0,
+    "model": "B2",
+    "prediction": 9.125,
+    "absolute_error": 0.125
+  },
+  {
+    "week_start": "2026-05-04",
+    "phase": "final_holdout",
+    "actual": 9.0,
+    "model": "B3",
+    "prediction": 10.0,
+    "absolute_error": 1.0
+  },
+  {
+    "week_start": "2026-05-04",
+    "phase": "final_holdout",
+    "actual": 9.0,
+    "model": "B4",
+    "prediction": 9.153846153846153,
+    "absolute_error": 0.1538461538461533
+  },
+  {
+    "week_start": "2026-05-04",
+    "phase": "final_holdout",
+    "actual": 9.0,
+    "model": "M1",
+    "prediction": 9.068251615437685,
+    "absolute_error": 0.06825161543768488
+  },
+  {
+    "week_start": "2026-05-11",
+    "phase": "final_holdout",
+    "actual": 18.0,
+    "model": "B0",
+    "prediction": 9.423963133640553,
+    "absolute_error": 8.576036866359447
+  },
+  {
+    "week_start": "2026-05-11",
+    "phase": "final_holdout",
+    "actual": 18.0,
+    "model": "B1",
+    "prediction": 9.0,
+    "absolute_error": 9.0
+  },
+  {
+    "week_start": "2026-05-11",
+    "phase": "final_holdout",
+    "actual": 18.0,
+    "model": "B2",
+    "prediction": 9.5,
+    "absolute_error": 8.5
+  },
+  {
+    "week_start": "2026-05-11",
+    "phase": "final_holdout",
+    "actual": 18.0,
+    "model": "B3",
+    "prediction": 9.0,
+    "absolute_error": 9.0
+  },
+  {
+    "week_start": "2026-05-11",
+    "phase": "final_holdout",
+    "actual": 18.0,
+    "model": "B4",
+    "prediction": 8.846153846153847,
+    "absolute_error": 9.153846153846153
+  },
+  {
+    "week_start": "2026-05-11",
+    "phase": "final_holdout",
+    "actual": 18.0,
+    "model": "M1",
+    "prediction": 9.224512742000568,
+    "absolute_error": 8.775487257999432
+  },
+  {
+    "week_start": "2026-05-18",
+    "phase": "final_holdout",
+    "actual": 12.0,
+    "model": "B0",
+    "prediction": 9.463302752293577,
+    "absolute_error": 2.5366972477064227
+  },
+  {
+    "week_start": "2026-05-18",
+    "phase": "final_holdout",
+    "actual": 12.0,
+    "model": "B1",
+    "prediction": 11.5,
+    "absolute_error": 0.5
+  },
+  {
+    "week_start": "2026-05-18",
+    "phase": "final_holdout",
+    "actual": 12.0,
+    "model": "B2",
+    "prediction": 10.375,
+    "absolute_error": 1.625
+  },
+  {
+    "week_start": "2026-05-18",
+    "phase": "final_holdout",
+    "actual": 12.0,
+    "model": "B3",
+    "prediction": 18.0,
+    "absolute_error": 6.0
+  },
+  {
+    "week_start": "2026-05-18",
+    "phase": "final_holdout",
+    "actual": 12.0,
+    "model": "B4",
+    "prediction": 9.307692307692308,
+    "absolute_error": 2.6923076923076916
+  },
+  {
+    "week_start": "2026-05-18",
+    "phase": "final_holdout",
+    "actual": 12.0,
+    "model": "M1",
+    "prediction": 10.343693948731875,
+    "absolute_error": 1.6563060512681247
+  },
+  {
+    "week_start": "2026-05-25",
+    "phase": "final_holdout",
+    "actual": 14.0,
+    "model": "B0",
+    "prediction": 9.474885844748858,
+    "absolute_error": 4.525114155251142
+  },
+  {
+    "week_start": "2026-05-25",
+    "phase": "final_holdout",
+    "actual": 14.0,
+    "model": "B1",
+    "prediction": 12.25,
+    "absolute_error": 1.75
+  },
+  {
+    "week_start": "2026-05-25",
+    "phase": "final_holdout",
+    "actual": 14.0,
+    "model": "B2",
+    "prediction": 10.75,
+    "absolute_error": 3.25
+  },
+  {
+    "week_start": "2026-05-25",
+    "phase": "final_holdout",
+    "actual": 14.0,
+    "model": "B3",
+    "prediction": 12.0,
+    "absolute_error": 2.0
+  },
+  {
+    "week_start": "2026-05-25",
+    "phase": "final_holdout",
+    "actual": 14.0,
+    "model": "B4",
+    "prediction": 9.615384615384615,
+    "absolute_error": 4.384615384615385
+  },
+  {
+    "week_start": "2026-05-25",
+    "phase": "final_holdout",
+    "actual": 14.0,
+    "model": "M1",
+    "prediction": 10.618174330757682,
+    "absolute_error": 3.3818256692423176
+  },
+  {
+    "week_start": "2026-06-01",
+    "phase": "final_holdout",
+    "actual": 16.0,
+    "model": "B0",
+    "prediction": 9.495454545454546,
+    "absolute_error": 6.504545454545454
+  },
+  {
+    "week_start": "2026-06-01",
+    "phase": "final_holdout",
+    "actual": 16.0,
+    "model": "B1",
+    "prediction": 13.25,
+    "absolute_error": 2.75
+  },
+  {
+    "week_start": "2026-06-01",
+    "phase": "final_holdout",
+    "actual": 16.0,
+    "model": "B2",
+    "prediction": 10.625,
+    "absolute_error": 5.375
+  },
+  {
+    "week_start": "2026-06-01",
+    "phase": "final_holdout",
+    "actual": 16.0,
+    "model": "B3",
+    "prediction": 14.0,
+    "absolute_error": 2.0
+  },
+  {
+    "week_start": "2026-06-01",
+    "phase": "final_holdout",
+    "actual": 16.0,
+    "model": "B4",
+    "prediction": 10.076923076923077,
+    "absolute_error": 5.923076923076923
+  },
+  {
+    "week_start": "2026-06-01",
+    "phase": "final_holdout",
+    "actual": 16.0,
+    "model": "M1",
+    "prediction": 10.539856015839852,
+    "absolute_error": 5.460143984160148
+  },
+  {
+    "week_start": "2026-06-08",
+    "phase": "final_holdout",
+    "actual": 6.0,
+    "model": "B0",
+    "prediction": 9.524886877828054,
+    "absolute_error": 3.524886877828054
+  },
+  {
+    "week_start": "2026-06-08",
+    "phase": "final_holdout",
+    "actual": 6.0,
+    "model": "B1",
+    "prediction": 15.0,
+    "absolute_error": 9.0
+  },
+  {
+    "week_start": "2026-06-08",
+    "phase": "final_holdout",
+    "actual": 6.0,
+    "model": "B2",
+    "prediction": 12.0,
+    "absolute_error": 6.0
+  },
+  {
+    "week_start": "2026-06-08",
+    "phase": "final_holdout",
+    "actual": 6.0,
+    "model": "B3",
+    "prediction": 16.0,
+    "absolute_error": 10.0
+  },
+  {
+    "week_start": "2026-06-08",
+    "phase": "final_holdout",
+    "actual": 6.0,
+    "model": "B4",
+    "prediction": 10.923076923076923,
+    "absolute_error": 4.923076923076923
+  },
+  {
+    "week_start": "2026-06-08",
+    "phase": "final_holdout",
+    "actual": 6.0,
+    "model": "M1",
+    "prediction": 11.28226803546098,
+    "absolute_error": 5.28226803546098
+  },
+  {
+    "week_start": "2026-06-15",
+    "phase": "final_holdout",
+    "actual": 11.0,
+    "model": "B0",
+    "prediction": 9.50900900900901,
+    "absolute_error": 1.4909909909909906
+  },
+  {
+    "week_start": "2026-06-15",
+    "phase": "final_holdout",
+    "actual": 11.0,
+    "model": "B1",
+    "prediction": 12.0,
+    "absolute_error": 1.0
+  },
+  {
+    "week_start": "2026-06-15",
+    "phase": "final_holdout",
+    "actual": 11.0,
+    "model": "B2",
+    "prediction": 11.75,
+    "absolute_error": 0.75
+  },
+  {
+    "week_start": "2026-06-15",
+    "phase": "final_holdout",
+    "actual": 11.0,
+    "model": "B3",
+    "prediction": 6.0,
+    "absolute_error": 5.0
+  },
+  {
+    "week_start": "2026-06-15",
+    "phase": "final_holdout",
+    "actual": 11.0,
+    "model": "B4",
+    "prediction": 10.923076923076923,
+    "absolute_error": 0.07692307692307665
+  },
+  {
+    "week_start": "2026-06-15",
+    "phase": "final_holdout",
+    "actual": 11.0,
+    "model": "M1",
+    "prediction": 9.882322689397665,
+    "absolute_error": 1.1176773106023354
+  },
+  {
+    "week_start": "2026-06-22",
+    "phase": "final_holdout",
+    "actual": 12.0,
+    "model": "B0",
+    "prediction": 9.515695067264573,
+    "absolute_error": 2.4843049327354265
+  },
+  {
+    "week_start": "2026-06-22",
+    "phase": "final_holdout",
+    "actual": 12.0,
+    "model": "B1",
+    "prediction": 11.75,
+    "absolute_error": 0.25
+  },
+  {
+    "week_start": "2026-06-22",
+    "phase": "final_holdout",
+    "actual": 12.0,
+    "model": "B2",
+    "prediction": 12.0,
+    "absolute_error": 0.0
+  },
+  {
+    "week_start": "2026-06-22",
+    "phase": "final_holdout",
+    "actual": 12.0,
+    "model": "B3",
+    "prediction": 11.0,
+    "absolute_error": 1.0
+  },
+  {
+    "week_start": "2026-06-22",
+    "phase": "final_holdout",
+    "actual": 12.0,
+    "model": "B4",
+    "prediction": 10.923076923076923,
+    "absolute_error": 1.0769230769230766
+  },
+  {
+    "week_start": "2026-06-22",
+    "phase": "final_holdout",
+    "actual": 12.0,
+    "model": "M1",
+    "prediction": 9.731254669243878,
+    "absolute_error": 2.268745330756122
+  },
+  {
+    "week_start": "2026-06-29",
+    "phase": "final_holdout",
+    "actual": 6.0,
+    "model": "B0",
+    "prediction": 9.526785714285714,
+    "absolute_error": 3.5267857142857135
+  },
+  {
+    "week_start": "2026-06-29",
+    "phase": "final_holdout",
+    "actual": 6.0,
+    "model": "B1",
+    "prediction": 11.25,
+    "absolute_error": 5.25
+  },
+  {
+    "week_start": "2026-06-29",
+    "phase": "final_holdout",
+    "actual": 6.0,
+    "model": "B2",
+    "prediction": 12.25,
+    "absolute_error": 6.25
+  },
+  {
+    "week_start": "2026-06-29",
+    "phase": "final_holdout",
+    "actual": 6.0,
+    "model": "B3",
+    "prediction": 12.0,
+    "absolute_error": 6.0
+  },
+  {
+    "week_start": "2026-06-29",
+    "phase": "final_holdout",
+    "actual": 6.0,
+    "model": "B4",
+    "prediction": 11.153846153846153,
+    "absolute_error": 5.153846153846153
+  },
+  {
+    "week_start": "2026-06-29",
+    "phase": "final_holdout",
+    "actual": 6.0,
+    "model": "M1",
+    "prediction": 10.330103666165074,
+    "absolute_error": 4.3301036661650745
+  },
+  {
+    "week_start": "2026-07-06",
+    "phase": "final_holdout",
+    "actual": 13.0,
+    "model": "B0",
+    "prediction": 9.511111111111111,
+    "absolute_error": 3.488888888888889
+  },
+  {
+    "week_start": "2026-07-06",
+    "phase": "final_holdout",
+    "actual": 13.0,
+    "model": "B1",
+    "prediction": 8.75,
+    "absolute_error": 4.25
+  },
+  {
+    "week_start": "2026-07-06",
+    "phase": "final_holdout",
+    "actual": 13.0,
+    "model": "B2",
+    "prediction": 11.875,
+    "absolute_error": 1.125
+  },
+  {
+    "week_start": "2026-07-06",
+    "phase": "final_holdout",
+    "actual": 13.0,
+    "model": "B3",
+    "prediction": 6.0,
+    "absolute_error": 7.0
+  },
+  {
+    "week_start": "2026-07-06",
+    "phase": "final_holdout",
+    "actual": 13.0,
+    "model": "B4",
+    "prediction": 10.461538461538462,
+    "absolute_error": 2.5384615384615383
+  },
+  {
+    "week_start": "2026-07-06",
+    "phase": "final_holdout",
+    "actual": 13.0,
+    "model": "M1",
+    "prediction": 9.323850906220898,
+    "absolute_error": 3.6761490937791024
+  },
+  {
+    "week_start": "2026-07-13",
+    "phase": "final_holdout",
+    "actual": 14.0,
+    "model": "B0",
+    "prediction": 9.526548672566372,
+    "absolute_error": 4.473451327433628
+  },
+  {
+    "week_start": "2026-07-13",
+    "phase": "final_holdout",
+    "actual": 14.0,
+    "model": "B1",
+    "prediction": 10.5,
+    "absolute_error": 3.5
+  },
+  {
+    "week_start": "2026-07-13",
+    "phase": "final_holdout",
+    "actual": 14.0,
+    "model": "B2",
+    "prediction": 11.25,
+    "absolute_error": 2.75
+  },
+  {
+    "week_start": "2026-07-13",
+    "phase": "final_holdout",
+    "actual": 14.0,
+    "model": "B3",
+    "prediction": 13.0,
+    "absolute_error": 1.0
+  },
+  {
+    "week_start": "2026-07-13",
+    "phase": "final_holdout",
+    "actual": 14.0,
+    "model": "B4",
+    "prediction": 11.076923076923077,
+    "absolute_error": 2.9230769230769234
+  },
+  {
+    "week_start": "2026-07-13",
+    "phase": "final_holdout",
+    "actual": 14.0,
+    "model": "M1",
+    "prediction": 9.693746460902645,
+    "absolute_error": 4.306253539097355
+  },
+  {
+    "week_start": "2026-07-20",
+    "phase": "final_holdout",
+    "actual": 16.0,
+    "model": "B0",
+    "prediction": 9.54625550660793,
+    "absolute_error": 6.453744493392071
+  },
+  {
+    "week_start": "2026-07-20",
+    "phase": "final_holdout",
+    "actual": 16.0,
+    "model": "B1",
+    "prediction": 11.25,
+    "absolute_error": 4.75
+  },
+  {
+    "week_start": "2026-07-20",
+    "phase": "final_holdout",
+    "actual": 16.0,
+    "model": "B2",
+    "prediction": 11.5,
+    "absolute_error": 4.5
+  },
+  {
+    "week_start": "2026-07-20",
+    "phase": "final_holdout",
+    "actual": 16.0,
+    "model": "B3",
+    "prediction": 14.0,
+    "absolute_error": 2.0
+  },
+  {
+    "week_start": "2026-07-20",
+    "phase": "final_holdout",
+    "actual": 16.0,
+    "model": "B4",
+    "prediction": 11.538461538461538,
+    "absolute_error": 4.461538461538462
+  },
+  {
+    "week_start": "2026-07-20",
+    "phase": "final_holdout",
+    "actual": 16.0,
+    "model": "M1",
+    "prediction": 10.560201202939664,
+    "absolute_error": 5.439798797060336
+  },
+  {
+    "week_start": "2026-07-27",
+    "phase": "final_holdout",
+    "actual": 17.0,
+    "model": "B0",
+    "prediction": 9.574561403508772,
+    "absolute_error": 7.425438596491228
+  },
+  {
+    "week_start": "2026-07-27",
+    "phase": "final_holdout",
+    "actual": 17.0,
+    "model": "B1",
+    "prediction": 12.25,
+    "absolute_error": 4.75
+  },
+  {
+    "week_start": "2026-07-27",
+    "phase": "final_holdout",
+    "actual": 17.0,
+    "model": "B2",
+    "prediction": 11.75,
+    "absolute_error": 5.25
+  },
+  {
+    "week_start": "2026-07-27",
+    "phase": "final_holdout",
+    "actual": 17.0,
+    "model": "B3",
+    "prediction": 16.0,
+    "absolute_error": 1.0
+  },
+  {
+    "week_start": "2026-07-27",
+    "phase": "final_holdout",
+    "actual": 17.0,
+    "model": "B4",
+    "prediction": 12.076923076923077,
+    "absolute_error": 4.923076923076923
+  },
+  {
+    "week_start": "2026-07-27",
+    "phase": "final_holdout",
+    "actual": 17.0,
+    "model": "M1",
+    "prediction": 10.991881633363695,
+    "absolute_error": 6.008118366636305
+  },
+  {
+    "week_start": "2026-08-03",
+    "phase": "final_holdout",
+    "actual": 14.0,
+    "model": "B0",
+    "prediction": 9.606986899563319,
+    "absolute_error": 4.393013100436681
+  },
+  {
+    "week_start": "2026-08-03",
+    "phase": "final_holdout",
+    "actual": 14.0,
+    "model": "B1",
+    "prediction": 15.0,
+    "absolute_error": 1.0
+  },
+  {
+    "week_start": "2026-08-03",
+    "phase": "final_holdout",
+    "actual": 14.0,
+    "model": "B2",
+    "prediction": 11.875,
+    "absolute_error": 2.125
+  },
+  {
+    "week_start": "2026-08-03",
+    "phase": "final_holdout",
+    "actual": 14.0,
+    "model": "B3",
+    "prediction": 17.0,
+    "absolute_error": 3.0
+  },
+  {
+    "week_start": "2026-08-03",
+    "phase": "final_holdout",
+    "actual": 14.0,
+    "model": "B4",
+    "prediction": 12.615384615384615,
+    "absolute_error": 1.384615384615385
+  },
+  {
+    "week_start": "2026-08-03",
+    "phase": "final_holdout",
+    "actual": 14.0,
+    "model": "M1",
+    "prediction": 11.533579141326946,
+    "absolute_error": 2.466420858673054
+  },
+  {
+    "week_start": "2026-08-10",
+    "phase": "final_holdout",
+    "actual": 15.0,
+    "model": "B0",
+    "prediction": 9.626086956521739,
+    "absolute_error": 5.373913043478261
+  },
+  {
+    "week_start": "2026-08-10",
+    "phase": "final_holdout",
+    "actual": 15.0,
+    "model": "B1",
+    "prediction": 15.25,
+    "absolute_error": 0.25
+  },
+  {
+    "week_start": "2026-08-10",
+    "phase": "final_holdout",
+    "actual": 15.0,
+    "model": "B2",
+    "prediction": 12.875,
+    "absolute_error": 2.125
+  },
+  {
+    "week_start": "2026-08-10",
+    "phase": "final_holdout",
+    "actual": 15.0,
+    "model": "B3",
+    "prediction": 14.0,
+    "absolute_error": 1.0
+  },
+  {
+    "week_start": "2026-08-10",
+    "phase": "final_holdout",
+    "actual": 15.0,
+    "model": "B4",
+    "prediction": 13.0,
+    "absolute_error": 2.0
+  },
+  {
+    "week_start": "2026-08-10",
+    "phase": "final_holdout",
+    "actual": 15.0,
+    "model": "M1",
+    "prediction": 11.532248593270626,
+    "absolute_error": 3.4677514067293735
+  },
+  {
+    "week_start": "2026-08-17",
+    "phase": "final_holdout",
+    "actual": 24.0,
+    "model": "B0",
+    "prediction": 9.64935064935065,
+    "absolute_error": 14.35064935064935
+  },
+  {
+    "week_start": "2026-08-17",
+    "phase": "final_holdout",
+    "actual": 24.0,
+    "model": "B1",
+    "prediction": 15.5,
+    "absolute_error": 8.5
+  },
+  {
+    "week_start": "2026-08-17",
+    "phase": "final_holdout",
+    "actual": 24.0,
+    "model": "B2",
+    "prediction": 13.375,
+    "absolute_error": 10.625
+  },
+  {
+    "week_start": "2026-08-17",
+    "phase": "final_holdout",
+    "actual": 24.0,
+    "model": "B3",
+    "prediction": 15.0,
+    "absolute_error": 9.0
+  },
+  {
+    "week_start": "2026-08-17",
+    "phase": "final_holdout",
+    "actual": 24.0,
+    "model": "B4",
+    "prediction": 12.76923076923077,
+    "absolute_error": 11.23076923076923
+  },
+  {
+    "week_start": "2026-08-17",
+    "phase": "final_holdout",
+    "actual": 24.0,
+    "model": "M1",
+    "prediction": 11.559137475991953,
+    "absolute_error": 12.440862524008047
+  },
+  {
+    "week_start": "2026-08-24",
+    "phase": "final_holdout",
+    "actual": 50.0,
+    "model": "B0",
+    "prediction": 9.711206896551724,
+    "absolute_error": 40.28879310344828
+  },
+  {
+    "week_start": "2026-08-24",
+    "phase": "final_holdout",
+    "actual": 50.0,
+    "model": "B1",
+    "prediction": 17.5,
+    "absolute_error": 32.5
+  },
+  {
+    "week_start": "2026-08-24",
+    "phase": "final_holdout",
+    "actual": 50.0,
+    "model": "B2",
+    "prediction": 14.875,
+    "absolute_error": 35.125
+  },
+  {
+    "week_start": "2026-08-24",
+    "phase": "final_holdout",
+    "actual": 50.0,
+    "model": "B3",
+    "prediction": 24.0,
+    "absolute_error": 26.0
+  },
+  {
+    "week_start": "2026-08-24",
+    "phase": "final_holdout",
+    "actual": 50.0,
+    "model": "B4",
+    "prediction": 13.692307692307692,
+    "absolute_error": 36.30769230769231
+  },
+  {
+    "week_start": "2026-08-24",
+    "phase": "final_holdout",
+    "actual": 50.0,
+    "model": "M1",
+    "prediction": 12.92729941775646,
+    "absolute_error": 37.07270058224354
+  },
+  {
+    "week_start": "2026-08-31",
+    "phase": "final_holdout",
+    "actual": 50.0,
+    "model": "B0",
+    "prediction": 9.88412017167382,
+    "absolute_error": 40.11587982832618
+  },
+  {
+    "week_start": "2026-08-31",
+    "phase": "final_holdout",
+    "actual": 50.0,
+    "model": "B1",
+    "prediction": 25.75,
+    "absolute_error": 24.25
+  },
+  {
+    "week_start": "2026-08-31",
+    "phase": "final_holdout",
+    "actual": 50.0,
+    "model": "B2",
+    "prediction": 20.375,
+    "absolute_error": 29.625
+  },
+  {
+    "week_start": "2026-08-31",
+    "phase": "final_holdout",
+    "actual": 50.0,
+    "model": "B3",
+    "prediction": 50.0,
+    "absolute_error": 0.0
+  },
+  {
+    "week_start": "2026-08-31",
+    "phase": "final_holdout",
+    "actual": 50.0,
+    "model": "B4",
+    "prediction": 16.46153846153846,
+    "absolute_error": 33.53846153846154
+  },
+  {
+    "week_start": "2026-08-31",
+    "phase": "final_holdout",
+    "actual": 50.0,
+    "model": "M1",
+    "prediction": 18.092392907451828,
+    "absolute_error": 31.907607092548172
+  },
+  {
+    "week_start": "2026-09-07",
+    "phase": "final_holdout",
+    "actual": 34.0,
+    "model": "B0",
+    "prediction": 10.055555555555555,
+    "absolute_error": 23.944444444444443
+  },
+  {
+    "week_start": "2026-09-07",
+    "phase": "final_holdout",
+    "actual": 34.0,
+    "model": "B1",
+    "prediction": 34.75,
+    "absolute_error": 0.75
+  },
+  {
+    "week_start": "2026-09-07",
+    "phase": "final_holdout",
+    "actual": 34.0,
+    "model": "B2",
+    "prediction": 25.0,
+    "absolute_error": 9.0
+  },
+  {
+    "week_start": "2026-09-07",
+    "phase": "final_holdout",
+    "actual": 34.0,
+    "model": "B3",
+    "prediction": 50.0,
+    "absolute_error": 16.0
+  },
+  {
+    "week_start": "2026-09-07",
+    "phase": "final_holdout",
+    "actual": 34.0,
+    "model": "B4",
+    "prediction": 19.076923076923077,
+    "absolute_error": 14.923076923076923
+  },
+  {
+    "week_start": "2026-09-07",
+    "phase": "final_holdout",
+    "actual": 34.0,
+    "model": "M1",
+    "prediction": 24.41239787850865,
+    "absolute_error": 9.58760212149135
+  },
+  {
+    "week_start": "2026-09-14",
+    "phase": "final_holdout",
+    "actual": 42.0,
+    "model": "B0",
+    "prediction": 10.157446808510638,
+    "absolute_error": 31.842553191489362
+  },
+  {
+    "week_start": "2026-09-14",
+    "phase": "final_holdout",
+    "actual": 42.0,
+    "model": "B1",
+    "prediction": 39.5,
+    "absolute_error": 2.5
+  },
+  {
+    "week_start": "2026-09-14",
+    "phase": "final_holdout",
+    "actual": 42.0,
+    "model": "B2",
+    "prediction": 27.5,
+    "absolute_error": 14.5
+  },
+  {
+    "week_start": "2026-09-14",
+    "phase": "final_holdout",
+    "actual": 42.0,
+    "model": "B3",
+    "prediction": 34.0,
+    "absolute_error": 8.0
+  },
+  {
+    "week_start": "2026-09-14",
+    "phase": "final_holdout",
+    "actual": 42.0,
+    "model": "B4",
+    "prediction": 21.23076923076923,
+    "absolute_error": 20.76923076923077
+  },
+  {
+    "week_start": "2026-09-14",
+    "phase": "final_holdout",
+    "actual": 42.0,
+    "model": "M1",
+    "prediction": 24.762383428312564,
+    "absolute_error": 17.237616571687436
+  },
+  {
+    "week_start": "2026-09-21",
+    "phase": "final_holdout",
+    "actual": 53.0,
+    "model": "B0",
+    "prediction": 10.292372881355933,
+    "absolute_error": 42.70762711864407
+  },
+  {
+    "week_start": "2026-09-21",
+    "phase": "final_holdout",
+    "actual": 53.0,
+    "model": "B1",
+    "prediction": 44.0,
+    "absolute_error": 9.0
+  },
+  {
+    "week_start": "2026-09-21",
+    "phase": "final_holdout",
+    "actual": 53.0,
+    "model": "B2",
+    "prediction": 30.75,
+    "absolute_error": 22.25
+  },
+  {
+    "week_start": "2026-09-21",
+    "phase": "final_holdout",
+    "actual": 53.0,
+    "model": "B3",
+    "prediction": 42.0,
+    "absolute_error": 11.0
+  },
+  {
+    "week_start": "2026-09-21",
+    "phase": "final_holdout",
+    "actual": 53.0,
+    "model": "B4",
+    "prediction": 23.615384615384617,
+    "absolute_error": 29.384615384615383
+  },
+  {
+    "week_start": "2026-09-21",
+    "phase": "final_holdout",
+    "actual": 53.0,
+    "model": "M1",
+    "prediction": 27.788883698456047,
+    "absolute_error": 25.211116301543953
+  },
+  {
+    "week_start": "2026-09-28",
+    "phase": "final_holdout",
+    "actual": 65.0,
+    "model": "B0",
+    "prediction": 10.472573839662447,
+    "absolute_error": 54.527426160337555
+  },
+  {
+    "week_start": "2026-09-28",
+    "phase": "final_holdout",
+    "actual": 65.0,
+    "model": "B1",
+    "prediction": 44.75,
+    "absolute_error": 20.25
+  },
+  {
+    "week_start": "2026-09-28",
+    "phase": "final_holdout",
+    "actual": 65.0,
+    "model": "B2",
+    "prediction": 35.25,
+    "absolute_error": 29.75
+  },
+  {
+    "week_start": "2026-09-28",
+    "phase": "final_holdout",
+    "actual": 65.0,
+    "model": "B3",
+    "prediction": 53.0,
+    "absolute_error": 12.0
+  },
+  {
+    "week_start": "2026-09-28",
+    "phase": "final_holdout",
+    "actual": 65.0,
+    "model": "B4",
+    "prediction": 26.76923076923077,
+    "absolute_error": 38.230769230769226
+  },
+  {
+    "week_start": "2026-09-28",
+    "phase": "final_holdout",
+    "actual": 65.0,
+    "model": "M1",
+    "prediction": 34.594403883127846,
+    "absolute_error": 30.405596116872154
+  }
+]

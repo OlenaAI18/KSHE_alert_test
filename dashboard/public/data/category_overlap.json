@@ -1,0 +1,247 @@
+[
+  {
+    "category_a": "shahed_uav",
+    "category_b": "shahed_uav",
+    "unique_alerts": 630.0
+  },
+  {
+    "category_a": "shahed_uav",
+    "category_b": "jet_uav",
+    "unique_alerts": 70.0
+  },
+  {
+    "category_a": "shahed_uav",
+    "category_b": "ballistic_high_speed",
+    "unique_alerts": 94.0
+  },
+  {
+    "category_a": "shahed_uav",
+    "category_b": "cruise_missile",
+    "unique_alerts": 60.0
+  },
+  {
+    "category_a": "shahed_uav",
+    "category_b": "mig31",
+    "unique_alerts": 41.0
+  },
+  {
+    "category_a": "shahed_uav",
+    "category_b": "strategic_aviation",
+    "unique_alerts": 46.0
+  },
+  {
+    "category_a": "shahed_uav",
+    "category_b": "other",
+    "unique_alerts": 41.0
+  },
+  {
+    "category_a": "jet_uav",
+    "category_b": "shahed_uav",
+    "unique_alerts": 70.0
+  },
+  {
+    "category_a": "jet_uav",
+    "category_b": "jet_uav",
+    "unique_alerts": 131.0
+  },
+  {
+    "category_a": "jet_uav",
+    "category_b": "ballistic_high_speed",
+    "unique_alerts": 20.0
+  },
+  {
+    "category_a": "jet_uav",
+    "category_b": "cruise_missile",
+    "unique_alerts": 8.0
+  },
+  {
+    "category_a": "jet_uav",
+    "category_b": "mig31",
+    "unique_alerts": 5.0
+  },
+  {
+    "category_a": "jet_uav",
+    "category_b": "strategic_aviation",
+    "unique_alerts": 7.0
+  },
+  {
+    "category_a": "jet_uav",
+    "category_b": "other",
+    "unique_alerts": 6.0
+  },
+  {
+    "category_a": "ballistic_high_speed",
+    "category_b": "shahed_uav",
+    "unique_alerts": 94.0
+  },
+  {
+    "category_a": "ballistic_high_speed",
+    "category_b": "jet_uav",
+    "unique_alerts": 20.0
+  },
+  {
+    "category_a": "ballistic_high_speed",
+    "category_b": "ballistic_high_speed",
+    "unique_alerts": 458.0
+  },
+  {
+    "category_a": "ballistic_high_speed",
+    "category_b": "cruise_missile",
+    "unique_alerts": 54.0
+  },
+  {
+    "category_a": "ballistic_high_speed",
+    "category_b": "mig31",
+    "unique_alerts": 56.0
+  },
+  {
+    "category_a": "ballistic_high_speed",
+    "category_b": "strategic_aviation",
+    "unique_alerts": 41.0
+  },
+  {
+    "category_a": "ballistic_high_speed",
+    "category_b": "other",
+    "unique_alerts": 40.0
+  },
+  {
+    "category_a": "cruise_missile",
+    "category_b": "shahed_uav",
+    "unique_alerts": 60.0
+  },
+  {
+    "category_a": "cruise_missile",
+    "category_b": "jet_uav",
+    "unique_alerts": 8.0
+  },
+  {
+    "category_a": "cruise_missile",
+    "category_b": "ballistic_high_speed",
+    "unique_alerts": 54.0
+  },
+  {
+    "category_a": "cruise_missile",
+    "category_b": "cruise_missile",
+    "unique_alerts": 99.0
+  },
+  {
+    "category_a": "cruise_missile",
+    "category_b": "mig31",
+    "unique_alerts": 35.0
+  },
+  {
+    "category_a": "cruise_missile",
+    "category_b": "strategic_aviation",
+    "unique_alerts": 40.0
+  },
+  {
+    "category_a": "cruise_missile",
+    "category_b": "other",
+    "unique_alerts": 40.0
+  },
+  {
+    "category_a": "mig31",
+    "category_b": "shahed_uav",
+    "unique_alerts": 41.0
+  },
+  {
+    "category_a": "mig31",
+    "category_b": "jet_uav",
+    "unique_alerts": 5.0
+  },
+  {
+    "category_a": "mig31",
+    "category_b": "ballistic_high_speed",
+    "unique_alerts": 56.0
+  },
+  {
+    "category_a": "mig31",
+    "category_b": "cruise_missile",
+    "unique_alerts": 35.0
+  },
+  {
+    "category_a": "mig31",
+    "category_b": "mig31",
+    "unique_alerts": 293.0
+  },
+  {
+    "category_a": "mig31",
+    "category_b": "strategic_aviation",
+    "unique_alerts": 30.0
+  },
+  {
+    "category_a": "mig31",
+    "category_b": "other",
+    "unique_alerts": 22.0
+  },
+  {
+    "category_a": "strategic_aviation",
+    "category_b": "shahed_uav",
+    "unique_alerts": 46.0
+  },
+  {
+    "category_a": "strategic_aviation",
+    "category_b": "jet_uav",
+    "unique_alerts": 7.0
+  },
+  {
+    "category_a": "strategic_aviation",
+    "category_b": "ballistic_high_speed",
+    "unique_alerts": 41.0
+  },
+  {
+    "category_a": "strategic_aviation",
+    "category_b": "cruise_missile",
+    "unique_alerts": 40.0
+  },
+  {
+    "category_a": "strategic_aviation",
+    "category_b": "mig31",
+    "unique_alerts": 30.0
+  },
+  {
+    "category_a": "strategic_aviation",
+    "category_b": "strategic_aviation",
+    "unique_alerts": 77.0
+  },
+  {
+    "category_a": "strategic_aviation",
+    "category_b": "other",
+    "unique_alerts": 28.0
+  },
+  {
+    "category_a": "other",
+    "category_b": "shahed_uav",
+    "unique_alerts": 41.0
+  },
+  {
+    "category_a": "other",
+    "category_b": "jet_uav",
+    "unique_alerts": 6.0
+  },
+  {
+    "category_a": "other",
+    "category_b": "ballistic_high_speed",
+    "unique_alerts": 40.0
+  },
+  {
+    "category_a": "other",
+    "category_b": "cruise_missile",
+    "unique_alerts": 40.0
+  },
+  {
+    "category_a": "other",
+    "category_b": "mig31",
+    "unique_alerts": 22.0
+  },
+  {
+    "category_a": "other",
+    "category_b": "strategic_aviation",
+    "unique_alerts": 28.0
+  },
+  {
+    "category_a": "other",
+    "category_b": "other",
+    "unique_alerts": 70.0
+  }
+]

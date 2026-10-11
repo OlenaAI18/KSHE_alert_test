@@ -1,0 +1,79 @@
+[
+  {
+    "category": "shahed_uav",
+    "count": 630,
+    "share_classified": 0.4864864864864865,
+    "share_eligible": 0.34941763727121466,
+    "n": 630,
+    "median": 78.78333333333333,
+    "mean": 125.40544973544974,
+    "p90": 304.5616666666667,
+    "maximum": 764.0666666666667
+  },
+  {
+    "category": "jet_uav",
+    "count": 131,
+    "share_classified": 0.10115830115830116,
+    "share_eligible": 0.07265668330560178,
+    "n": 131,
+    "median": 65.25,
+    "mean": 113.53473282442748,
+    "p90": 248.51666666666668,
+    "maximum": 764.0666666666667
+  },
+  {
+    "category": "ballistic_high_speed",
+    "count": 458,
+    "share_classified": 0.35366795366795367,
+    "share_eligible": 0.2540210759844703,
+    "n": 458,
+    "median": 30.366666666666667,
+    "mean": 73.91018922852984,
+    "p90": 201.8,
+    "maximum": 764.0666666666667
+  },
+  {
+    "category": "cruise_missile",
+    "count": 99,
+    "share_classified": 0.07644787644787644,
+    "share_eligible": 0.05490848585690516,
+    "n": 99,
+    "median": 153.46666666666667,
+    "mean": 222.54579124579124,
+    "p90": 474.98333333333335,
+    "maximum": 673.2
+  },
+  {
+    "category": "mig31",
+    "count": 293,
+    "share_classified": 0.22625482625482626,
+    "share_eligible": 0.1625069328896284,
+    "n": 293,
+    "median": 34.95,
+    "mean": 78.45483503981798,
+    "p90": 173.18666666666672,
+    "maximum": 631.4166666666666
+  },
+  {
+    "category": "strategic_aviation",
+    "count": 77,
+    "share_classified": 0.05945945945945946,
+    "share_eligible": 0.04270660011092623,
+    "n": 77,
+    "median": 174.11666666666667,
+    "mean": 212.88679653679654,
+    "p90": 467.15333333333336,
+    "maximum": 673.2
+  },
+  {
+    "category": "other",
+    "count": 70,
+    "share_classified": 0.05405405405405406,
+    "share_eligible": 0.03882418191902385,
+    "n": 70,
+    "median": 162.025,
+    "mean": 232.4228571428571,
+    "p90": 493.46000000000004,
+    "maximum": 673.2
+  }
+]

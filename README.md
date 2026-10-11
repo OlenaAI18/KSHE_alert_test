@@ -233,3 +233,12 @@ Two categories pass the frozen exploratory gate: broad UAV (inconclusive) and
 ballistic/high-speed (no stable gain). Five fail the data/stability gate. Counts
 represent reported markers; hindsight taxonomy prevents blind prospective validation.
 Classification versions and Task006 results are unchanged. No dashboard or deployment.
+
+## Task007 — Ukrainian static research dashboard
+
+Six research sections and interactive charts present frozen historical results,
+with public aggregate JSON only. See [dashboard instructions](dashboard/README.md)
+and [validation](reports/dashboard/validation_report.md). From `dashboard/` run
+`npm install`, `npm test`, `npm run dev`, `npm run build`. A clone needs no private
+inputs to display the dashboard. Manual GitHub Pages workflow is prepared; public
+hosting is not activated and requires research-lead approval. No live forecasts/chat.

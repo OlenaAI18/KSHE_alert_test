@@ -33,3 +33,10 @@ ChatExport_*/
 
 # External snapshots are source data, not implementation
 /data/external/**
+
+# Task007 frontend generated artifacts
+/dashboard/node_modules/
+/dashboard/dist/
+/dashboard/*.tsbuildinfo
+/dashboard/test-results/
+/dashboard/playwright-report/

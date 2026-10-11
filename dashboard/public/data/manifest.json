@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "inputs": {
+    "reports/temporal_analysis/temporal_summary.json": "985ae9828d3d09cb4312e0205c68001338cda1ab0477beb1ec5b93514b4f463c",
+    "reports/temporal_analysis/monthly_official_summary.csv": "5e2782b151576364f44bc0946ed36c0043b44bbcca46857e76e3c9e529ea8a76",
+    "reports/external_validation/single_multi_category_duration.csv": "29ce79e38629bcf67754bb1e43e34e59bd8823d570c445ec59fceddcc36cb9a0",
+    "reports/temporal_analysis/category_overlap.csv": "5dccbabd64c92cac797588a23e0add11652f14e13346ec00e8e53dbe8e422d1d",
+    "reports/forecastability_validation/baseline_comparison.csv": "baf8c53feb759f3c56ffd4bbb81ad6a387b901c089d081ae4d2d10a4a997987b",
+    "reports/forecastability_validation/walk_forward_results.csv": "8236943b4ac6d5191c91dbaa6b2000d36c504cfd648de7bc2ff10a07d013ebaf",
+    "reports/threat_forecastability/category_decision_matrix.csv": "af75c871a497894a9e0e954f0cd89017604ba2aa62332593ccf489787448fcc2",
+    "reports/temporal_analysis/statistical_tests.csv": "b93016e31c0d9554ba5684c7e2903e2401c27b6cc103e8786528a55fefa02f01",
+    "data/processed/temporal_analysis/alert_analysis_fact.parquet": "dcb2333eec749afac52749caac29f9420d8056c1b53dd5785cadb34e700b21c4"
+  },
+  "outputs": {
+    "summary.json": "fcb99dd9d196b9b61b6732a21bcfabafd70995472499590788c20985c79e2885",
+    "official_monthly.json": "ec9373c6a33417ce2d4608518b8642462eefd51b40ab2325431e902bd312c6d1",
+    "category_statistics.json": "4004e7626b9c879d2f1571c52a61dab2748d1d6f11e5280fb6014f018c7a766c",
+    "category_duration.json": "7056ae3a92fbbd45e7faf8131ea44101472bd1562ff7c698e6c74813bf043503",
+    "category_overlap.json": "e828c36aa2ce41c69b3ee36b5b0a2932a16cdb8fe00f46f40be6f88af9fd7d9b",
+    "forecast_comparison.json": "23dc1017eea0b00f0090646beed10777458c50131bb1ec2d8b3f35794f23ec3a",
+    "forecast_history.json": "59ee604502268181016bc63b3f5fe2cf8c028f3b74a376d2db75384ee155389c",
+    "forecastability_by_category.json": "7c1621f4ba2c36c449899483d01c7b565750b9edb8a747bc93d7ba94d653b95c",
+    "temporal_patterns.json": "883f18a47c1879fb44c8c1a901d050b9ca5c8c6a240f2aa588b0cb5acda3b992",
+    "classification_quality.json": "ed600dd3c7fc77df44ca5190663b24f0a6447fb23d62615f081f392fb1112660",
+    "duration_distribution.json": "7b0cb6ffe9c13f31eeb50f882a2ee8690b9198999e1c1272c3c316fb2e4f199e"
+  }
+}

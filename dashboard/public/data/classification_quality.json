@@ -1,0 +1,10 @@
+{
+  "classified": 1295,
+  "unknown_text": 410,
+  "unknown_no_text": 98,
+  "outside": 790,
+  "unresolved": 1,
+  "accuracy": null,
+  "categories_overlap": true,
+  "status": "EXPERIMENTAL — HUMAN VALIDATION REQUIRED"
+}
