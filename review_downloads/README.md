@@ -48,3 +48,18 @@ timelines, separate pre-alert evidence and blank human review fields.
 
 **EXPERIMENTAL — HUMAN VALIDATION REQUIRED.** Coverage gains are not validated
 classification accuracy.
+
+## Task 004.9 — experimental v1.6 handoff
+
+Download [task0049_v16_bundle.zip](task0049/task0049_v16_bundle.zip) using
+**Download raw file**. The archive contains derived Parquet datasets, CSV/JSON
+reports, v1.6 implementation, tests and documentation; raw exports are excluded.
+Reproduction requires the existing workspace with frozen earlier inputs/profiles.
+
+Read the [comparison report](task0049/classification_comparison.md) and
+[time-series handoff](task0049/time_series_handoff.md).
+
+1,295 / 1,803 eligible alerts (71.82%); 155 gains and one loss versus v1.5.
+582 tests and 20 compact source checks passed. Coverage is not measured accuracy.
+**EXPERIMENTAL — HUMAN VALIDATION REQUIRED.** Marker development has stopped;
+analytical adoption remains subject to research-lead acceptance.
