@@ -12,3 +12,14 @@ Save it and open it in Excel Desktop.
 - `validation_sample.xlsx`: initial classification review sample.
 
 Experimental evidence is provisional and is not independently validated classification accuracy or confirmation of weapon deployment. Human review fields remain blank.
+
+## Task 004.6 — experimental v1.4
+
+Open [classification_review.xlsx](task0046/classification_review.xlsx) and click
+**Download raw file**. The [comparison report](task0046/classification_comparison.md)
+and CSV/JSON files in [task0046](task0046/) accompany the workbook.
+
+437 → 1,050 experimental alert classifications; 613 new, zero lost. Coverage
+increase is not verified accuracy. The research lead chose to keep the 2581 label
+discrepancy for review; 2590 remains an unconfirmed working hypothesis.
+All new associations remain EXPERIMENTAL — HUMAN VALIDATION REQUIRED.
