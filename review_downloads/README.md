@@ -23,3 +23,19 @@ and CSV/JSON files in [task0046](task0046/) accompany the workbook.
 increase is not verified accuracy. The research lead chose to keep the 2581 label
 discrepancy for review; 2590 remains an unconfirmed working hypothesis.
 All new associations remain EXPERIMENTAL — HUMAN VALIDATION REQUIRED.
+
+## Task 004.7 — residual uncertainty review
+
+Open [residual_review_50.xlsx](task0047/residual_review_50.xlsx) and click
+**Download raw file**. Read the complete **Full Timeline** for each alert, then
+fill the blank fields in **Human Review**. The workbook contains 40 residual
+alerts and 10 newly classified safety cases; A–F are diagnostic hypotheses.
+
+The [summary](task0047/residual_segment_summary.md) documents exact grouping and
+selection rules. [All CSV/JSON files](task0047/) include full in-alert chronology,
+separate pre-alert evidence, supplementary post-alert boundary context, all 655
+residual features and the separate audit of 98 no-text cases. The latter consists
+of 96 alerts without linked records and two with only empty-text records.
+
+v1.3/v1.4, dictionaries, source timestamps and temporal links are unchanged.
+**DIAGNOSTIC — HUMAN REVIEW REQUIRED.** No v1.5 is implemented.

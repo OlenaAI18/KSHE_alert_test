@@ -1,0 +1,12 @@
+{
+  "status": "PASSED",
+  "test_command": "python -m pytest -q",
+  "tests_passed": 469,
+  "tests_skipped": 0,
+  "elapsed_test_seconds": 15.39,
+  "reproducibility": "byte-identical CSV and Markdown; identical serialized JSON excluding runtime",
+  "protected_hashes_unchanged": true,
+  "all_human_fields_blank": true,
+  "complete_timeline": true,
+  "excel_cell_adjustments": 0
+}
