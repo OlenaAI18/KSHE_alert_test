@@ -4,8 +4,6 @@ on:
   workflow_dispatch:
 permissions:
   contents: read
-  pages: write
-  id-token: write
 concurrency:
   group: pages
   cancel-in-progress: false
@@ -14,6 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - run: python3 scripts/audit_publication.py
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
@@ -29,6 +28,9 @@ jobs:
         with:
           path: dashboard/dist
   deploy:
+    permissions:
+      pages: write
+      id-token: write
     needs: build
     runs-on: ubuntu-latest
     environment:

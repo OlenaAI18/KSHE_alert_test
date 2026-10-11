@@ -637,7 +637,7 @@ function App() {
               ],
               [
                 "Класифікація v1.6",
-                "reports/classification_v1_6/time_series_handoff.md",
+                "review_downloads/task0049/time_series_handoff.md",
               ],
               ["Джерела та методологія", "docs/DATA_SOURCES.md"],
             ].map(([title, path]) => (

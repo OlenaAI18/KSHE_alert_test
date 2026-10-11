@@ -9,7 +9,7 @@ Research correctness over complexity; explicit assumptions over hidden assumptio
 ## Development workflow
 1. Read this file and relevant documents under `docs/`.
 2. Inspect existing code and Git changes before editing; preserve user work.
-3. Implement only the requested task scope. Task 001 is initialization only.
+3. Implement only the current requested task scope. Historical task restrictions describe their original stages; later explicit user tasks authorize scoped extensions.
 4. Add or update appropriate tests; use pytest for future automated tests.
 5. Run available tests and checks; distinguish passed, failed, skipped, and unrun checks. A zero-test run is not validation.
 6. Report actual results and limitations; never invent execution results.

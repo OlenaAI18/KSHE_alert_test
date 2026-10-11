@@ -1,4 +1,14 @@
-# Excel review files
+# Historical human-review downloads
+
+These are previously authorized research review artifacts, not production ground
+truth. Excel/CSV and the v1.6 review bundle may include selected Telegram source
+excerpts, message IDs and complete diagnostic timelines. They remain available
+for manual review and are excluded from GitHub Pages assets. Status/test counts
+below describe each historical task when executed; statements such as “no v1.5”
+or “no dashboard” are historical, not the current repository state. Read the
+[current project README](../README.md) for the released scope. Coverage is not
+independently measured classification accuracy. No complete original Telegram
+export is supplied here.
 
 Open an `.xlsx` file on GitHub and click **Download raw file** (the download arrow).
 Save it and open it in Excel Desktop.

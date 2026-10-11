@@ -562,3 +562,19 @@ p-values or operational forecast claims. Small-sample calendar/motive claims rem
 inconclusive. Task005 lag1 metrics are reused verbatim, not recomputed differently.
 No hosting activation or workflow change. Persistent user authorization covers
 Git source/docs push; public hosting still requires separate approval.
+
+## ADR 032 — repository publication readiness
+
+User requests a production-readiness review followed by commit/push. Scope is the
+static historical research deliverable: no change to scientific targets/timestamps,
+labels or frozen numerical results, and no authorization to activate hosting.
+Current README/architecture/roadmap replace stale initial-stage descriptions;
+prior reproduction notes retained as explicitly historical documentation. Existing
+user-authorized review Excel/CSV/ZIP remain available, labelled historical human
+review, not production ground truth or dashboard assets. Pages publishes only dist.
+Add dependency-free Node data gate to every build, matching validated core/MythLab
+checksums and report provenance; read-only push/PR CI and deploy-job-only privileges.
+Fix public report link to tracked v1.6 handoff. Upgrade vulnerable Vitest toolchain
+within tested Node24/Vite compatibility; record actual audit/test results. Verify
+fresh-checkout build without private datasets, full retained-workspace tests,
+package build, data/artifact inventory and source preservation before push.

@@ -1,10 +1,13 @@
+import { fileURLToPath } from "node:url";
 import { chromium } from "@playwright/test";
 import { mkdirSync, writeFileSync } from "node:fs";
 const browser = await chromium.launch({
   executablePath: process.env.CHROMIUM_PATH || "/usr/bin/chromium",
   args: ["--no-sandbox"],
 });
-const output = new URL("../reports/dashboard/", import.meta.url).pathname;
+const output =
+  process.env.RESEARCH_BROWSER_OUTPUT_DIR ||
+  fileURLToPath(new URL("../reports/dashboard/", import.meta.url));
 mkdirSync(output, { recursive: true });
 const results = [];
 try {

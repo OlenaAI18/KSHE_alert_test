@@ -1,20 +1,21 @@
 # Kyiv research dashboard · Task 007
 
-Ukrainian static research presentation: React, Vite, TypeScript, bundled Plotly basic charts. Six sections and twelve interactive charts; no backend, runtime API, chat, live forecast or CDN. All numbers derive from frozen research artifacts. Unknown does not mean absence; category counts overlap.
+Ukrainian static research presentation: React, Vite, TypeScript, bundled Plotly basic charts. Seven sections: twelve core charts and seven additional Myth Lab charts revealed on demand; no backend, runtime API, chat, live forecast or CDN. All numbers derive from frozen research artifacts. Unknown does not mean absence; category counts overlap.
 
 ## Run from a clone
 
-Node 24 is tested. From `dashboard/`:
+Node 24 is required and tested. From `dashboard/`:
 
 ```sh
-npm install
+npm ci
+npm run check:data
 npm test
 npm run dev
 npm run build
 npm run preview
 ```
 
-For deterministic installation use `npm ci`. In the restricted cloud machine use `npm ci --cache /tmp/task007-npm-cache`. Vite prints the local development address; open it on your own computer. This cloud interface does not provide a supported localhost preview link. Production assets are under `dist/` and base `/KSHE_alert_test/`; serve the repository subpath, not filesystem `file://`.
+`npm ci` installs the exact lockfile; `npm install` remains available for dependency development. In the restricted cloud machine use `npm ci --cache /tmp/task007-npm-cache`. Vite prints the local development address; open it on your own computer. This cloud interface does not provide a supported localhost preview link. Production assets are under `dist/` and base `/KSHE_alert_test/`; serve the repository subpath, not filesystem `file://`.
 
 The checked-in `public/data/` works without the private workspace. Optional regeneration from the existing complete research workspace:
 
@@ -31,7 +32,7 @@ Browser checks of the actual production build (preview running on port4173): `no
 
 **Hosting has not been activated and repository settings were not modified.** Existing authorization permits pushing source/docs; Task007 requires separate research-lead approval for public hosting.
 
-1. Review `reports/dashboard/validation_report.md` and screenshots, approve the concrete dashboard for public viewing.
+1. Review `reports/release_readiness/release_readiness.md`, current screenshots and Myth Lab limitations; approve the concrete dashboard for public viewing.
 2. Repository owner: Settings → Pages → Build and deployment → Source → GitHub Actions.
 3. Actions → **Publish approved research dashboard** → Run workflow → branch **main**.
 4. Workflow builds, tests and uploads `dashboard/dist`; deploy job uses `github-pages` environment. Approve its environment protection if configured. Repository/org policy may require owner permission for Actions/Pages.
@@ -74,3 +75,18 @@ evidence, preserving Task007 screenshots/reports. It checks desktop/mobile, card
 reveal/collapse, schema/fetch error isolation and existing filters.
 Existing manual Pages deployment procedure and research-lead approval requirement
 are unchanged. Git push of this extension does not activate public hosting.
+
+## Publication gate and CI
+
+`npm run check:data` checks all15public JSON, core and reviewed MythLab SHA256,
+report provenance, population/coverage/duration/category/holdout reconciliation,
+missing values and prohibited source fields. It requires only Node, works without
+private inputs, and runs before every build. Missing private input references are
+reported explicitly; available versioned report inputs must match their hashes.
+CI on push/PR performs `npm ci`, tests, guarded build and `npm audit`; it has no
+Pages write permissions. The manual deployment build runs the same data gate.
+Only its deploy job requests Pages/id-token write. Neither workflow enables Pages
+or changes repository settings. Repository report links must point to tracked files.
+
+Dependencies use Node24 and a lockfile. Historical review files are not dashboard
+assets. Current source/metadata/release checks: ../reports/release_readiness/.

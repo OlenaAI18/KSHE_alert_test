@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "baseline_commit": "edd1982bbc1d7d275b189a1e2c5cd293e17afca9",
+  "python_tests": {
+    "tests": 647,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "frontend_tests_passed": 19,
+  "fresh_checkout_install_and_build": "PASS",
+  "fresh_checkout_private_input_references_unavailable": 4,
+  "npm_vulnerabilities": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 0,
+    "critical": 0,
+    "total": 0
+  },
+  "pip_check": "PASS",
+  "wheel": {
+    "name": "kyiv_air_alert_analysis-0.1.0-py3-none-any.whl",
+    "sha256": "f4308e45a6dd6becaf4c3f1bd85c52532ee334df0779c248b268b88bfb11ba53",
+    "contains_raw_datasets": false
+  },
+  "publication_activated": false,
+  "research_results_changed": false
+}

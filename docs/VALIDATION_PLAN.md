@@ -1,6 +1,6 @@
-# Planned validation
+# Research validation and publication checks
 
-The table below remains the research validation plan. Task 001 checked architecture/configuration only. Task 002 executed ingestion tests and real-data audits for both supplied sources; the compact Telegram attachment resolved the earlier transfer blocker. Task 003 temporal integration and coverage validation are now executed; Task 004 automated classification checks are executed; human semantic and later research validation remain pending.
+The table below records the ongoing research validation framework; subsequent sections preserve executed checks at each stage. Tasks005/005.1/006/006.1 and the static dashboard/Myth Lab are complete. Independent semantic classification accuracy and prospective operational prediction remain unvalidated. Current release checks are in reports/release_readiness/release_readiness.md.
 
 | Area | Planned checks | Acceptance / response |
 | --- | --- | --- |

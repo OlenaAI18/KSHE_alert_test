@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "tracked_files": 360,
+  "issues": [],
+  "authorized_review_context_csv": [
+    "review_downloads/task0046/review_sample.csv",
+    "review_downloads/task0047/residual_full_timeline.csv",
+    "review_downloads/task0047/residual_post_alert_context.csv",
+    "review_downloads/task0047/residual_pre_alert_evidence.csv"
+  ],
+  "scope_note": "Review archives are historical human-review material and excluded from Pages. Pattern scanning is not a comprehensive privacy certification; compressed Parquet contents are not text-scanned."
+}
