@@ -10,6 +10,8 @@ const browser = await chromium.launch({
   executablePath: process.env.CHROMIUM_PATH || "/usr/bin/chromium",
   args: ["--no-sandbox"],
 });
+const baseURL = process.env.RESEARCH_BROWSER_BASE_URL || "http://127.0.0.1:4173/KSHE_alert_test/";
+const origin = new URL(baseURL).origin + "/";
 const checks = [];
 try {
   for (const [name, width, height] of [
@@ -21,7 +23,7 @@ try {
       requests = [];
     page.on("pageerror", (e) => errors.push(e.message));
     page.on("request", (r) => requests.push(r.url()));
-    await page.goto("http://127.0.0.1:4173/KSHE_alert_test/");
+    await page.goto(baseURL);
     await page.locator(".myth-card").last().waitFor();
     if ((await page.locator(".myth-card").count()) !== 7)
       throw Error("seven cards");
@@ -109,7 +111,7 @@ try {
         ) < 1e-10,
     );
     if (errors.length) throw Error(errors.join("\n"));
-    if (requests.some((r) => !r.startsWith("http://127.0.0.1:4173/")))
+    if (requests.some((r) => !r.startsWith(origin)))
       throw Error("external runtime request");
     checks.push({
       viewport: name,
@@ -137,7 +139,7 @@ try {
         contentType: "application/json",
       }),
     );
-    await page.goto("http://127.0.0.1:4173/KSHE_alert_test/");
+    await page.goto(baseURL);
     await page
       .getByRole("alert")
       .filter({ hasText: "Myth Lab недоступний" })

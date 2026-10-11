@@ -1,0 +1,27 @@
+[
+  {
+    "viewport": "desktop",
+    "width": 1440,
+    "height": 1000,
+    "charts": 12,
+    "september_count": 190,
+    "tooltip": true,
+    "no_overflow": true,
+    "console_errors": [],
+    "external_requests": []
+  },
+  {
+    "viewport": "mobile",
+    "width": 390,
+    "height": 844,
+    "charts": 12,
+    "september_count": 190,
+    "tooltip": true,
+    "no_overflow": true,
+    "console_errors": [],
+    "external_requests": []
+  },
+  {
+    "missing_data": "explicit error; no fabricated zeros"
+  }
+]

@@ -19,7 +19,8 @@
 
 Дані є історичним зрізом: останній офіційний відбій — **05.10.2026 00:38:04 Kyiv**.
 2022, 2026 та крайні місяці неповні. Жовті й червоні попередження враховані як
-реальні тривоги. Публічний сайт ще не активований; push не запускає deployment.
+реальні тривоги. [Публічний dashboard](https://olenaai18.github.io/KSHE_alert_test/) опубліковано;
+push не запускає deployment.
 
 ## Запустити dashboard із репозиторію
 
@@ -40,9 +41,9 @@ npm run dev
 
 [Інструкції dashboard і GitHub Pages](dashboard/README.md) ·
 [Остання перевірка готовності](reports/release_readiness/release_readiness.md).
-Публікацію погоджено 2026-10-11. Спроба deployment заблокована вимкненим
-Pages та обмеженням доступу інтеграції (403). Потрібен вибір
-**Settings → Pages → GitHub Actions** та ручний запуск workflow
+Публікацію погоджено та завершено 2026-10-11.
+[Звіт перевірки публічного сайту](reports/deployment/deployment.md).
+Для наступних публікацій вручну запускайте workflow
 **Publish approved research dashboard** на `main`. Перевірки push/PR не мають
 повноважень публікувати сайт.
 

@@ -590,3 +590,13 @@ accessible by integration); deployment returned HTTP404 because Pages is not
 enabled. Hosting remains inactive. Owner activation, followed by workflow rerun
 and public-site validation, is required before claiming publication. Scientific
 results and original source data are unchanged.
+
+
+## ADR 034 — Pages activation and verified deployment
+
+Owner confirmed Pages activation on 2026-10-11. API reports workflow mode.
+Manual workflow38166996572 deployed main candidate a96fa43150ed4f6757825db13849f219cb31d017.
+Public HTML returns200; all15 public JSON are byte-identical to reviewed inputs.
+Production browser checks pass on desktop/mobile, including all19 charts after
+Myth Lab expansion and isolated missing/invalid-data handling. Hosting remains
+manual; no research changes or private-data publication.

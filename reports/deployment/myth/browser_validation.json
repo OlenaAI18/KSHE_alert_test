@@ -1,0 +1,42 @@
+[
+  {
+    "viewport": "desktop",
+    "width": 1440,
+    "height": 1000,
+    "initial_core_charts": 12,
+    "revealed_total_charts": 19,
+    "cards": 7,
+    "hidden_before_click": true,
+    "expand_collapse": true,
+    "night_and_calm_reversals_visible": true,
+    "tooltips": true,
+    "core_filters_preserved": true,
+    "no_body_overflow": true,
+    "page_errors": []
+  },
+  {
+    "viewport": "mobile",
+    "width": 390,
+    "height": 844,
+    "initial_core_charts": 12,
+    "revealed_total_charts": 19,
+    "cards": 7,
+    "hidden_before_click": true,
+    "expand_collapse": true,
+    "night_and_calm_reversals_visible": true,
+    "tooltips": true,
+    "core_filters_preserved": true,
+    "no_body_overflow": true,
+    "page_errors": []
+  },
+  {
+    "fault": "missing",
+    "core_preserved": true,
+    "no_fake_zeros": true
+  },
+  {
+    "fault": "invalid",
+    "core_preserved": true,
+    "no_fake_zeros": true
+  }
+]

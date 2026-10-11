@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "count": 15,
+  "checks": [
+    {
+      "file": "data/summary.json",
+      "sha256": "fcb99dd9d196b9b61b6732a21bcfabafd70995472499590788c20985c79e2885"
+    },
+    {
+      "file": "data/forecast_history.json",
+      "sha256": "59ee604502268181016bc63b3f5fe2cf8c028f3b74a376d2db75384ee155389c"
+    },
+    {
+      "file": "data/manifest.json",
+      "sha256": "c331724e5527e3b3489a2faeaab960f5cce766c73660ef0cea1b4ea19b870c75"
+    },
+    {
+      "file": "data/duration_distribution.json",
+      "sha256": "7b0cb6ffe9c13f31eeb50f882a2ee8690b9198999e1c1272c3c316fb2e4f199e"
+    },
+    {
+      "file": "data/category_duration.json",
+      "sha256": "7056ae3a92fbbd45e7faf8131ea44101472bd1562ff7c698e6c74813bf043503"
+    },
+    {
+      "file": "data/classification_quality.json",
+      "sha256": "ed600dd3c7fc77df44ca5190663b24f0a6447fb23d62615f081f392fb1112660"
+    },
+    {
+      "file": "data/official_monthly.json",
+      "sha256": "ec9373c6a33417ce2d4608518b8642462eefd51b40ab2325431e902bd312c6d1"
+    },
+    {
+      "file": "data/temporal_patterns.json",
+      "sha256": "883f18a47c1879fb44c8c1a901d050b9ca5c8c6a240f2aa588b0cb5acda3b992"
+    },
+    {
+      "file": "data/myth_lab_questions.json",
+      "sha256": "86578c75c2dad64b350472ca866a07093c0c8962c2defd5d84c9cd45bbb1f648"
+    },
+    {
+      "file": "data/myth_lab_results.json",
+      "sha256": "4645a3ecfe0b0d6000599728e1dbe3052b89ebd4e83ca3b02a2c501a12354ff3"
+    },
+    {
+      "file": "data/myth_lab_summary.json",
+      "sha256": "0fd87a7a868f1337252e49918f08c86eb03105e2c36dbead964522154e28f6c5"
+    },
+    {
+      "file": "data/forecastability_by_category.json",
+      "sha256": "7c1621f4ba2c36c449899483d01c7b565750b9edb8a747bc93d7ba94d653b95c"
+    },
+    {
+      "file": "data/category_statistics.json",
+      "sha256": "4004e7626b9c879d2f1571c52a61dab2748d1d6f11e5280fb6014f018c7a766c"
+    },
+    {
+      "file": "data/category_overlap.json",
+      "sha256": "e828c36aa2ce41c69b3ee36b5b0a2932a16cdb8fe00f46f40be6f88af9fd7d9b"
+    },
+    {
+      "file": "data/forecast_comparison.json",
+      "sha256": "23dc1017eea0b00f0090646beed10777458c50131bb1ec2d8b3f35794f23ec3a"
+    }
+  ]
+}

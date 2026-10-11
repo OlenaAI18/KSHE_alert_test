@@ -30,7 +30,11 @@ Browser checks of the actual production build (preview running on port4173): `no
 
 ## Deployment after research-lead approval
 
-**Public hosting was approved by the user on 2026-10-11, but is not active.** The first workflow passed audit, tests and build; deployment failed because Pages is not enabled. The integration cannot enable Pages (HTTP403). The repository owner must select GitHub Actions in Pages settings, then rerun deployment. See [deployment attempt](../reports/release_readiness/deployment_attempt.md).
+**Public hosting is active**, approved and deployed on 2026-10-11.
+Live site: https://olenaai18.github.io/KSHE_alert_test/.
+[Public deployment verification](../reports/deployment/deployment.md).
+The initial permission failure was resolved when the owner enabled Pages.
+The following procedure applies to future releases.
 
 1. Review `reports/release_readiness/release_readiness.md`, current screenshots and Myth Lab limitations; approve the concrete dashboard for public viewing.
 2. Repository owner: Settings → Pages → Build and deployment → Source → GitHub Actions.
@@ -90,3 +94,6 @@ or changes repository settings. Repository report links must point to tracked fi
 
 Dependencies use Node24 and a lockfile. Historical review files are not dashboard
 assets. Current source/metadata/release checks: ../reports/release_readiness/.
+
+Browser checks accept `RESEARCH_BROWSER_BASE_URL` for verifying the public site;
+`RESEARCH_BROWSER_OUTPUT_DIR` selects a separate evidence directory.

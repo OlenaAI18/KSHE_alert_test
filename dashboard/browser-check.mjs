@@ -9,6 +9,8 @@ const output =
   process.env.RESEARCH_BROWSER_OUTPUT_DIR ||
   fileURLToPath(new URL("../reports/dashboard/", import.meta.url));
 mkdirSync(output, { recursive: true });
+const baseURL = process.env.RESEARCH_BROWSER_BASE_URL || "http://127.0.0.1:4173/KSHE_alert_test/";
+const origin = new URL(baseURL).origin + "/";
 const results = [];
 try {
   for (const [name, width, height] of [
@@ -20,7 +22,7 @@ try {
       requests = [];
     page.on("pageerror", (e) => errors.push(e.message));
     page.on("request", (r) => requests.push(r.url()));
-    await page.goto("http://127.0.0.1:4173/KSHE_alert_test/");
+    await page.goto(baseURL);
     await page
       .getByRole("heading", {
         name: "Чи можна передбачити повітряні тривоги в Києві?",
@@ -79,7 +81,7 @@ try {
     if (!hover?.includes("592")) throw Error("tooltip");
     await page.screenshot({ path: `${output}/${name}-tooltip.png` });
     const external = requests.filter(
-      (u) => !u.startsWith("http://127.0.0.1:4173/"),
+      (u) => !u.startsWith(origin),
     );
     if (external.length) throw Error("external dependencies");
     if (errors.length) throw Error(errors.join("\n"));
@@ -100,7 +102,7 @@ try {
   await page.route("**/data/summary.json", (r) =>
     r.fulfill({ status: 404, body: "missing" }),
   );
-  await page.goto("http://127.0.0.1:4173/KSHE_alert_test/");
+  await page.goto(baseURL);
   await page.getByRole("heading", { name: "Дані недоступні" }).waitFor();
   results.push({ missing_data: "explicit error; no fabricated zeros" });
   await page.close();
