@@ -480,3 +480,58 @@ MAE5.8815 versus B1 5.4143. September increases the gap but does not change deci
 All colors retained;3 full post-policy weeks descriptive only. No dashboard/chatbot/
 deployment begun. This is evidence about archived administrative counts, not physical
 attack timing or certified real-time predictability. 613 tests pass; prior files frozen.
+
+## ADR029 — Task006.1 threat-specific reported-marker assessment
+
+User authorizes a separate assessment, not a transfer of Task006's overall B result.
+Frozen before forecast scores: config/threat_forecastability_v1.yaml. Each target
+counts unique eligible alerts with a detected v1.6 category, never attacks/launches.
+Seven overlapping categories retain nullable source flags and unknown denominators.
+Complete Kyiv calendar weeks inside both histories; no-record weeks/unresolved or
+partly covered alert weeks remain unavailable. Each weekly finalized label release
+is conservatively max(week end, alert ends, every accepted marker/support time).
+Both versions use the later release for matched comparisons. Before each origin,
+mask outcomes not yet released; exact calendar lags, not compressed observations.
+Initial52 calendar weeks from first complete Telegram-covered week; development
+before2026-01-05 and final2026. Data-quality gates:>=104 observed weeks,>=100 positive
+alerts,>=40 development and20 final positives,>=20 development and10 final positive
+weeks,>=20 scored origins per phase, v15/v16 alert-set Jaccard>=.70, annual coverage
+range<=.25,<=40% observed weeks below60% classification. These are conservative
+research sufficiency screens for reported counts, not validated clinical cutoffs.
+Do not forecast failed categories. Baselines mean/lastweek/previous4/previous8;
+zero-count reference retained to contextualize sparse observed marker targets.
+One optional Poisson candidate, Task006 alpha10 fixed, only if development recent
+baseline gains>=10% over mean and paired4-week95%CI strictly favors it. Baseline
+selection on development only; no category hyperparameter search/final retuning.
+Final14 planned contrasts (7 baseline-vs-mean,7 candidate-vs-selected) use paired
+circular4-week blocks,4000 reps, Bonferroni familywise5%;8-week sensitivity. Unrun
+contrasts retain slots. Signal requires>=10% gain, adjusted interval favoring method,
+positive skill in development/final, and same gain direction in v1.5 and final
+non-weak-month sensitivity. Fragile favorable results INCONCLUSIVE, no stable gain
+otherwise; failed gates INSUFFICIENT_DATA_FOR_RELIABLE_FORECAST_TEST.
+Weak-month filtering affects diagnostic scoring only, never availability/features
+or selection: whole-month quality is not known at its first weekly origin.
+Frozen dictionaries were developed retrospectively using full-history review:
+a category holdout is untouched for numerical model selection, NOT blind to label
+engineering. No archived as-of taxonomy/source publication latency is established.
+Any favorable marker-target finding remains exploratory pending independent future
+annotation protocol. No physical predictability/safe-period conclusion, taxonomy
+changes or dashboard. Persistent user code/docs push authorization remains valid.
+
+ADR029 execution:163 calendar weeks,161 observed; 48 development origins
+2024-08-26–2025-12-29 and36 final origins2026-01-05–2026-09-14 for each passed
+category. 27 potential origins excluded; late September origins lack finalized
+prior-week labels, limiting evaluation of the final high-activity tail. Calendar
+blocks preserve these unobserved positions. Broad UAV passes (630 labels): recent4
+MAE3.0208 versus historical mean4.0746, but adjusted difference interval[-3.8843,.4308]
+includes0. Candidate MAE3.5633; decision INCONCLUSIVE. Ballistic passes(458 labels):
+development-selected mean MAE1.6881; recent4 final1.5764 (6.6% gain, not selected on
+final). Development baselines did not support an extra model, so none is fitted;
+decision NO_STABLE_GAIN_OVER_BASELINES. Jet, cruise, MiG, strategic and other fail
+fixed data/version gates. MiG Jaccard.6655 would pass at a relaxed.65 screen; this
+threshold sensitivity is recorded without rerunning forecasts or changing the gate.
+v1.5 and non-weak-month checks do not establish a stable UAV candidate advantage.
+No category has conclusive adjusted evidence of predictive signal. This is not a
+physical unpredictability claim. 626 tests pass; all earlier inputs/results frozen.
+Existing authorization covers publication of new source/config/tests as well as
+reports and derived review bundle. Stop after006.1; no dashboard or deployment.

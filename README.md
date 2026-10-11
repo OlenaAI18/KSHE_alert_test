@@ -222,3 +222,14 @@ Raw source exports and external snapshots remain excluded from Git. Full real-da
 reproduction and the full test suite require the frozen original inputs and derived
 artifacts. A fresh clone provides the code, but does not contain the complete data
 workspace; missing artifact-dependent inputs can cause checks to fail.
+
+## Task006.1 — threat-specific reported-marker assessment
+
+Run `.venv/bin/python -m kyiv_alerts.threat_forecastability --root . --quality-only`
+then `.venv/bin/python -m kyiv_alerts.threat_forecastability --root .`.
+Read [the report](reports/threat_forecastability/threat_forecastability_report.md)
+and [category decisions](reports/threat_forecastability/category_decision_matrix.csv).
+Two categories pass the frozen exploratory gate: broad UAV (inconclusive) and
+ballistic/high-speed (no stable gain). Five fail the data/stability gate. Counts
+represent reported markers; hindsight taxonomy prevents blind prospective validation.
+Classification versions and Task006 results are unchanged. No dashboard or deployment.

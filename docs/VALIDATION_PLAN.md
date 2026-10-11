@@ -444,3 +444,23 @@ Parquet files and plots; run metadata excluded. 298 prior data/config/source/rep
 files remain hash-identical. No classifier changes or operational forecast.
 See reports/forecastability_validation/validation_results.json and
 reproducibility_results.json for machine-readable actual execution evidence.
+
+## Task006.1 executed validation
+
+Full suite: **626 passed**, zero failures/errors/skips (613 prior plus13 new).
+Tests cover unique alert/category counting with nonexclusive labels, explicit unknowns,
+missing source/support/end handling, late label release, exact calendar lags,
+development labels unavailable before holdout, past-only predictions/scalers,
+supervised-row feature availability at its own historical origin, deterministic
+calendar-block intervals with retained missing slots and multiplicity adjustment,
+real gate/output/source reconciliation. A subsequent real-output check passed after
+reporting/availability-audit updates. 331 prior data/code/config/test/report file hashes
+remain identical; both classification versions and Task006 outputs are preserved.
+New tables retain163 calendar weeks,161 fully observed weeks; two categories pass
+fixed gates. Each has48 development and36 final scored origins (924 method rows).
+Final scored origins end2026-09-14; later September origins are excluded because
+prior labels had not finalized. 23 analytical files are byte-identical on repeat,
+including figures/Parquet. Metadata files are excluded from the repeat comparison.
+Actual machine-readable evidence is in reports/threat_forecastability/validation_results.json
+and reproducibility_results.json. Future numerical leakage tests do not certify a blind
+historical taxonomy: full-history label engineering remains an explicit limitation.

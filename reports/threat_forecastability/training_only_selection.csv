@@ -1,0 +1,3 @@
+﻿category,selected_baseline,development_MAE,model_enabled,development_recent_vs_mean_gain,development_difference_ci_low,development_difference_ci_high,candidate_alpha
+shahed_uav,B1,"{""B0"": 2.9387516896066916, ""B1"": 1.9114583333333333, ""B2"": 1.9583333333333333, ""B3"": 2.3958333333333335}",True,0.34956793386339025,-1.7980872409300688,-0.3012583894444153,10
+ballistic_high_speed,B0,"{""B0"": 1.60855577916482, ""B1"": 1.9375, ""B2"": 1.8567708333333333, ""B3"": 2.0}",False,-0.15430926137817202,-0.09870844487961077,0.5880745243091676,

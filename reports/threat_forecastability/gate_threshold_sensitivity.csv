@@ -1,0 +1,8 @@
+﻿category,primary_gate_pass,Jaccard,would_pass_at_Jaccard_065,forecasts_rerun,interpretation
+shahed_uav,True,0.9478672985781991,True,False,data gate sensitivity only; no post-score threshold relaxation
+jet_uav,False,0.9770992366412213,False,False,data gate sensitivity only; no post-score threshold relaxation
+ballistic_high_speed,True,0.7782608695652173,True,False,data gate sensitivity only; no post-score threshold relaxation
+cruise_missile,False,0.9494949494949495,False,False,data gate sensitivity only; no post-score threshold relaxation
+mig31,False,0.6655290102389079,True,False,data gate sensitivity only; no post-score threshold relaxation
+strategic_aviation,False,0.6951219512195121,False,False,data gate sensitivity only; no post-score threshold relaxation
+other,False,0.918918918918919,False,False,data gate sensitivity only; no post-score threshold relaxation

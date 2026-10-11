@@ -102,3 +102,16 @@ all reports/figures, new implementation/tests and documentation; no raw exports.
 Reproduction requires the existing package/workspace and frozen Task005 fact table.
 613 tests pass. Decision **B — NO_STABLE_GAIN_OVER_BASELINES**; all official colors
 retained. No dashboard/chatbot/live forecast/deployment started.
+
+## Task006.1 — threat-specific reported-marker assessment
+
+Read [the report](../reports/threat_forecastability/threat_forecastability_report.md)
+and [category decisions](../reports/threat_forecastability/category_decision_matrix.csv).
+Download [task0061_threat_forecastability_bundle.zip](task0061/task0061_threat_forecastability_bundle.zip)
+using **Download raw file**. Includes derived weekly/forecast Parquet tables,
+reports/figures and new code/config/tests; no original message text or raw exports.
+Code is also directly available in src/kyiv_alerts/threat_forecastability.
+Requires the existing frozen v1.5/v1.6 source artifacts and normalized Telegram
+inputs for reproduction. 626 tests pass. Broad UAV: inconclusive; ballistic: no
+stable gain; five other categories fail fixed data/stability gates. Marker counts
+are not true threat incidence. No dashboard or live forecast/deployment.

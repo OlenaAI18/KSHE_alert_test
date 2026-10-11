@@ -1,0 +1,5 @@
+# Task006.1 availability and leakage audit
+
+Exact calendar lags; late-finalizing prior labels masked at each origin. Release includes complete alert end and every accepted support message, using both versions' maximum. Training/standardization and baseline selection use development only; fixed candidate alpha10 fromTask006. Final outcomes enter later fits only after release. No random split/future centering/unknown-to-physical-zero conversion. Version comparisons use identical origins; weak-month masks score subsets only, never determine prior feature availability.
+
+Limits: no archived as-of taxonomy. v1.6 vocabulary/context rules were reviewed retrospectively, including final2026; numerical holdout is not blind label engineering. Source publication/revision latency not certified. Frozen reported markers are an offline conditional target, not prospective threat truth. Post-change weeks too short for reliable regime inference. Paired dependence-aware intervals approximate coverage only.

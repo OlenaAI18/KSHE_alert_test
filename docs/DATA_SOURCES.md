@@ -198,3 +198,18 @@ no records and is unknown in the primary target, not certified zero. Every posit
 week also has unverified internal completeness; actual publication/revision latency
 is not certified. External export identity supports provenance, not independence or
 full historic coverage. Conditional archived-zero sensitivity does not alter sources.
+
+## Task006.1 — frozen category observation and release inputs
+
+Uses v1.5/v1.6 alert_threat_features and message_threat_markers plus normalized
+Telegram timestamp/support IDs; no raw text is exported in this task. Every accepted
+marker pair reconciles to one source alert/category flag. Original flags/nulls and
+classifications are unchanged. Complete observed weeks begin2023-08-21; endpoint
+partial weeks, official no-record week and unresolved DST week remain unavailable.
+Release bounds include all accepted message/support/anchor times and source ends,
+using the later bound across versions. No edited timestamps were present; edited
+inputs block rather than silently receive an assumed release. True source publication
+latency and historical as-of taxonomy remain unverified. Observed nondetection counts
+are not evidence of negative real threats. Weekly quality tables retain unknowns,
+message volume and classification yield; annual terminology/evidence counts are
+marker occurrences, not distinct alert or weapon counts.

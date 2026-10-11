@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "command": ".venv/bin/python -m pytest -q --junitxml=/tmp/task0061-pytest.xml",
+  "tests": 626,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "elapsed_seconds": 85.755,
+  "prior_protected_files": 331,
+  "prior_files_unchanged": true,
+  "prediction_rows": 924,
+  "gate_pass_categories": [
+    "shahed_uav",
+    "ballistic_high_speed"
+  ],
+  "release_aware_training_tested": true,
+  "full_taxonomy_holdout_blind": false,
+  "post_reporting_update_real_output_check": "1 passed"
+}

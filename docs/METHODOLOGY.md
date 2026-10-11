@@ -325,3 +325,22 @@ completeness remain unverified, limiting live generalization. Dependence-aware
 paired error intervals and period sensitivities distinguish forecast skill from
 correlation. Outputs and implementation are isolated under forecastability folders.
 No individual threat/safe-period prediction or live deployment.
+
+## Task006.1 — threat-specific reported-marker forecastability
+
+ADR029/config/threat_forecastability_v1.yaml define independent category gates.
+Targets are unique eligible alerts with detected reported markers, not real threat
+incidence. Unknown denominators remain explicit; full observed-week nondetections
+are zeros of the marker target only. Unavailable weeks remain null. Seven categories
+overlap. Every weekly release includes interval ends, accepted evidence, anchors and
+support timestamps across both frozen versions. Past targets/features must be
+released by origin; supervised training features use their own historical origins.
+Development selection cannot use labels finalized after2026-01-05. No calendar
+compression of missing weeks; paired calendar-block bootstrap retains missing slots.
+Baselines precede an optional fixed-alpha10 Poisson AR, triggered by development-only
+recent-vs-mean structure. Fourteen planned contrasts use Bonferroni block intervals.
+v1.5 comparisons use identical origins and frozen model choices; weak-month filters
+change scoring only, never features. Taxonomy was developed retrospectively including
+final-year review, so numerical holdout is not blind annotation validation. All
+conditional findings require independent future annotation before prospective claims.
+No physical unpredictability conclusion, taxonomy change, dashboard or live forecast.

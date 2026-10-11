@@ -1,0 +1,26 @@
+version: task0061-v1
+scope: observed_reported_category_alert_counts_only
+initial_calendar_weeks: 52
+final_start: '2026-01-05'
+minimum_complete_observed_weeks: 104
+minimum_total_positive_alerts: 100
+minimum_development_positive_alerts: 40
+minimum_final_positive_alerts: 20
+minimum_development_nonzero_weeks: 20
+minimum_final_nonzero_weeks: 10
+minimum_development_scored_origins: 20
+minimum_final_scored_origins: 20
+minimum_v15_v16_alert_jaccard: 0.70
+maximum_annual_coverage_range: 0.25
+maximum_fraction_weeks_below_60_percent_classification: 0.40
+model_development_minimum_recent_vs_mean_MAE_gain: 0.10
+model_alpha_fixed_from_task006: 10
+model_development_difference_ci_upper_must_be_negative: true
+final_signal_minimum_MAE_gain: 0.10
+bootstrap_blocks: [4, 8]
+bootstrap_repetitions: 4000
+seed: 20261011
+planned_contrasts: 14
+familywise_alpha: 0.05
+weak_month_coverage_threshold: 0.60
+weak_month_minimum_eligible_alerts: 10
