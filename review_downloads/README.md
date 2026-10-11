@@ -81,3 +81,13 @@ classification workspace; the ZIP is an overlay, not a complete private dataset.
 591 tests passed. Recommendation: **FURTHER_VALIDATION_NEEDED**. No forecasting
 model. Task005 explicitly adopts v1.6 for exploratory analysis without approving
 classifier accuracy. Unknowns and original timestamps remain preserved.
+
+## Task005.1 — external validation
+
+Read [the full report](../reports/external_validation/external_validation_report.md)
+and [Task006 handoff](../reports/external_validation/task006_handoff.md).
+Download [task0051_external_validation_bundle.zip](task0051/task0051_external_validation_bundle.zip)
+using **Download raw file**. It contains reports, figures, new implementation,
+tests and documentation. Raw exports are excluded. This is an overlay requiring
+the existing frozen workspace and external caches; source URLs, pinned commits
+and hashes are recorded in the reports. 599 tests pass; Task006 is not started.

@@ -1,0 +1,17 @@
+﻿source,external_field,external_value,v16_categories,match_type,reason
+Kyiv Digital schema,causes,drone,uav_any,PARTIAL,direct warning-context grouping only; not technical weapon verification; empty list is untyped not absence
+Kyiv Digital schema,causes,massive-drone,uav_any,PARTIAL,direct warning-context grouping only; not technical weapon verification; empty list is untyped not absence
+Kyiv Digital schema,causes,ballistic,ballistic_high_speed,EXACT_GROUP,direct warning-context grouping only; not technical weapon verification; empty list is untyped not absence
+Kyiv Digital schema,causes,missile,cruise_missile,EXACT_GROUP,direct warning-context grouping only; not technical weapon verification; empty list is untyped not absence
+Kyiv Digital schema,causes,mig,mig31,PARTIAL_MODEL,direct warning-context grouping only; not technical weapon verification; empty list is untyped not absence
+Kyiv Digital schema,causes,missile-drone,uav_any,PARTIAL_MISSILE_UNSPECIFIED,direct warning-context grouping only; not technical weapon verification; empty list is untyped not absence
+alerts.in.ua documentation only,threats[].threat_type,drones,uav_any,PARTIAL,published schema; no authenticated historical sample; no jet/non-jet distinction in drones
+alerts.in.ua documentation only,threats[].threat_type,ballistic_missiles,ballistic_high_speed,EXACT_GROUP,published schema; no authenticated historical sample; no jet/non-jet distinction in drones
+alerts.in.ua documentation only,threats[].threat_type,cruise_missiles,cruise_missile,EXACT_GROUP,published schema; no authenticated historical sample; no jet/non-jet distinction in drones
+alerts.in.ua documentation only,threats[].threat_type,mig31k_departure,mig31,PARTIAL_MODEL,published schema; no authenticated historical sample; no jet/non-jet distinction in drones
+alerts.in.ua documentation only,threats[].threat_type,strategic_aircraft_activity,strategic_aviation,EXACT_GROUP,published schema; no authenticated historical sample; no jet/non-jet distinction in drones
+alerts.in.ua documentation only,threats[].threat_type,unspecified_missiles,other,PARTIAL,published schema; no authenticated historical sample; no jet/non-jet distinction in drones
+alerts.in.ua documentation only,threats[].threat_type,tactic_aircraft_activity,,NONCOMPARABLE,published schema; no authenticated historical sample; no jet/non-jet distinction in drones
+alerts.in.ua documentation only,threats[].threat_type,guided_aerial_bombs,,NONCOMPARABLE,published schema; no authenticated historical sample; no jet/non-jet distinction in drones
+alerts.in.ua documentation only,threats[].threat_type,air_defense,,NONCOMPARABLE,published schema; no authenticated historical sample; no jet/non-jet distinction in drones
+alerts.in.ua documentation only,threats[].threat_type,unknown,,NONCOMPARABLE,published schema; no authenticated historical sample; no jet/non-jet distinction in drones

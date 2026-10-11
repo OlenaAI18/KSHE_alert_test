@@ -415,3 +415,17 @@ including Parquet, tables, figures and statistical CSV; machine-readable outcome
 are in reports/temporal_analysis/validation_results.json and
 reproducibility_results.json. No independent source completeness or classifier
 accuracy validation is claimed. Task005 finishes with FURTHER_VALIDATION_NEEDED.
+
+## Task005.1 executed checks — 2026-10-11
+
+Full suite: **599 passed** in 27.60s; zero failures/errors/skips. Eight new
+checks exercise explicit-offset parsing, deduplication/CSV-row retention,
+maximum-cardinality matching instead of greedy pairing, half-open boundaries,
+unresolved-end exclusion,1015/280/508 group reconciliation, historical cardinality/
+foreign keys and protected checksums, traceable register, constrained positive
+corroboration,2594 unchanged originals/exact clock matches and partial crosswalks.
+245 earlier source/config/classifier/Task005 output fingerprints are preserved.
+Repeated analytical/report execution checks byte-identical outputs; captured
+external source snapshots are frozen locally, not refetched during tests.
+No scores are presented as independent weapon ground-truth accuracy. Native
+API token requirements and DSNS browser challenge are respected.

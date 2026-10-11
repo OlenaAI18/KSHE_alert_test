@@ -399,3 +399,42 @@ pointwise intervals, no confirmatory p-values. Nonstationarity/short seasonal
 replication preclude validated break/seasonal claims. Weak-month sensitivity uses
 <60% interpretation yield with >=10 eligible alerts; this is not an accuracy rule.
 No random temporal split, forecast, unknown imputation or physical weapon counts.
+
+## ADR027 — Task005.1 external reconciliation and interpretation
+
+**Status: user-authorized retrospective external validation; no classifier change.**
+Use pinned public GitHub snapshots, separate volunteer/eTryvoga from third-party
+archives of an official channel. Neither is independent gold truth. Record web
+proxy403 failures as access limitations, never as evidence that data do not exist.
+Official cause/threats semantics require accessible primary documentation; never
+map a broad warning level to the seven experimental weapon-context groups.
+Reconcile strict Kyiv City only, parsed explicit UTC offsets and local calendar
+months. Deduplicate identical external intervals while preserving all original
+CSV row numbers. Common-period primary comparisons exclude source endpoint days.
+Primary one-to-one matching maximizes cardinality among positive-overlap intervals
+whose starts differ <=5 minutes, then minimizes absolute start differences.
+Report1/5/10-minute sensitivity and all overlaps for potential split/merged events.
+Estimated volunteer ends remain identified and excluded from reliable end-delta
+summaries. The existing unresolved DST endpoint stays null and outside resolved
+matching. Count unmatched sources separately; no global time correction.
+For1803 eligible v1.6 intervals retain mutually exclusive one/multiple/unknown
+states, category single/co-occurring distributions by month/year, empirical
+classification yield in duration/message-volume bins and joint strata. Daily
+cluster moving blocks14 days,seed20261011,800 replicates quantify exploratory
+bin-rate uncertainty; associations do not imply duration causes classifications
+or physical threats cause durations. No predictive model, causal inference or
+unverified external accuracy score. Prior authorization to commit research
+reports persists; raw third-party exports remain local and uncommitted.
+
+ADR027 execution update: network restrictions resolved for Kyiv/alerts sites.
+The official export is entirely identical to originals, including194 typed causes.
+All2594 history start clocks match; first typed history2026-09-07. Compare209
+positive official cause instances across194 alerts, using exact/partial crosswalks,
+with no full accuracy estimate or negative-source inference. Dated2026-09-08 city
+statement confirms Sep7 decision/Sep10 differentiated-warning implementation.
+139/190 September starts are yellow; the corresponding exclusion sensitivity
+reverses the raw August→September count increase. Preserve Task005 outputs and
+labels; reinterpret late growth as procedurally confounded, not pure physical
+escalation. Source support is only warning context, not launches/weapon model.
+DSNS/jet-specific direct technical evidence remains limited; no bypass. No
+classifier corrections, official endpoint repair, forecasts or Task006 start.

@@ -292,3 +292,20 @@ screening use explicit Holm families. Moving-block intervals are pointwise,
 limited by nonstationarity and block-boundary bias; long-lag ACF intervals are
 omitted where inappropriate. No model, future validation or operational advice
 is implemented. Report and readiness decision: `reports/temporal_analysis/`.
+
+## Task005.1 — external validation and physical interpretation
+
+ADR027 defines pinned-source matching, mutually exclusive single/multiple/unknown
+states and joint day-block opportunity diagnostics. Current municipal export
+confirms2594 originals in all fields; it is the same origin, not independent truth.
+Kyiv Digital history matches all original start clocks and has194 typed matched
+alerts (209 positive causes); primary schemas support restricted exact/partial
+context crosswalks, never technical launch/model verification. No absence is
+inferred from2400 untyped starts. Positive-source support is not classification
+accuracy; no authenticated alerts.in.ua historical sample is obtained.
+A dated city statement documents differentiated warnings: Sep7 decision/Sep10
+implementation, observed typing starts Sep7.139/190 September rows have yellow
+level; excluding observed yellow is a scope sensitivity, not a repaired series,
+and older null levels are not imputed red. Forecast validation requires a target
+comparable across this procedural transition. Single/multi selection and duration/
+publication opportunity confound category-duration physics. Stop after Task005.1.

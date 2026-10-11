@@ -167,3 +167,23 @@ ends2026-10-05 Kyiv time, earlier than Telegram export cutoff; no zeros are infe
 through October10. February2022/October2026 and source-boundary days are incomplete.
 One unresolved DST end stays null, with separate candidate-duration/union bounds.
 Observation-span availability is not independent completeness verification.
+
+## Task005.1 verified external sources (access2026-10-11)
+
+Use reports/external_validation/source_register.csv for exact pinned URLs,
+publication/commit dates, evidence notes and independence. Pavlo Loiek snapshot
+10b4d32f37843533f59f2197153993be338f7f51 derives from Vadimkin/eTryvoga;
+current Vadimkin bf0c323c78e3e4508721458797dcd38c95df13f3 is the same volunteer
+lineage plus a third-party official-channel archive, not a second official gold.
+Keep Kyiv City separate from Kyivska oblast. Deduplicate1874 identical rows only
+in derived official-archive reconciliation; preserve original CSV line IDs.
+Volunteer estimated+30min ends and official-parser possible+1h fills limit durations.
+Published Kyiv export equals every original record; source causes were already
+present for194 records, while2400 are null. Official API history is separately
+captured, with cause crosswalks and source-index provenance. API no-token public
+history is accessible; webhooks require tokens and are not used. alerts.in.ua
+requires a personal token for API calls; public docs describe open threats and
+month_ago history without proving complete historical-threat retention.
+Initial proxy restrictions were resolved; DSNS still returns a browser challenge
+and direct relevant Air Force technical statements remain unverified. Raw external
+snapshots/subsets are local only; reports include hashes and reviewed notes.

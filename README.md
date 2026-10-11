@@ -192,3 +192,12 @@ Review `reports/temporal_analysis/temporal_analysis_report.md` and
 `data/processed/temporal_analysis/`. Original data/classifiers are preserved.
 No forecasting model is implemented. Task005 supersedes the old roadmap's
 numbering for this explicitly requested temporal-analysis scope.
+
+## Task005.1 — external validation
+
+Read [the external validation report](reports/external_validation/external_validation_report.md)
+and [Task006 handoff](reports/external_validation/task006_handoff.md).
+Official records are confirmed, but the September 2026 warning-level transition
+limits comparison over time. External positive category support is not accuracy.
+599 tests pass; original sources and v1.6 remain unchanged. Task006 is not started.
+Download the [review bundle](review_downloads/task0051/task0051_external_validation_bundle.zip).

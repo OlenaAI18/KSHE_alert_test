@@ -1,0 +1,10 @@
+﻿source,tolerance_minutes,official_resolved,external_unique,matched,official_unmatched,external_unmatched
+pavlo,1.0,2161,2282,1520,641,762
+pavlo,5.0,2161,2282,1807,354,475
+pavlo,10.0,2161,2282,1864,297,418
+vadimkin,1.0,2585,2625,1638,947,987
+vadimkin,5.0,2585,2625,1963,622,662
+vadimkin,10.0,2585,2625,2043,542,582
+official_archive,1.0,2299,2265,2226,73,39
+official_archive,5.0,2299,2265,2240,59,25
+official_archive,10.0,2299,2265,2242,57,23

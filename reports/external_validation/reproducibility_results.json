@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "compared_files": 35,
+  "all_outputs_byte_identical": true,
+  "repeat_execution_seconds": 8.361412799989921,
+  "seed": 20261011,
+  "external_snapshots_frozen": true
+}

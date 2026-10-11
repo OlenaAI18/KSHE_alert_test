@@ -1,0 +1,2 @@
+﻿source,official_alert_id,external_record_id,external_csv_lines,start_delta_minutes,external_end,estimated_end,candidate_official_ends,end_deltas_to_folds_minutes,interpretation
+official_archive,1837,89941,"[""89941"", ""203852""]",0.03333333333333333,2025-10-26T00:05:17+00:00,False,"[""2025-10-26T00:05:12+00:00"", ""2025-10-26T01:05:12+00:00""]","[0.08333333333333333, -59.916666666666664]",observational fold evidence only; official source end remains null; archive may impute ends

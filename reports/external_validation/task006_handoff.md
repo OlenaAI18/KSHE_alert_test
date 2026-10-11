@@ -1,0 +1,12 @@
+# Task006 handoff — Task005.1
+
+**FURTHER_VALIDATION_NEEDED**. Task006 not started. No forecasting implementation or unconditional model approval.
+
+1. Define comparable official target before any forecast validation: distinguish starts/alert-minutes, actual declared alert versus yellow/red threat notifications, overlap/episode boundaries and source completeness. September2026 is a documented warning-policy/recording transition.139/190 September rows are observed yellow; removing them reverses the apparent August→September count increase. Older null levels cannot be imputed red. Preserve the old2594 series; create an explicitly versioned target only after approval.
+2. Resolve official DST1837 through a separate accepted source decision if needed. External official-channel archive supports the first fold within5seconds, but current originals/links remain unresolved.
+3. Independently review194 typed official-history cases and disagreements against full timelines. Source-positive support is not accuracy: broad drones122/183, missiles2/19, ballistic2/4, massive-drone2/3. Missing official types beforeSep7, incomplete cause timing, generic/jet grouping and same-origin source dependence preclude global accuracy.
+4. Separate singly detected from co-occurring categories and keep unknowns. Cruise single n9 and strategic single n8 are too sparse for strong type-specific temporal claims. Observation opportunity rises with duration/messages; account for this before physical or category trends.
+5. If a comparable aggregate target is approved, plan strictly chronological walk-forward evaluation with an untouched future period, training-only transforms and available-at-origin features. Retrospective Telegram labels and stored causes may be known only during/after alert. Baselines: training-window mean, last observation, recent rolling mean, calendar historical rate with calibrated overdispersed reference uncertainty. No model was built here.
+6. External regional/nationwide Prophet projections, duplicate archive rows, estimated ends, untyped-source zeros, random splits and source-selection effects must not become validation truth.
+
+Official-source metadata and physical mechanism evidence are clearer; forecast readiness is not established. Direct reactive-UAV technical explanation and a historical authenticated alerts.in.ua sample remain unavailable. Do not infer safe periods or individual attack predictability from aggregate retrospective patterns.

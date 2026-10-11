@@ -1,0 +1,115 @@
+{
+  "published_export_rows": 2594,
+  "all2594_records_equal": true,
+  "export_source_same_as_project": true,
+  "export_independent_validation": false,
+  "history_rows": 5330,
+  "history_first": "2022-02-25 07:19:07",
+  "history_last": "2026-10-11 19:08:35",
+  "history_exact_start_clock_matches": 2594,
+  "history_missing_start_matches": 0,
+  "first_typed_history": "2026-09-07 17:39:50",
+  "typed_matched_eligible_alerts": 194,
+  "untyped_matched_alerts": 2400,
+  "label_comparison_rows": 209,
+  "positive_cause_support": [
+    {
+      "external_cause": "ballistic",
+      "target": "ballistic_high_speed",
+      "crosswalk_quality": "EXACT_GROUP",
+      "positive_source_rows": 4,
+      "positive_correspondence": 2,
+      "no_corresponding_v16_detection": 2,
+      "positive_support_fraction": 0.5,
+      "metric_scope": "positive-source correspondence, not accuracy/precision/whole-history recall"
+    },
+    {
+      "external_cause": "drone",
+      "target": "uav_any",
+      "crosswalk_quality": "PARTIAL",
+      "positive_source_rows": 183,
+      "positive_correspondence": 122,
+      "no_corresponding_v16_detection": 61,
+      "positive_support_fraction": 0.6666666666666666,
+      "metric_scope": "positive-source correspondence, not accuracy/precision/whole-history recall"
+    },
+    {
+      "external_cause": "massive-drone",
+      "target": "uav_any",
+      "crosswalk_quality": "PARTIAL",
+      "positive_source_rows": 3,
+      "positive_correspondence": 2,
+      "no_corresponding_v16_detection": 1,
+      "positive_support_fraction": 0.6666666666666666,
+      "metric_scope": "positive-source correspondence, not accuracy/precision/whole-history recall"
+    },
+    {
+      "external_cause": "missile",
+      "target": "cruise_missile",
+      "crosswalk_quality": "EXACT_GROUP",
+      "positive_source_rows": 19,
+      "positive_correspondence": 2,
+      "no_corresponding_v16_detection": 17,
+      "positive_support_fraction": 0.10526315789473684,
+      "metric_scope": "positive-source correspondence, not accuracy/precision/whole-history recall"
+    }
+  ],
+  "export_cause_counts": {
+    "null": 2400,
+    "Дронова небезпека": 181,
+    "Ракетна загроза": 10,
+    "Загроза балістики": 1,
+    "Масована дронова загроза": 2
+  },
+  "export_level_counts": {
+    "null": 2400,
+    "Жовтий рівень": 181,
+    "Червоний рівень": 13
+  },
+  "api_time_policy": "Compare original local clock strings; empirical agreement validates start association without undocumented timezone conversion; ambiguous DST end not imputed",
+  "historical_cause_scope": "stored state1 causes; not independently certified complete intra-alert threat timeline",
+  "warning_level_months": [
+    {
+      "month": "2026-07",
+      "all_official": 59,
+      "untyped_level": 59,
+      "yellow": 0,
+      "red": 0,
+      "excluding_observed_yellow": 59,
+      "partial_month": false,
+      "interpretation": "sensitivity exclusion only; untyped historical levels are not inferred red"
+    },
+    {
+      "month": "2026-08",
+      "all_official": 121,
+      "untyped_level": 121,
+      "yellow": 0,
+      "red": 0,
+      "excluding_observed_yellow": 121,
+      "partial_month": false,
+      "interpretation": "sensitivity exclusion only; untyped historical levels are not inferred red"
+    },
+    {
+      "month": "2026-09",
+      "all_official": 190,
+      "untyped_level": 38,
+      "yellow": 139,
+      "red": 13,
+      "excluding_observed_yellow": 51,
+      "partial_month": false,
+      "interpretation": "sensitivity exclusion only; untyped historical levels are not inferred red"
+    },
+    {
+      "month": "2026-10",
+      "all_official": 42,
+      "untyped_level": 0,
+      "yellow": 42,
+      "red": 0,
+      "excluding_observed_yellow": 0,
+      "partial_month": true,
+      "interpretation": "sensitivity exclusion only; untyped historical levels are not inferred red"
+    }
+  ],
+  "no_population_accuracy_estimated": true,
+  "alerts_in_ua_sample": "not obtained: personal token required; documented month_ago is an exposed period, not proof of total retention"
+}
